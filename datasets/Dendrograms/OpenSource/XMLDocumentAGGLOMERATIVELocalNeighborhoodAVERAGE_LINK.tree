@@ -1,0 +1,169 @@
+(
+  (
+    (
+      (
+        ATT_NAME:1.00,
+        VAL_YES:1.00
+      ) it42-1.00:0.01,
+      (
+        VAL_NO:1.00,
+        write:1.00
+      ) it43-1.00:0.01
+    ) it50-1.00:0.01,
+    (
+      (
+        (
+          getChildTags:0.01,
+          getChildTags:0.01
+        ) it1-0.00:1.00,
+        getRevision:1.00
+      ) it45-1.00:0.01,
+      (
+        getContent:1.00,
+        toString:1.00
+      ) it44-1.00:0.01
+    ) it51-1.00:0.01
+  ) it54-1.00:0.01,
+  (
+    (
+      (
+        (
+          ATT_VERSION:1.00,
+          DTD_REQUIRED:1.00
+        ) it41-1.00:0.01,
+        (
+          DTD_IMPLIED:1.00,
+          DTD_PCDATA:1.00
+        ) it40-1.00:0.01
+      ) it49-1.00:0.01,
+      (
+        (
+          DTD_ANY:1.00,
+          DTD_CDATA:1.00
+        ) it39-1.00:0.01,
+        (
+          DTD_SEPARATOR:1.00,
+          DTD_ZERO_OR_MORE:1.00
+        ) it38-1.00:0.01
+      ) it48-1.00:0.01
+    ) it53-1.00:0.01,
+    (
+      (
+        (
+          DTD_ATTLIST:1.00,
+          DTD_ELEMENT:1.00
+        ) it36-1.00:0.01,
+        (
+          DTD_AT_LEAST_ONE:1.00,
+          DTD_OPTIONAL:1.00
+        ) it37-1.00:0.01
+      ) it47-1.00:0.01,
+      (
+        (
+          DTD_DOCTYPE:1.00,
+          PI:1.00
+        ) it35-1.00:0.01,
+        (
+          (
+            (
+              (
+                (
+                  (
+                    m_Builder:0.67,
+                    setValidating:0.67
+                  ) it16-0.67:0.16,
+                  (
+                    m_Factory:0.33,
+                    getFactory:0.33
+                  ) it3-0.33:0.49
+                ) it26-0.83:0.06,
+                (
+                  m_Validating:0.33,
+                  getValidating:0.33
+                ) it4-0.33:0.55
+              ) it29-0.89:0.09,
+              (
+                (
+                  (
+                    (
+                      m_DocType:0.50,
+                      getDocType:0.50
+                    ) it7-0.50:0.24,
+                    (
+                      clear:0.66,
+                      (
+                        newDocument:0.57,
+                        setDocType:0.57
+                      ) it13-0.57:0.09
+                    ) it15-0.66:0.08
+                  ) it24-0.74:0.14,
+                  (
+                    (
+                      m_RootNode:0.50,
+                      setRootNode:0.50
+                    ) it8-0.50:0.01,
+                    getRootNode:0.50
+                  ) it11-0.50:0.38
+                ) it28-0.88:0.07,
+                (
+                  (
+                    (
+                      (
+                        m_Document:0.25,
+                        getDocument:0.25
+                      ) it2-0.25:0.30,
+                      getBuilder:0.55
+                    ) it12-0.55:0.14,
+                    (
+                      (
+                        read:0.33,
+                        read:0.33
+                      ) it5-0.33:0.17,
+                      read:0.50
+                    ) it10-0.50:0.19
+                  ) it22-0.69:0.16,
+                  setDocument:0.85
+                ) it27-0.85:0.11
+              ) it31-0.95:0.02
+            ) it32-0.98:0.01,
+            (
+              (
+                (
+                  main:0.50,
+                  print:0.50
+                ) it9-0.50:0.23,
+                read:0.73
+              ) it23-0.73:0.16,
+              (
+                (
+                  write:0.33,
+                  write:0.33
+                ) it6-0.33:0.29,
+                write:0.63
+              ) it14-0.63:0.27
+            ) it30-0.89:0.10
+          ) it33-0.99:0.01,
+          (
+            (
+              (
+                (
+                  m_XPath:0.67,
+                  findNodes:0.67
+                ) it17-0.67:0.01,
+                (
+                  evalBoolean:0.67,
+                  getNode:0.67
+                ) it18-0.67:0.01
+              ) it20-0.67:0.01,
+              (
+                evalDouble:0.67,
+                evalString:0.67
+              ) it19-0.67:0.01
+            ) it21-0.67:0.08,
+            eval:0.75
+          ) it25-0.75:0.24
+        ) it34-0.99:0.01
+      ) it46-1.00:0.01
+    ) it52-1.00:0.01
+  ) it55-1.00:0.01
+) it56-1.00:0.01;

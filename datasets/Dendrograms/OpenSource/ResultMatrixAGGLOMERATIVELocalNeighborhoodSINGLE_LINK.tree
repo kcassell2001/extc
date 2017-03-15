@@ -1,0 +1,490 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      LEFT_PARENTHESES:0.33,
+                                      RIGHT_PARENTHESES:0.33
+                                    ) it5-0.33:0.33,
+                                    (
+                                      LOSS_STRING:0.50,
+                                      (
+                                        TIE_STRING:0.50,
+                                        WIN_STRING:0.50
+                                      ) it21-0.50:0.01
+                                    ) it29-0.50:0.17
+                                  ) it74-0.67:0.08,
+                                  getColName:0.75
+                                ) it113-0.75:0.01,
+                                (
+                                  (
+                                    (
+                                      SIGNIFICANCE_LOSS:0.67,
+                                      SIGNIFICANCE_WIN:0.67
+                                    ) it48-0.67:0.01,
+                                    (
+                                      doubleToString:0.67,
+                                      trimString:0.67
+                                    ) it68-0.67:0.01
+                                  ) it84-0.67:0.08,
+                                  (
+                                    (
+                                      m_RemoveFilterName:0.67,
+                                      setRemoveFilterName:0.67
+                                    ) it61-0.67:0.05,
+                                    (
+                                      getRemoveFilterName:0.60,
+                                      removeFilterName:0.60
+                                    ) it39-0.60:0.11
+                                  ) it91-0.71:0.04
+                                ) it116-0.75:0.01
+                              ) it121-0.75:0.01,
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  (
+                                                    (
+                                                      (
+                                                        (
+                                                          (
+                                                            SIGNIFICANCE_TIE:0.57,
+                                                            (
+                                                              (
+                                                                (
+                                                                  getAverage:0.29,
+                                                                  getMean:0.29
+                                                                ) it4-0.29:0.16,
+                                                                (
+                                                                  getSignificanceCount:0.44,
+                                                                  getSignificance:0.44
+                                                                ) it19-0.44:0.01
+                                                              ) it20-0.44:0.11,
+                                                              (
+                                                                getRowHidden:0.43,
+                                                                getVisibleRowCount:0.43
+                                                              ) it18-0.43:0.13
+                                                            ) it30-0.56:0.02
+                                                          ) it31-0.57:0.01,
+                                                          (
+                                                            getStdDev:0.50,
+                                                            setStdDev:0.50
+                                                          ) it26-0.50:0.07
+                                                        ) it32-0.57:0.05,
+                                                        setMean:0.63
+                                                      ) it45-0.63:0.01,
+                                                      setSignificance:0.63
+                                                    ) it46-0.63:0.04,
+                                                    (
+                                                      getShowAverage:0.67,
+                                                      isAverage:0.67
+                                                    ) it69-0.67:0.01
+                                                  ) it85-0.67:0.05,
+                                                  m_Significance:0.71
+                                                ) it95-0.71:0.01,
+                                                m_Mean:0.71
+                                              ) it100-0.71:0.01,
+                                              m_StdDev:0.71
+                                            ) it104-0.71:0.01,
+                                            (
+                                              (
+                                                m_RowOrder:0.60,
+                                                setRowOrder:0.60
+                                              ) it35-0.60:0.01,
+                                              (
+                                                getDisplayRow:0.60,
+                                                getRowOrder:0.60
+                                              ) it36-0.60:0.01
+                                            ) it42-0.60:0.11
+                                          ) it106-0.71:0.01,
+                                          (
+                                            m_RowHidden:0.67,
+                                            setRowHidden:0.67
+                                          ) it67-0.67:0.05
+                                        ) it107-0.71:0.01,
+                                        (
+                                          (
+                                            m_ColHidden:0.67,
+                                            setColHidden:0.67
+                                          ) it66-0.67:0.01,
+                                          (
+                                            (
+                                              (
+                                                m_ColOrder:0.60,
+                                                setColOrder:0.60
+                                              ) it37-0.60:0.01,
+                                              (
+                                                getColOrder:0.60,
+                                                getDisplayCol:0.60
+                                              ) it38-0.60:0.01
+                                            ) it43-0.60:0.07,
+                                            (
+                                              getColHidden:0.20,
+                                              getVisibleColCount:0.20
+                                            ) it3-0.20:0.47
+                                          ) it77-0.67:0.01
+                                        ) it87-0.67:0.05
+                                      ) it108-0.71:0.01,
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  m_ColNameWidth:0.60,
+                                                  setColNameWidth:0.60
+                                                ) it33-0.60:0.07,
+                                                (
+                                                  getColNameWidth:0.67,
+                                                  getRowNameWidth:0.67
+                                                ) it54-0.67:0.01
+                                              ) it78-0.67:0.01,
+                                              (
+                                                getMeanPrec:0.67,
+                                                getStdDevPrec:0.67
+                                              ) it52-0.67:0.01
+                                            ) it88-0.67:0.05,
+                                            (
+                                              m_MeanPrec:0.67,
+                                              setMeanPrec:0.67
+                                            ) it50-0.67:0.05
+                                          ) it97-0.71:0.01,
+                                          (
+                                            m_StdDevPrec:0.67,
+                                            setStdDevPrec:0.67
+                                          ) it51-0.67:0.05
+                                        ) it101-0.71:0.01,
+                                        (
+                                          m_RowNameWidth:0.67,
+                                          setRowNameWidth:0.67
+                                        ) it53-0.67:0.05
+                                      ) it105-0.71:0.01
+                                    ) it109-0.71:0.02,
+                                    (
+                                      (
+                                        getColCount:0.65,
+                                        getRowCount:0.65
+                                      ) it47-0.65:0.09,
+                                      toArray:0.74
+                                    ) it110-0.74:0.01
+                                  ) it111-0.74:0.01,
+                                  (
+                                    m_Counts:0.67,
+                                    (
+                                      getCount:0.50,
+                                      setCount:0.50
+                                    ) it25-0.50:0.17
+                                  ) it72-0.67:0.08
+                                ) it118-0.75:0.01,
+                                (
+                                  (
+                                    (
+                                      m_EnumerateRowNames:0.71,
+                                      (
+                                        m_PrintRowNames:0.71,
+                                        (
+                                          getEnumerateRowNames:0.67,
+                                          getPrintRowNames:0.67
+                                        ) it65-0.67:0.05
+                                      ) it93-0.71:0.01
+                                    ) it99-0.71:0.01,
+                                    (
+                                      setEnumerateRowNames:0.33,
+                                      setPrintRowNames:0.33
+                                    ) it7-0.33:0.38
+                                  ) it103-0.71:0.04,
+                                  getRowName:0.75
+                                ) it117-0.75:0.01
+                              ) it122-0.75:0.01
+                            ) it124-0.75:0.01,
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      m_CountWidth:0.60,
+                                      setCountWidth:0.60
+                                    ) it34-0.60:0.07,
+                                    getCountWidth:0.67
+                                  ) it75-0.67:0.08,
+                                  (
+                                    (
+                                      m_MeanWidth:0.67,
+                                      setMeanWidth:0.67
+                                    ) it55-0.67:0.01,
+                                    getMeanWidth:0.67
+                                  ) it79-0.67:0.08
+                                ) it114-0.75:0.01,
+                                (
+                                  (
+                                    (
+                                      m_SignificanceWidth:0.67,
+                                      setSignificanceWidth:0.67
+                                    ) it57-0.67:0.01,
+                                    getSignificanceWidth:0.67
+                                  ) it81-0.67:0.08,
+                                  (
+                                    (
+                                      m_StdDevWidth:0.67,
+                                      setStdDevWidth:0.67
+                                    ) it56-0.67:0.01,
+                                    getStdDevWidth:0.67
+                                  ) it80-0.67:0.08
+                                ) it115-0.75:0.01
+                              ) it120-0.75:0.01,
+                              (
+                                (
+                                  (
+                                    m_EnumerateColNames:0.71,
+                                    (
+                                      m_PrintColNames:0.71,
+                                      (
+                                        getEnumerateColNames:0.67,
+                                        getPrintColNames:0.67
+                                      ) it63-0.67:0.05
+                                    ) it92-0.71:0.01
+                                  ) it98-0.71:0.01,
+                                  (
+                                    setEnumerateColNames:0.33,
+                                    setPrintColNames:0.33
+                                  ) it6-0.33:0.38
+                                ) it102-0.71:0.04,
+                                (
+                                  (
+                                    m_ShowAverage:0.67,
+                                    setShowAverage:0.67
+                                  ) it59-0.67:0.08,
+                                  (
+                                    m_ShowStdDev:0.67,
+                                    setShowStdDev:0.67
+                                  ) it58-0.67:0.08
+                                ) it112-0.75:0.01
+                              ) it119-0.75:0.01
+                            ) it123-0.75:0.01
+                          ) it125-0.75:0.01,
+                          (
+                            m_ColNames:0.50,
+                            setColName:0.50
+                          ) it23-0.50:0.26
+                        ) it126-0.76:0.01,
+                        (
+                          m_RowNames:0.50,
+                          setRowName:0.50
+                        ) it24-0.50:0.27
+                      ) it127-0.77:0.01,
+                      (
+                        getShowStdDev:0.71,
+                        (
+                          (
+                            isMean:0.67,
+                            isStdDev:0.67
+                          ) it70-0.67:0.01,
+                          isSignificance:0.67
+                        ) it86-0.67:0.05
+                      ) it96-0.71:0.06
+                    ) it130-0.78:0.02,
+                    (
+                      (
+                        (
+                          (
+                            getDefaultColNameWidth:0.40,
+                            getDefaultRowNameWidth:0.40
+                          ) it11-0.40:0.01,
+                          (
+                            getDefaultMeanPrec:0.40,
+                            getDefaultStdDevPrec:0.40
+                          ) it10-0.40:0.01
+                        ) it15-0.40:0.01,
+                        (
+                          (
+                            getDefaultCountWidth:0.40,
+                            getDefaultSignificanceWidth:0.40
+                          ) it13-0.40:0.01,
+                          (
+                            getDefaultMeanWidth:0.40,
+                            getDefaultStdDevWidth:0.40
+                          ) it12-0.40:0.01
+                        ) it16-0.40:0.01
+                      ) it17-0.40:0.40,
+                      (
+                        (
+                          (
+                            getDefaultEnumerateColNames:0.67,
+                            getDefaultPrintRowNames:0.67
+                          ) it64-0.67:0.01,
+                          (
+                            getDefaultPrintColNames:0.67,
+                            getDefaultRemoveFilterName:0.67
+                          ) it62-0.67:0.01
+                        ) it83-0.67:0.01,
+                        (
+                          getDefaultEnumerateRowNames:0.67,
+                          (
+                            getDefaultShowAverage:0.67,
+                            getDefaultShowStdDev:0.67
+                          ) it60-0.67:0.01
+                        ) it82-0.67:0.01
+                      ) it89-0.67:0.13
+                    ) it131-0.80:0.01
+                  ) it132-0.80:0.02,
+                  (
+                    (
+                      (
+                        assign:0.69,
+                        clear:0.69
+                      ) it90-0.69:0.08,
+                      (
+                        listOptions:0.67,
+                        setOptions:0.67
+                      ) it49-0.67:0.10
+                    ) it128-0.77:0.01,
+                    setSize:0.77
+                  ) it129-0.77:0.05
+                ) it133-0.82:0.02,
+                (
+                  (
+                    m_NonSigWins:0.40,
+                    m_Wins:0.40
+                  ) it8-0.40:0.20,
+                  (
+                    clearSummary:0.60,
+                    setSummary:0.60
+                  ) it40-0.60:0.01
+                ) it44-0.60:0.23
+              ) it134-0.83:0.01,
+              (
+                (
+                  m_RankingDiff:0.40,
+                  (
+                    m_RankingLosses:0.40,
+                    m_RankingWins:0.40
+                  ) it9-0.40:0.01
+                ) it14-0.40:0.27,
+                (
+                  clearRanking:0.50,
+                  setRanking:0.50
+                ) it28-0.50:0.17
+              ) it73-0.67:0.17
+            ) it135-0.83:0.02,
+            (
+              (
+                (
+                  m_HeaderKeys:0.50,
+                  m_HeaderValues:0.50
+                ) it22-0.50:0.17,
+                (
+                  (
+                    addHeader:0.50,
+                    toStringHeader:0.50
+                  ) it27-0.50:0.10,
+                  clearHeader:0.60
+                ) it41-0.60:0.07
+              ) it76-0.67:0.05,
+              (
+                getHeader:0.67,
+                headerKeys:0.67
+              ) it71-0.67:0.05
+            ) it94-0.71:0.14
+          ) it136-0.86:0.01,
+          getOptions:0.86
+        ) it137-0.86:0.14,
+        (
+          serialVersionUID:1.00,
+          globalInfo:1.00
+        ) it138-1.00:0.01
+      ) it151-1.00:0.01,
+      (
+        (
+          colNameWidthTipText:1.00,
+          stdDevPrecTipText:1.00
+        ) it140-1.00:0.01,
+        (
+          getDisplayName:1.00,
+          meanPrecTipText:1.00
+        ) it139-1.00:0.01
+      ) it152-1.00:0.01
+    ) it158-1.00:0.01,
+    (
+      (
+        (
+          getColSize:0.01,
+          getColSize:0.01
+        ) it2-0.00:1.00,
+        (
+          padString:0.01,
+          padString:0.01
+        ) it1-0.00:1.00
+      ) it150-1.00:0.01,
+      (
+        toStringRanking:1.00,
+        toStringSummary:1.00
+      ) it149-1.00:0.01
+    ) it157-1.00:0.01
+  ) it161-1.00:0.01,
+  (
+    (
+      (
+        (
+          countWidthTipText:1.00,
+          showStdDevTipText:1.00
+        ) it143-1.00:0.01,
+        (
+          removeFilterNameTipText:1.00,
+          showAverageTipText:1.00
+        ) it144-1.00:0.01
+      ) it154-1.00:0.01,
+      (
+        (
+          meanWidthTipText:1.00,
+          rowNameWidthTipText:1.00
+        ) it141-1.00:0.01,
+        (
+          significanceWidthTipText:1.00,
+          stdDevWidthTipText:1.00
+        ) it142-1.00:0.01
+      ) it153-1.00:0.01
+    ) it159-1.00:0.01,
+    (
+      (
+        (
+          enumerateColNamesTipText:1.00,
+          enumerateRowNamesTipText:1.00
+        ) it146-1.00:0.01,
+        (
+          printColNamesTipText:1.00,
+          printRowNamesTipText:1.00
+        ) it145-1.00:0.01
+      ) it155-1.00:0.01,
+      (
+        (
+          getSummaryTitle:1.00,
+          toStringKey:1.00
+        ) it148-1.00:0.01,
+        (
+          isRowName:1.00,
+          toStringMatrix:1.00
+        ) it147-1.00:0.01
+      ) it156-1.00:0.01
+    ) it160-1.00:0.01
+  ) it162-1.00:0.01
+) it163-1.00:0.01;

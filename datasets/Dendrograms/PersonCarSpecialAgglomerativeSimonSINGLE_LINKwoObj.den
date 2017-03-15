@@ -1,0 +1,106 @@
+#DENDROSCOPE
+{TREE 'Tree1'
+((((((firstName:0.6,getFirstName:0.6)it5-0.60:0.01,setFirstName:0.6)it11-0.60:0.07,(((id:0.5,getId:0.5)it1-0.50:0.01,setId:0.5)it3-0.50:0.17,(getPersonInfo:0.6,getPersonName:0.6)it9-0.60:0.07)it15-0.67:0.01)it17-0.67:0.01,((lastName:0.6,getLastName:0.6)it6-0.60:0.01,setLastName:0.6)it12-0.60:0.07)it19-0.67:0.33,logger:1.0)it21-1.00:0.01,((((make:0.6,getMake:0.6)it7-0.60:0.01,setMake:0.6)it13-0.60:0.07,(((vin:0.5,getVin:0.5)it2-0.50:0.01,setVin:0.5)it4-0.50:0.17,(getCarDescription:0.6,getCarInfo:0.6)it10-0.60:0.07)it16-0.67:0.01)it18-0.67:0.01,((model:0.6,getModel:0.6)it8-0.60:0.01,setModel:0.6)it14-0.60:0.07)it20-0.67:0.33)it22-1.00;
+}
+{GRAPHVIEW
+nnodes=45 nedges=44
+nodes
+1: nh=2 nw=2 fg=0 0 0 bg=0 0 0 w=1 sh=0 x=0.0 y=9.1640625 fx=1 lc=0 0 0 lk=null lx=0 ly=0 ll=7 lv=1 lb='it22-1.00';
+2: x=0.01 y=14.109375 ll=3 lb='it21-1.00';
+3: fg=0 0 204 x=0.34 y=16.21875 ft='Dialog-PLAIN-12' lb='it19-0.67';
+4: x=0.35 y=18.6875 lb='it17-0.67';
+5: x=0.42 y=16.75 lb='it11-0.60';
+6: x=0.43 y=17.5 lb='it5-0.60';
+7: x=1.03 y=17.0 lb='firstName';
+8: x=1.03 y=18.0 lb='getFirstName';
+9: x=1.02 y=16.0 lb='setFirstName';
+10: x=0.36 y=20.625 lb='it15-0.67';
+11: x=0.53 y=21.75 lb='it3-0.50';
+12: x=0.54 y=22.5 lb='it1-0.50';
+13: x=1.04 y=22.0 lb='id';
+14: x=1.04 y=23.0 lb='getId';
+15: x=1.03 y=21.0 lb='setId';
+16: x=0.43 y=19.5 lb='it9-0.60';
+17: x=1.03 y=19.0 lb='getPersonInfo';
+18: x=1.03 y=20.0 lb='getPersonName';
+19: x=0.41 y=13.75 lb='it12-0.60';
+20: x=0.42 y=14.5 lb='it6-0.60';
+21: x=1.02 y=14.0 lb='lastName';
+22: x=1.02 y=15.0 lb='getLastName';
+23: x=1.01 y=13.0 lb='setLastName';
+24: fg=0 0 0 x=1.01 y=12.0 lb='logger';
+25: fg=255 0 0 x=0.33 y=4.21875 ft='Dialog-PLAIN-12' lb='it20-0.67';
+26: x=0.34 y=6.6875 lb='it18-0.67';
+27: x=0.41 y=4.75 lb='it13-0.60';
+28: x=0.42 y=5.5 lb='it7-0.60';
+29: x=1.02 y=5.0 lb='make';
+30: x=1.02 y=6.0 lb='getMake';
+31: x=1.01 y=4.0 lb='setMake';
+32: x=0.35 y=8.625 lb='it16-0.67';
+33: x=0.52 y=9.75 lb='it4-0.50';
+34: x=0.53 y=10.5 lb='it2-0.50';
+35: x=1.03 y=10.0 lb='vin';
+36: x=1.03 y=11.0 lb='getVin';
+37: x=1.02 y=9.0 lb='setVin';
+38: x=0.42 y=7.5 lb='it10-0.60';
+39: x=1.02 y=7.0 lb='getCarDescription';
+40: x=1.02 y=8.0 lb='getCarInfo';
+41: x=0.4 y=1.75 lb='it14-0.60';
+42: x=0.41 y=2.5 lb='it8-0.60';
+43: x=1.01 y=2.0 lb='model';
+44: x=1.01 y=3.0 lb='getModel';
+45: x=1.0 y=1.0 lb='setModel';
+edges
+6: fg=0 0 204 w=2 sh=1 ip= < 0.43 17.0> dr=1 lc=0 0 0 lk=null lx=0 ly=0 ll=11 lv=1;
+7: ip= < 0.43 18.0>;
+5: ip= < 0.42 17.5>;
+8: ip= < 0.42 16.0>;
+4: ip= < 0.35 16.75>;
+12: ip= < 0.54 22.0>;
+13: ip= < 0.54 23.0>;
+11: ip= < 0.53 22.5>;
+14: ip= < 0.53 21.0>;
+10: ip= < 0.36 21.75>;
+16: ip= < 0.43 19.0>;
+17: ip= < 0.43 20.0>;
+15: ip= < 0.36 19.5>;
+9: ip= < 0.35 20.625>;
+3: ip= < 0.34 18.6875>;
+20: ip= < 0.42 14.0>;
+21: ip= < 0.42 15.0>;
+19: ip= < 0.41 14.5>;
+22: ip= < 0.41 13.0>;
+18: ip= < 0.34 13.75>;
+2: fg=0 0 0 w=1 ip= < 0.01 16.21875>;
+23: ip= < 0.01 12.0>;
+1: ip= < 0.0 14.109375>;
+28: fg=255 0 0 w=2 ip= < 0.42 5.0>;
+29: ip= < 0.42 6.0>;
+27: ip= < 0.41 5.5>;
+30: ip= < 0.41 4.0>;
+26: ip= < 0.34 4.75>;
+34: ip= < 0.53 10.0>;
+35: ip= < 0.53 11.0>;
+33: ip= < 0.52 10.5>;
+36: ip= < 0.52 9.0>;
+32: ip= < 0.35 9.75>;
+38: ip= < 0.42 7.0>;
+39: ip= < 0.42 8.0>;
+37: ip= < 0.35 7.5>;
+31: ip= < 0.34 8.625>;
+25: ip= < 0.33 6.6875>;
+42: ip= < 0.41 2.0>;
+43: ip= < 0.41 3.0>;
+41: ip= < 0.4 2.5>;
+44: ip= < 0.4 1.0>;
+40: ip= < 0.33 1.75>;
+24: fg=0 0 0 w=1 ip= < 0.0 4.21875>;
+}
+{DENDRO
+root=1
+drawer=RectangularPhylogram
+toscale=true
+radiallabels=false
+collapsed=0
+trans=angle:3.1415927 scaleX:211.56535 scaleY:13.745455 flipH:0 flipV:0 leftMargin:478 rightMargin:478 topMargin:226 bottomMargin:226;
+}

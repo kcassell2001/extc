@@ -1,0 +1,109 @@
+(
+  (
+    (
+      (
+        (
+          BACKUP_EXTENSION:0.67,
+          getDefaultExtension:0.67
+        ) it10-0.67:0.33,
+        (
+          execute:0.67,
+          newThread:0.67
+        ) it12-0.67:0.33
+      ) it26-1.00:0.01,
+      (
+        (
+          (
+            m_Document:0.67,
+            getContent:0.67
+          ) it11-0.67:0.01,
+          setContent:0.67
+        ) it15-0.67:0.33,
+        (
+          m_ScriptThread:0.67,
+          (
+            isRunning:0.50,
+            stop:0.50
+          ) it5-0.50:0.17
+        ) it14-0.67:0.33
+      ) it27-1.00:0.01
+    ) it32-1.00:0.01,
+    (
+      (
+        (
+          (
+            m_Filename:0.45,
+            m_Modified:0.45
+          ) it2-0.45:0.40,
+          (
+            (
+              (
+                empty:0.50,
+                open:0.50
+              ) it4-0.50:0.13,
+              saveAs:0.63
+            ) it9-0.63:0.19,
+            (
+              (
+                initialize:0.57,
+                preCheck:0.57
+              ) it7-0.57:0.18,
+              run:0.75
+            ) it19-0.75:0.07
+          ) it20-0.82:0.04
+        ) it21-0.86:0.14,
+        (
+          runScript:0.75,
+          setOptions:0.75
+        ) it18-0.75:0.25
+      ) it29-1.00:0.01,
+      (
+        (
+          (
+            m_FinishedListeners:0.60,
+            addScriptFinishedListener:0.60
+          ) it8-0.60:0.07,
+          (
+            notifyScriptFinishedListeners:0.67,
+            removeScriptFinishedListener:0.67
+          ) it13-0.67:0.01
+        ) it16-0.67:0.33,
+        (
+          getFilename:0.75,
+          save:0.75
+        ) it17-0.75:0.25
+      ) it28-1.00:0.01
+    ) it33-1.00:0.01
+  ) it35-1.00:0.01,
+  (
+    (
+      (
+        (
+          m_NewLine:0.33,
+          getNewLine:0.33
+        ) it1-0.33:0.67,
+        start:1.00
+      ) it24-1.00:0.01,
+      (
+        (
+          checkExtension:0.50,
+          getFilters:0.50
+        ) it3-0.50:0.50,
+        (
+          listOptions:0.50,
+          makeOptionString:0.50
+        ) it6-0.50:0.50
+      ) it25-1.00:0.01
+    ) it31-1.00:0.01,
+    (
+      (
+        serialVersionUID:1.00,
+        getOptions:1.00
+      ) it22-1.00:0.01,
+      (
+        canExecuteScripts:1.00,
+        isModified:1.00
+      ) it23-1.00:0.01
+    ) it30-1.00:0.01
+  ) it34-1.00:0.01
+) it36-1.00:0.01;

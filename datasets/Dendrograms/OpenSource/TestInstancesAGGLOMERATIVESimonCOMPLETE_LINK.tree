@@ -1,0 +1,289 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                CLASS_IS_LAST:0.44,
+                NO_CLASS:0.44
+              ) it16-0.44:0.22,
+              setNoClass:0.67
+            ) it46-0.67:0.21,
+            (
+              (
+                m_ClassIndex:0.67,
+                (
+                  getClassIndex:0.40,
+                  setClassIndex:0.40
+                ) it15-0.40:0.27
+              ) it45-0.67:0.17,
+              getNoClass:0.83
+            ) it58-0.83:0.04
+          ) it62-0.88:0.13,
+          (
+            serialVersionUID:1.00,
+            listToArray:1.00
+          ) it63-1.00:0.01
+        ) it80-1.00:0.01,
+        (
+          (
+            (
+              m_Data:0.33,
+              getData:0.33
+            ) it13-0.33:0.67,
+            (
+              m_Seed:0.33,
+              getSeed:0.33
+            ) it2-0.33:0.67
+          ) it65-1.00:0.01,
+          (
+            generate:1.00,
+            getRevision:1.00
+          ) it64-1.00:0.01
+        ) it81-1.00:0.01
+      ) it89-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                m_NumNumeric:0.50,
+                setNumNumeric:0.50
+              ) it18-0.50:0.17,
+              getNumNumeric:0.67
+            ) it47-0.67:0.21,
+            getNumAttributes:0.88
+          ) it61-0.88:0.13,
+          (
+            (
+              forCapabilities:0.58,
+              setOptions:0.58
+            ) it26-0.58:0.26,
+            (
+              generateAttribute:0.50,
+              generateClassValue:0.50
+            ) it24-0.50:0.34
+          ) it60-0.84:0.16
+        ) it79-1.00:0.01,
+        (
+          (
+            (
+              (
+                m_WordSeparators:0.60,
+                setWordSeparators:0.60
+              ) it28-0.60:0.07,
+              getWordSeparators:0.67
+            ) it53-0.67:0.17,
+            generateAttributeValue:0.83
+          ) it59-0.83:0.17,
+          (
+            (
+              assign:0.58,
+              getOptions:0.58
+            ) it25-0.58:0.18,
+            generate:0.76
+          ) it57-0.76:0.24
+        ) it78-1.00:0.01
+      ) it88-1.00:0.01
+    ) it93-1.00:0.01,
+    (
+      (
+        (
+          (
+            (
+              m_ClassType:0.50,
+              getClassType:0.50
+            ) it17-0.50:0.25,
+            setClassType:0.75
+          ) it55-0.75:0.25,
+          (
+            (
+              m_NumRelational:0.50,
+              getNumRelational:0.50
+            ) it21-0.50:0.25,
+            setNumRelational:0.75
+          ) it56-0.75:0.25
+        ) it77-1.00:0.01,
+        (
+          (
+            (
+              m_NumNominal:0.60,
+              setNumNominal:0.60
+            ) it27-0.60:0.07,
+            getNumNominal:0.67
+          ) it52-0.67:0.33,
+          (
+            listOptions:0.75,
+            main:0.75
+          ) it54-0.75:0.25
+        ) it76-1.00:0.01
+      ) it87-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_NumDate:0.50,
+              setNumDate:0.50
+            ) it20-0.50:0.17,
+            getNumDate:0.67
+          ) it49-0.67:0.33,
+          (
+            (
+              m_NumString:0.50,
+              setNumString:0.50
+            ) it19-0.50:0.17,
+            getNumString:0.67
+          ) it48-0.67:0.33
+        ) it74-1.00:0.01,
+        (
+          (
+            (
+              m_RelationalClassFormat:0.50,
+              setRelationalClassFormat:0.50
+            ) it23-0.50:0.17,
+            getRelationalClassFormat:0.67
+          ) it51-0.67:0.33,
+          (
+            (
+              m_RelationalFormat:0.50,
+              setRelationalFormat:0.50
+            ) it22-0.50:0.17,
+            getRelationalFormat:0.67
+          ) it50-0.67:0.33
+        ) it75-1.00:0.01
+      ) it86-1.00:0.01
+    ) it92-1.00:0.01
+  ) it95-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            DEFAULT_SEPARATORS:0.67,
+            DEFAULT_WORDS:0.67
+          ) it29-0.67:0.33,
+          (
+            m_Random:0.67,
+            setSeed:0.67
+          ) it30-0.67:0.33
+        ) it66-1.00:0.01,
+        (
+          (
+            m_Words:0.67,
+            setWords:0.67
+          ) it31-0.67:0.33,
+          (
+            arrayToList:0.67,
+            getWords:0.67
+          ) it32-0.67:0.33
+        ) it67-1.00:0.01
+      ) it82-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_NumClasses:0.33,
+              setNumClasses:0.33
+            ) it4-0.33:0.33,
+            getNumClasses:0.67
+          ) it35-0.67:0.33,
+          (
+            (
+              m_NumNominalValues:0.33,
+              setNumNominalValues:0.33
+            ) it5-0.33:0.33,
+            getNumNominalValues:0.67
+          ) it36-0.67:0.33
+        ) it69-1.00:0.01,
+        (
+          (
+            (
+              m_NumInstances:0.33,
+              setNumInstances:0.33
+            ) it3-0.33:0.33,
+            getNumInstances:0.67
+          ) it34-0.67:0.33,
+          (
+            (
+              m_Relation:0.33,
+              setRelation:0.33
+            ) it1-0.33:0.33,
+            getRelation:0.67
+          ) it33-0.67:0.33
+        ) it68-1.00:0.01
+      ) it83-1.00:0.01
+    ) it90-1.00:0.01,
+    (
+      (
+        (
+          (
+            (
+              m_Handler:0.33,
+              setHandler:0.33
+            ) it14-0.33:0.33,
+            getHandler:0.67
+          ) it44-0.67:0.33,
+          (
+            (
+              m_MultiInstance:0.33,
+              setMultiInstance:0.33
+            ) it12-0.33:0.33,
+            getMultiInstance:0.67
+          ) it43-0.67:0.33
+        ) it73-1.00:0.01,
+        (
+          (
+            (
+              m_NumInstancesRelational:0.33,
+              setNumInstancesRelational:0.33
+            ) it11-0.33:0.33,
+            getNumInstancesRelational:0.67
+          ) it42-0.67:0.33,
+          (
+            (
+              m_NumRelationalDate:0.33,
+              setNumRelationalDate:0.33
+            ) it10-0.33:0.33,
+            getNumRelationalDate:0.67
+          ) it41-0.67:0.33
+        ) it72-1.00:0.01
+      ) it85-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_NumRelationalNominal:0.33,
+              setNumRelationalNominal:0.33
+            ) it6-0.33:0.33,
+            getNumRelationalNominal:0.67
+          ) it37-0.67:0.33,
+          (
+            (
+              m_NumRelationalNominalValues:0.33,
+              setNumRelationalNominalValues:0.33
+            ) it7-0.33:0.33,
+            getNumRelationalNominalValues:0.67
+          ) it38-0.67:0.33
+        ) it70-1.00:0.01,
+        (
+          (
+            (
+              m_NumRelationalNumeric:0.33,
+              setNumRelationalNumeric:0.33
+            ) it8-0.33:0.33,
+            getNumRelationalNumeric:0.67
+          ) it39-0.67:0.33,
+          (
+            (
+              m_NumRelationalString:0.33,
+              setNumRelationalString:0.33
+            ) it9-0.33:0.33,
+            getNumRelationalString:0.67
+          ) it40-0.67:0.33
+        ) it71-1.00:0.01
+      ) it84-1.00:0.01
+    ) it91-1.00:0.01
+  ) it94-1.00:0.01
+) it96-1.00:0.01;

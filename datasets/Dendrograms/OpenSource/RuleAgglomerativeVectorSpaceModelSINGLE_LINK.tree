@@ -1,0 +1,139 @@
+(
+  (
+    (
+      (
+        (
+          LEFT:0.75,
+          RIGHT:0.75
+        ) it27-0.75:0.08,
+        (
+          (
+            (
+              m_covered:0.50,
+              (
+                (
+                  m_relOps:0.33,
+                  m_ruleModel:0.33
+                ) it2-0.33:0.01,
+                (
+                  m_splitAtts:0.33,
+                  m_splitVals:0.33
+                ) it1-0.33:0.01
+              ) it4-0.33:0.17
+            ) it8-0.50:0.17,
+            m_numCovered:0.67
+          ) it19-0.67:0.13,
+          (
+            (
+              m_instances:0.50,
+              m_numInstances:0.50
+            ) it5-0.50:0.01,
+            m_internalNodes:0.50
+          ) it9-0.50:0.30
+        ) it30-0.80:0.03
+      ) it32-0.83:0.17,
+      (
+        serialVersionUID:1.00,
+        stdDev:1.00
+      ) it33-1.00:0.01
+    ) it40-1.00:0.01,
+    (
+      (
+        (
+          (
+            m_minNumInstances:0.50,
+            setMinNumInstances:0.50
+          ) it7-0.50:0.17,
+          getMinNumInstances:0.67
+        ) it18-0.67:0.33,
+        (
+          m_saveInstances:0.33,
+          setSaveInstances:0.33
+        ) it3-0.33:0.67
+      ) it35-1.00:0.01,
+      (
+        absDev:1.00,
+        getRevision:1.00
+      ) it34-1.00:0.01
+    ) it41-1.00:0.01
+  ) it44-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            m_classIndex:0.67,
+            m_numAttributes:0.67
+          ) it15-0.67:0.08,
+          (
+            m_globalAbsDev:0.50,
+            m_globalStdDev:0.50
+          ) it6-0.50:0.25
+        ) it28-0.75:0.25,
+        (
+          m_topOfTree:0.71,
+          (
+            getM5RootNode:0.67,
+            topOfTree:0.67
+          ) it17-0.67:0.05
+        ) it26-0.71:0.29
+      ) it38-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_useUnpruned:0.60,
+              setUnpruned:0.60
+            ) it11-0.60:0.07,
+            getUnpruned:0.67
+          ) it20-0.67:0.17,
+          treeToString:0.83
+        ) it31-0.83:0.17,
+        (
+          (
+            buildClassifier:0.56,
+            makeRule:0.56
+          ) it10-0.56:0.21,
+          (
+            classifyInstance:0.69,
+            ruleToString:0.69
+          ) it25-0.69:0.08
+        ) it29-0.77:0.23
+      ) it39-1.00:0.01
+    ) it43-1.00:0.01,
+    (
+      (
+        (
+          (
+            m_notCovered:0.60,
+            notCoveredInstances:0.60
+          ) it13-0.60:0.07,
+          freeNotCoveredInstances:0.67
+        ) it22-0.67:0.33,
+        (
+          (
+            m_useTree:0.60,
+            setUseTree:0.60
+          ) it12-0.60:0.07,
+          getUseTree:0.67
+        ) it21-0.67:0.33
+      ) it36-1.00:0.01,
+      (
+        (
+          (
+            m_regressionTree:0.60,
+            getRegressionTree:0.60
+          ) it14-0.60:0.07,
+          setRegressionTree:0.67
+        ) it23-0.67:0.33,
+        (
+          (
+            m_smoothPredictions:0.67,
+            setSmoothing:0.67
+          ) it16-0.67:0.01,
+          getSmoothing:0.67
+        ) it24-0.67:0.33
+      ) it37-1.00:0.01
+    ) it42-1.00:0.01
+  ) it45-1.00:0.01
+) it46-1.00:0.01;

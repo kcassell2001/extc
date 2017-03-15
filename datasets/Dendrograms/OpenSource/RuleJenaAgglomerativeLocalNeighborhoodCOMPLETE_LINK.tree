@@ -1,0 +1,130 @@
+(
+  (
+    (
+      (
+        (
+          body:0.75,
+          (
+            (
+              bodyLength:0.67,
+              getBodyElement:0.67
+            ) it17-0.67:0.01,
+            getBody:0.67
+          ) it20-0.67:0.08
+        ) it25-0.75:0.25,
+        (
+          (
+            head:0.70,
+            getNumVars:0.70
+          ) it22-0.70:0.16,
+          (
+            getHead:0.67,
+            (
+              getHeadElement:0.67,
+              headLength:0.67
+            ) it18-0.67:0.01
+          ) it21-0.67:0.19
+        ) it26-0.86:0.14
+      ) it35-1.00:0.01,
+      (
+        (
+          logger:1.00,
+          parseRule:1.00
+        ) it27-1.00:0.01,
+        (
+          rulesStringFromReader:1.00,
+          sameAs:1.00
+        ) it28-1.00:0.01
+      ) it36-1.00:0.01
+    ) it40-1.00:0.01,
+    (
+      (
+        (
+          cloneClauseArray:0.75,
+          (
+            cloneRule:0.43,
+            instantiate:0.43
+          ) it11-0.43:0.32
+        ) it24-0.75:0.25,
+        (
+          (
+            parseRules:0.33,
+            parseRules:0.33
+          ) it9-0.33:0.42,
+          rulesFromURL:0.75
+        ) it23-0.75:0.25
+      ) it34-1.00:0.01,
+      (
+        (
+          extractURI:0.60,
+          (
+            nextAfterArg:0.40,
+            nextArg:0.40
+          ) it10-0.40:0.20
+        ) it16-0.60:0.40,
+        (
+          (
+            main:0.50,
+            rulesParserFromReader:0.50
+          ) it13-0.50:0.17,
+          nextSplit:0.67
+        ) it19-0.67:0.33
+      ) it33-1.00:0.01
+    ) it39-1.00:0.01
+  ) it42-1.00:0.01,
+  (
+    (
+      (
+        (
+          isBackward:0.33,
+          setBackward:0.33
+        ) it6-0.33:0.67,
+        (
+          numVars:0.33,
+          setNumVars:0.33
+        ) it7-0.33:0.67
+      ) it30-1.00:0.01,
+      (
+        (
+          isMonotonic:0.01,
+          isMonotonic:0.01
+        ) it3-0.00:1.00,
+        (
+          cloneClause:0.25,
+          (
+            cloneFunctor:0.01,
+            cloneNode:0.01
+          ) it2-0.00:0.25
+        ) it5-0.25:0.75
+      ) it29-1.00:0.01
+    ) it37-1.00:0.01,
+    (
+      (
+        (
+          name:0.60,
+          getName:0.60
+        ) it14-0.60:0.40,
+        (
+          (
+            (
+              findVars:0.01,
+              findVars:0.01
+            ) it1-0.00:0.25,
+            maxVarIndex:0.25
+          ) it4-0.25:0.35,
+          findVars:0.60
+        ) it15-0.60:0.40
+      ) it32-1.00:0.01,
+      (
+        (
+          allMonotonic:0.33,
+          toShortString:0.33
+        ) it8-0.33:0.67,
+        (
+          isAxiom:0.50,
+          isBackward:0.50
+        ) it12-0.50:0.50
+      ) it31-1.00:0.01
+    ) it38-1.00:0.01
+  ) it41-1.00:0.01
+) it43-1.00:0.01;

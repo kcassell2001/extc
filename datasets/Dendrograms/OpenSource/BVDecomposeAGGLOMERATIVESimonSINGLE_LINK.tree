@@ -1,0 +1,112 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            m_Bias:0.33,
+                            getBias:0.33
+                          ) it1-0.33:0.47,
+                          (
+                            m_Variance:0.33,
+                            getVariance:0.33
+                          ) it2-0.33:0.47
+                        ) it23-0.80:0.01,
+                        (
+                          (
+                            m_Error:0.33,
+                            getError:0.33
+                          ) it4-0.33:0.47,
+                          (
+                            m_Sigma:0.33,
+                            getSigma:0.33
+                          ) it3-0.33:0.47
+                        ) it24-0.80:0.01
+                      ) it25-0.80:0.03,
+                      (
+                        (
+                          m_TrainPoolSize:0.50,
+                          getTrainPoolSize:0.50
+                        ) it6-0.50:0.01,
+                        setTrainPoolSize:0.50
+                      ) it12-0.50:0.33
+                    ) it26-0.83:0.01,
+                    (
+                      (
+                        m_Debug:0.50,
+                        setDebug:0.50
+                      ) it7-0.50:0.01,
+                      getDebug:0.50
+                    ) it13-0.50:0.33
+                  ) it27-0.83:0.01,
+                  (
+                    (
+                      m_Seed:0.50,
+                      setSeed:0.50
+                    ) it8-0.50:0.01,
+                    getSeed:0.50
+                  ) it14-0.50:0.33
+                ) it28-0.83:0.01,
+                (
+                  (
+                    m_TrainIterations:0.50,
+                    setTrainIterations:0.50
+                  ) it9-0.50:0.01,
+                  getTrainIterations:0.50
+                ) it15-0.50:0.33
+              ) it29-0.83:0.01,
+              (
+                (
+                  m_DataFileName:0.50,
+                  setDataFileName:0.50
+                ) it10-0.50:0.01,
+                getDataFileName:0.50
+              ) it16-0.50:0.33
+            ) it30-0.83:0.01,
+            (
+              (
+                m_ClassIndex:0.50,
+                getClassIndex:0.50
+              ) it11-0.50:0.01,
+              setClassIndex:0.50
+            ) it17-0.50:0.33
+          ) it31-0.83:0.01,
+          (
+            (
+              (
+                (
+                  m_Classifier:0.67,
+                  listOptions:0.67
+                ) it18-0.67:0.01,
+                (
+                  getClassifier:0.67,
+                  setClassifier:0.67
+                ) it19-0.67:0.01
+              ) it20-0.67:0.08,
+              getOptions:0.75
+            ) it21-0.75:0.01,
+            main:0.75
+          ) it22-0.75:0.08
+        ) it32-0.83:0.01,
+        decompose:0.85
+      ) it33-0.85:0.04,
+      setOptions:0.89
+    ) it34-0.89:0.11,
+    (
+      getTechnicalInformation:0.50,
+      globalInfo:0.50
+    ) it5-0.50:0.50
+  ) it36-1.00:0.01,
+  (
+    m_ClassifierOptions:1.00,
+    getRevision:1.00
+  ) it35-1.00:0.01
+) it37-1.00:0.01;

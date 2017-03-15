@@ -1,0 +1,139 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          LEFT:0.75,
+                          RIGHT:0.75
+                        ) it30-0.75:0.09,
+                        (
+                          (
+                            m_classIndex:0.67,
+                            m_numAttributes:0.67
+                          ) it21-0.67:0.14,
+                          (
+                            (
+                              (
+                                (
+                                  m_covered:0.50,
+                                  (
+                                    (
+                                      m_relOps:0.33,
+                                      m_ruleModel:0.33
+                                    ) it2-0.33:0.01,
+                                    (
+                                      m_splitAtts:0.33,
+                                      m_splitVals:0.33
+                                    ) it1-0.33:0.01
+                                  ) it4-0.33:0.17
+                                ) it8-0.50:0.15,
+                                m_numCovered:0.65
+                              ) it20-0.65:0.02,
+                              (
+                                (
+                                  m_instances:0.50,
+                                  m_numInstances:0.50
+                                ) it5-0.50:0.01,
+                                m_internalNodes:0.50
+                              ) it9-0.50:0.18
+                            ) it25-0.68:0.04,
+                            (
+                              m_globalAbsDev:0.50,
+                              m_globalStdDev:0.50
+                            ) it6-0.50:0.22
+                          ) it29-0.72:0.09
+                        ) it32-0.81:0.03
+                      ) it33-0.84:0.07,
+                      (
+                        (
+                          buildClassifier:0.56,
+                          makeRule:0.56
+                        ) it10-0.56:0.15,
+                        (
+                          classifyInstance:0.69,
+                          ruleToString:0.69
+                        ) it26-0.69:0.01
+                      ) it27-0.70:0.21
+                    ) it34-0.91:0.01,
+                    (
+                      m_topOfTree:0.71,
+                      (
+                        getM5RootNode:0.67,
+                        topOfTree:0.67
+                      ) it23-0.67:0.05
+                    ) it28-0.71:0.21
+                  ) it35-0.93:0.01,
+                  (
+                    (
+                      m_notCovered:0.60,
+                      notCoveredInstances:0.60
+                    ) it14-0.60:0.03,
+                    freeNotCoveredInstances:0.63
+                  ) it18-0.63:0.31
+                ) it37-0.94:0.01,
+                (
+                  m_saveInstances:0.33,
+                  setSaveInstances:0.33
+                ) it3-0.33:0.61
+              ) it38-0.95:0.01,
+              (
+                (
+                  m_smoothPredictions:0.67,
+                  setSmoothing:0.67
+                ) it22-0.67:0.01,
+                getSmoothing:0.67
+              ) it24-0.67:0.28
+            ) it39-0.95:0.01,
+            (
+              (
+                m_useTree:0.60,
+                setUseTree:0.60
+              ) it13-0.60:0.03,
+              getUseTree:0.63
+            ) it17-0.63:0.33
+          ) it40-0.96:0.01,
+          (
+            (
+              (
+                m_regressionTree:0.60,
+                getRegressionTree:0.60
+              ) it15-0.60:0.03,
+              setRegressionTree:0.63
+            ) it19-0.63:0.30,
+            (
+              (
+                (
+                  m_useUnpruned:0.60,
+                  setUnpruned:0.60
+                ) it12-0.60:0.03,
+                getUnpruned:0.63
+              ) it16-0.63:0.17,
+              treeToString:0.81
+            ) it31-0.81:0.12
+          ) it36-0.93:0.04
+        ) it41-0.97:0.01,
+        (
+          (
+            m_minNumInstances:0.50,
+            setMinNumInstances:0.50
+          ) it7-0.50:0.08,
+          getMinNumInstances:0.58
+        ) it11-0.58:0.39
+      ) it42-0.98:0.02,
+      stdDev:1.00
+    ) it43-1.00:0.01,
+    absDev:1.00
+  ) it44-1.00:0.01,
+  (
+    serialVersionUID:1.00,
+    getRevision:1.00
+  ) it45-1.00:0.01
+) it46-1.00:0.01;

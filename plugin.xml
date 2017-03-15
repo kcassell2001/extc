@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Clustering Action Set"
+            visible="true"
+            id="com.example.helloworld.actionSet">
+         <action
+               label="Agglomerate"
+               icon="icons/merge.gif"
+               class="nz.ac.vuw.ecs.kcassell.AgglomerateAction"
+               tooltip="Agglomerate"
+               toolbarPath="sampleGroup"
+               id="nz.ac.vuw.ecs.kcassell.AgglomerateAction">
+         </action>
+         <action
+               label="Graph View"
+               icon="icons/graphView.png"
+               class="nz.ac.vuw.ecs.kcassell.ShowGraphAction"
+               tooltip="Show Graph"
+               toolbarPath="sampleGroup"
+               id="nz.ac.vuw.ecs.kcassell.ShowGraphAction">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

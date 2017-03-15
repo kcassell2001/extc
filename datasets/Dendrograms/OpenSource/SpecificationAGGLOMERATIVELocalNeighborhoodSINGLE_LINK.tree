@@ -1,0 +1,394 @@
+(
+  (
+    (
+      AMBUSH_BONUS_SOURCE:1.00,
+      COLONY_GOODS_PARTY:1.00
+    ) it126-1.00:0.01,
+    (
+      BASE_DEFENCE_SOURCE:1.00,
+      CARGO_PENALTY_SOURCE:1.00
+    ) it125-1.00:0.01
+  ) it129-1.00:0.01,
+  (
+    (
+      (
+        ARTILLERY_PENALTY_SOURCE:1.00,
+        MOVEMENT_PENALTY_SOURCE:1.00
+      ) it122-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  (
+                                                    (
+                                                      (
+                                                        REFNationTypes:0.50,
+                                                        getREFNationTypes:0.50
+                                                      ) it27-0.50:0.17,
+                                                      (
+                                                        europeanNationTypes:0.50,
+                                                        getEuropeanNationTypes:0.50
+                                                      ) it26-0.50:0.17
+                                                    ) it65-0.67:0.01,
+                                                    (
+                                                      (
+                                                        indianNationTypes:0.50,
+                                                        getIndianNationTypes:0.50
+                                                      ) it28-0.50:0.17,
+                                                      (
+                                                        nations:0.50,
+                                                        getNations:0.50
+                                                      ) it29-0.50:0.17
+                                                    ) it66-0.67:0.01
+                                                  ) it74-0.67:0.05,
+                                                  (
+                                                    (
+                                                      goodsTypeList:0.60,
+                                                      getGoodsTypeList:0.60
+                                                    ) it44-0.60:0.01,
+                                                    numberOfGoodsTypes:0.60
+                                                  ) it48-0.60:0.11
+                                                ) it81-0.71:0.01,
+                                                (
+                                                  (
+                                                    unitTypeList:0.60,
+                                                    getUnitTypeList:0.60
+                                                  ) it45-0.60:0.01,
+                                                  numberOfUnitTypes:0.60
+                                                ) it49-0.60:0.11
+                                              ) it83-0.71:0.04,
+                                              (
+                                                (
+                                                  (
+                                                    (
+                                                      (
+                                                        (
+                                                          allTypes:0.63,
+                                                          (
+                                                            (
+                                                              initialized:0.60,
+                                                              loadFragment:0.60
+                                                            ) it40-0.60:0.01,
+                                                            (
+                                                              logger:0.57,
+                                                              load:0.57
+                                                            ) it39-0.57:0.03
+                                                          ) it46-0.60:0.03
+                                                        ) it52-0.63:0.01,
+                                                        (
+                                                          difficultyLevel:0.63,
+                                                          applyDifficultyLevel:0.63
+                                                        ) it51-0.63:0.01
+                                                      ) it53-0.63:0.04,
+                                                      getDifficultyLevel:0.67
+                                                    ) it68-0.67:0.01,
+                                                    readFromXMLImpl:0.67
+                                                  ) it75-0.67:0.01,
+                                                  (
+                                                    getTypesWithAbility:0.33,
+                                                    getUnitTypesWithAbility:0.33
+                                                  ) it9-0.33:0.33
+                                                ) it79-0.67:0.05,
+                                                getDifficultyLevel:0.71
+                                              ) it82-0.71:0.04
+                                            ) it88-0.75:0.01,
+                                            (
+                                              (
+                                                id:0.50,
+                                                getId:0.50
+                                              ) it18-0.50:0.25,
+                                              readerMap:0.75
+                                            ) it85-0.75:0.01
+                                          ) it92-0.75:0.01,
+                                          (
+                                            (
+                                              allOptionGroups:0.75,
+                                              getOptionGroup:0.75
+                                            ) it84-0.75:0.01,
+                                            (
+                                              applyDifficultyLevel:0.50,
+                                              (
+                                                getDifficultyLevels:0.50,
+                                                getDifficultyLevel:0.50
+                                              ) it30-0.50:0.01
+                                            ) it38-0.50:0.25
+                                          ) it89-0.75:0.01
+                                        ) it94-0.75:0.01,
+                                        (
+                                          (
+                                            (
+                                              equipmentTypes:0.33,
+                                              getEquipmentTypeList:0.33
+                                            ) it15-0.33:0.42,
+                                            (
+                                              (
+                                                (
+                                                  specialModifiers:0.67,
+                                                  writeSection:0.67
+                                                ) it63-0.67:0.01,
+                                                getXMLElementTagName:0.67
+                                              ) it73-0.67:0.08,
+                                              (
+                                                tileImprovementTypeList:0.33,
+                                                getTileImprovementTypeList:0.33
+                                              ) it7-0.33:0.42
+                                            ) it86-0.75:0.01
+                                          ) it90-0.75:0.01,
+                                          (
+                                            events:0.33,
+                                            getEvents:0.33
+                                          ) it16-0.33:0.42
+                                        ) it93-0.75:0.01
+                                      ) it95-0.75:0.02,
+                                      applyDifficultyLevel:0.77
+                                    ) it96-0.77:0.01,
+                                    (
+                                      (
+                                        allOptions:0.60,
+                                        hasOption:0.60
+                                      ) it41-0.60:0.07,
+                                      (
+                                        addAbstractOption:0.60,
+                                        addOptionGroup:0.60
+                                      ) it42-0.60:0.07
+                                    ) it67-0.67:0.11
+                                  ) it97-0.78:0.01,
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            getBooleanOption:0.67,
+                                            getRangeOption:0.67
+                                          ) it55-0.67:0.01,
+                                          getBoolean:0.67
+                                        ) it69-0.67:0.01,
+                                        (
+                                          getInteger:0.67,
+                                          getStringOption:0.67
+                                        ) it56-0.67:0.01
+                                      ) it76-0.67:0.08,
+                                      getOption:0.75
+                                    ) it87-0.75:0.01,
+                                    getIntegerOption:0.75
+                                  ) it91-0.75:0.03
+                                ) it98-0.78:0.02,
+                                (
+                                  (
+                                    resourceTypeList:0.50,
+                                    getResourceTypeList:0.50
+                                  ) it22-0.50:0.01,
+                                  numberOfResourceTypes:0.50
+                                ) it34-0.50:0.30
+                              ) it104-0.80:0.01,
+                              (
+                                (
+                                  tileTypeList:0.50,
+                                  getTileTypeList:0.50
+                                ) it23-0.50:0.01,
+                                numberOfTileTypes:0.50
+                              ) it35-0.50:0.30
+                            ) it107-0.80:0.01,
+                            (
+                              (
+                                foundingFathers:0.50,
+                                getFoundingFathers:0.50
+                              ) it24-0.50:0.01,
+                              numberOfFoundingFathers:0.50
+                            ) it36-0.50:0.30
+                          ) it109-0.80:0.01,
+                          (
+                            (
+                              (
+                                (
+                                  getBuildingType:0.67,
+                                  getGoodsType:0.67
+                                ) it57-0.67:0.01,
+                                (
+                                  getType:0.67,
+                                  mangle:0.67
+                                ) it54-0.67:0.01
+                              ) it70-0.67:0.01,
+                              (
+                                getEvent:0.67,
+                                getType:0.67
+                              ) it62-0.67:0.01
+                            ) it77-0.67:0.01,
+                            (
+                              (
+                                (
+                                  getEquipmentType:0.67,
+                                  getNation:0.67
+                                ) it61-0.67:0.01,
+                                (
+                                  getFoundingFather:0.67,
+                                  getNationType:0.67
+                                ) it60-0.67:0.01
+                              ) it72-0.67:0.01,
+                              (
+                                (
+                                  getResourceType:0.67,
+                                  getTileType:0.67
+                                ) it58-0.67:0.01,
+                                (
+                                  getTileImprovementType:0.67,
+                                  getUnitType:0.67
+                                ) it59-0.67:0.01
+                              ) it71-0.67:0.01
+                            ) it78-0.67:0.01
+                          ) it80-0.67:0.13
+                        ) it111-0.80:0.01,
+                        (
+                          (
+                            (
+                              (
+                                REFNations:0.33,
+                                getREFNations:0.33
+                              ) it14-0.33:0.47,
+                              (
+                                indianNations:0.33,
+                                getIndianNations:0.33
+                              ) it13-0.33:0.47
+                            ) it103-0.80:0.01,
+                            (
+                              (
+                                (
+                                  immigrationGoodsTypeList:0.33,
+                                  getImmigrationGoodsTypeList:0.33
+                                ) it6-0.33:0.47,
+                                (
+                                  libertyGoodsTypeList:0.33,
+                                  getLibertyGoodsTypeList:0.33
+                                ) it5-0.33:0.47
+                              ) it100-0.80:0.01,
+                              (
+                                (
+                                  newWorldGoodsTypeList:0.33,
+                                  getNewWorldGoodsTypeList:0.33
+                                ) it4-0.33:0.47,
+                                (
+                                  storableTypes:0.33,
+                                  numberOfStoredGoodsTypes:0.33
+                                ) it3-0.33:0.47
+                              ) it99-0.80:0.01
+                            ) it105-0.80:0.01
+                          ) it108-0.80:0.01,
+                          (
+                            (
+                              (
+                                europeanNations:0.33,
+                                getEuropeanNations:0.33
+                              ) it12-0.33:0.47,
+                              (
+                                unitTypesPurchasedInEurope:0.33,
+                                getUnitTypesPurchasedInEurope:0.33
+                              ) it11-0.33:0.47
+                            ) it102-0.80:0.01,
+                            (
+                              (
+                                experts:0.33,
+                                getExpertForProducing:0.33
+                              ) it8-0.33:0.47,
+                              (
+                                unitTypesTrainedInEurope:0.33,
+                                getUnitTypesTrainedInEurope:0.33
+                              ) it10-0.33:0.47
+                            ) it101-0.80:0.01
+                          ) it106-0.80:0.01
+                        ) it110-0.80:0.01
+                      ) it112-0.80:0.03,
+                      (
+                        (
+                          allModifiers:0.50,
+                          addModifier:0.50
+                        ) it19-0.50:0.01,
+                        getModifiers:0.50
+                      ) it31-0.50:0.33
+                    ) it114-0.83:0.01,
+                    (
+                      (
+                        farmedGoodsTypeList:0.50,
+                        getFarmedGoodsTypeList:0.50
+                      ) it20-0.50:0.01,
+                      numberOfFarmedGoodsTypes:0.50
+                    ) it32-0.50:0.33
+                  ) it115-0.83:0.01,
+                  (
+                    (
+                      foodGoodsTypeList:0.50,
+                      getFoodGoodsTypeList:0.50
+                    ) it21-0.50:0.01,
+                    getGoodsFood:0.50
+                  ) it33-0.50:0.33
+                ) it116-0.83:0.01,
+                (
+                  (
+                    nationTypes:0.50,
+                    getNationTypes:0.50
+                  ) it25-0.50:0.01,
+                  numberOfNationTypes:0.50
+                ) it37-0.50:0.33
+              ) it117-0.83:0.01,
+              (
+                (
+                  (
+                    buildingTypeList:0.60,
+                    getBuildingTypeList:0.60
+                  ) it43-0.60:0.01,
+                  numberOfBuildingTypes:0.60
+                ) it47-0.60:0.01,
+                getBuildingType:0.60
+              ) it50-0.60:0.23
+            ) it118-0.83:0.02,
+            (
+              (
+                allAbilities:0.40,
+                (
+                  addAbility:0.01,
+                  addAbility:0.01
+                ) it1-0.00:0.40
+              ) it17-0.40:0.27,
+              (
+                getAbilities:0.33,
+                getTypesProviding:0.33
+              ) it2-0.33:0.33
+            ) it64-0.67:0.19
+          ) it119-0.86:0.02,
+          (
+            clean:0.83,
+            toXMLImpl:0.83
+          ) it113-0.83:0.05
+        ) it120-0.88:0.01,
+        getType:0.89
+      ) it121-0.89:0.11
+    ) it127-1.00:0.01,
+    (
+      (
+        ATTACK_BONUS_SOURCE:1.00,
+        FORTIFICATION_BONUS_SOURCE:1.00
+      ) it123-1.00:0.01,
+      (
+        BASE_OFFENCE_SOURCE:1.00,
+        INDIAN_RAID_BONUS_SOURCE:1.00
+      ) it124-1.00:0.01
+    ) it128-1.00:0.01
+  ) it130-1.00:0.01
+) it131-1.00:0.01;

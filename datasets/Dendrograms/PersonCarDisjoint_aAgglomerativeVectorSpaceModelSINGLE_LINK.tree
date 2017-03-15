@@ -1,0 +1,64 @@
+(
+  (
+    (
+      (
+        (
+          a:1.00,
+          a_a:1.00
+        ) it1-1.00:0.01,
+        (
+          a_a_a:1.00,
+          a_a_a_a:1.00
+        ) it2-1.00:0.01
+      ) it12-1.00:0.01,
+      (
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+      ) it11-1.00:0.01
+    ) it17-1.00:0.01,
+    (
+      (
+        (
+          a_a_a_a_a:1.00,
+          a_a_a_a_a_a:1.00
+        ) it3-1.00:0.01,
+        (
+          a_a_a_a_a_a_a:1.00,
+          a_a_a_a_a_a_a_a:1.00
+        ) it4-1.00:0.01
+      ) it13-1.00:0.01,
+      (
+        (
+          a_a_a_a_a_a_a_a_a_a:1.00,
+          a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+        ) it5-1.00:0.01,
+        (
+          a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+          a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+        ) it6-1.00:0.01
+      ) it14-1.00:0.01
+    ) it18-1.00:0.01
+  ) it20-1.00:0.01,
+  (
+    (
+      (
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+      ) it7-1.00:0.01,
+      (
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+      ) it8-1.00:0.01
+    ) it15-1.00:0.01,
+    (
+      (
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+      ) it9-1.00:0.01,
+      (
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00,
+        a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a:1.00
+      ) it10-1.00:0.01
+    ) it16-1.00:0.01
+  ) it19-1.00:0.01
+) it21-1.00:0.01;

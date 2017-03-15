@@ -1,0 +1,28 @@
+(
+  (
+    (
+      (
+        getDatabaseValues:0.50,
+        saveDatabaseValues:0.50
+      ) it1-0.50:0.30,
+      (
+        (
+          readFromDB:0.60,
+          readSerializableFromFile:0.60
+        ) it3-0.60:0.07,
+        (
+          saveSerializableToFile:0.60,
+          saveToDB:0.60
+        ) it4-0.60:0.07
+      ) it5-0.67:0.13
+    ) it6-0.80:0.20,
+    (
+      handleSQLException:0.50,
+      handleSerializationException:0.50
+    ) it2-0.50:0.50
+  ) it8-1.00:0.01,
+  (
+    loadDriver:1.00,
+    releaseResources:1.00
+  ) it7-1.00:0.01
+) it9-1.00:0.01;

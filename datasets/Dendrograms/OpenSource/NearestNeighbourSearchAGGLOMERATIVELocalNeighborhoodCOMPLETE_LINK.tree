@@ -1,0 +1,82 @@
+(
+  (
+    (
+      (
+        (
+          (
+            m_DistanceFunction:0.50,
+            getDistanceFunction:0.50
+          ) it3-0.50:0.25,
+          getOptions:0.75
+        ) it10-0.75:0.25,
+        (
+          (
+            m_Instances:0.33,
+            setInstances:0.33
+          ) it2-0.33:0.33,
+          getInstances:0.67
+        ) it8-0.67:0.33
+      ) it19-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_Stats:0.60,
+              getPerformanceStats:0.60
+            ) it6-0.60:0.07,
+            (
+              enumerateMeasures:0.67,
+              getMeasure:0.67
+            ) it7-0.67:0.01
+          ) it9-0.67:0.13,
+          setMeasurePerformance:0.80
+        ) it11-0.80:0.20,
+        (
+          m_kNN:1.00,
+          globalInfo:1.00
+        ) it12-1.00:0.01
+      ) it20-1.00:0.01
+    ) it24-1.00:0.01,
+    (
+      (
+        (
+          m_MeasurePerformance:0.50,
+          getMeasurePerformance:0.50
+        ) it5-0.50:0.50,
+        (
+          setDistanceFunction:0.50,
+          setOptions:0.50
+        ) it4-0.50:0.50
+      ) it18-1.00:0.01,
+      (
+        combSort11:1.00,
+        (
+          partition:0.01,
+          quickSort:0.01
+        ) it1-0.00:1.00
+      ) it17-1.00:0.01
+    ) it23-1.00:0.01
+  ) it26-1.00:0.01,
+  (
+    (
+      (
+        addInstanceInfo:1.00,
+        update:1.00
+      ) it16-1.00:0.01,
+      (
+        getDistances:1.00,
+        kNearestNeighbours:1.00
+      ) it15-1.00:0.01
+    ) it22-1.00:0.01,
+    (
+      (
+        distanceFunctionTipText:1.00,
+        listOptions:1.00
+      ) it13-1.00:0.01,
+      (
+        measurePerformanceTipText:1.00,
+        nearestNeighbour:1.00
+      ) it14-1.00:0.01
+    ) it21-1.00:0.01
+  ) it25-1.00:0.01
+) it27-1.00:0.01;

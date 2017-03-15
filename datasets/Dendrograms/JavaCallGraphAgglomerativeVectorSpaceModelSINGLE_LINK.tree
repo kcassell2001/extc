@@ -1,0 +1,172 @@
+(
+  (
+    condenseImposed:0.99,
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  condenseObjectsMethods:0.71,
+                  includeObjectMethods:0.71
+                ) it45-0.71:0.13,
+                (
+                  (
+                    (
+                      (
+                        supertypes:0.33,
+                        getSupertypes:0.33
+                      ) it21-0.33:0.30,
+                      (
+                        createNodesForAttributes:0.32,
+                        createNodesForMethods:0.32
+                      ) it20-0.32:0.30
+                    ) it41-0.62:0.02,
+                    getAltGraphUsingParams:0.64
+                  ) it42-0.64:0.09,
+                  (
+                    createLinksToAttributes:0.47,
+                    (
+                      (
+                        createLinksToMethods:0.26,
+                        getRequiredMethods:0.26
+                      ) it15-0.26:0.18,
+                      processCallData:0.43
+                    ) it32-0.43:0.03
+                  ) it34-0.47:0.26
+                ) it46-0.73:0.11
+              ) it49-0.84:0.02,
+              (
+                (
+                  (
+                    defaultEdgeType:0.12,
+                    getDefaultEdgeType:0.12
+                  ) it5-0.12:0.03,
+                  setDefaultEdgeType:0.15
+                ) it9-0.15:0.55,
+                getParameters:0.70
+              ) it44-0.70:0.16
+            ) it51-0.87:0.04,
+            (
+              (
+                (
+                  (
+                    (
+                      edgeFactory:0.23,
+                      getEdgeFactory:0.23
+                    ) it14-0.23:0.31,
+                    (
+                      (
+                        (
+                          (
+                            (
+                              jungGraph:0.12,
+                              getJungGraph:0.12
+                            ) it4-0.12:0.10,
+                            (
+                              findLink:0.17,
+                              getLinks:0.17
+                            ) it11-0.17:0.04
+                          ) it13-0.21:0.12,
+                          (
+                            createLink:0.29,
+                            createLink:0.29
+                          ) it18-0.29:0.05
+                        ) it25-0.34:0.05,
+                        getEndpoints:0.39
+                      ) it28-0.39:0.09,
+                      (
+                        toDirectedGraph:0.13,
+                        toUndirectedGraph:0.13
+                      ) it6-0.13:0.34
+                    ) it35-0.47:0.06
+                  ) it37-0.54:0.01,
+                  getEdges:0.55
+                ) it39-0.55:0.10,
+                (
+                  (
+                    (
+                      (
+                        (
+                          labelsToVertices:0.17,
+                          getLabelsToVertices:0.17
+                        ) it10-0.17:0.16,
+                        vertexLabeler:0.33
+                      ) it22-0.33:0.16,
+                      (
+                        (
+                          (
+                            vertexFactory:0.15,
+                            createRawNode:0.15
+                          ) it7-0.15:0.13,
+                          getVertexFactory:0.27
+                        ) it17-0.27:0.17,
+                        (
+                          (
+                            (
+                              (
+                                addNode:0.35,
+                                (
+                                  createNode:0.09,
+                                  createNode:0.09
+                                ) it1-0.09:0.26
+                              ) it27-0.35:0.05,
+                              (
+                                getNeighbors:0.27,
+                                (
+                                  getNodes:0.15,
+                                  removeObjectsMethods:0.15
+                                ) it8-0.15:0.12
+                              ) it16-0.27:0.13
+                            ) it29-0.40:0.01,
+                            getNode:0.41
+                          ) it30-0.41:0.01,
+                          setNodeTypes:0.43
+                        ) it31-0.43:0.02
+                      ) it33-0.45:0.04
+                    ) it36-0.49:0.06,
+                    removeFromGraph:0.55
+                  ) it38-0.55:0.07,
+                  (
+                    getEdgeLabel:0.34,
+                    getVertexLabel:0.34
+                  ) it26-0.34:0.28
+                ) it40-0.62:0.03
+              ) it43-0.65:0.20,
+              getGraphId:0.85
+            ) it50-0.85:0.06
+          ) it52-0.91:0.07,
+          (
+            (
+              handle:0.11,
+              setHandle:0.11
+            ) it3-0.11:0.22,
+            getHandle:0.33
+          ) it24-0.33:0.64
+        ) it53-0.97:0.01,
+        (
+          (
+            name:0.11,
+            setName:0.11
+          ) it2-0.11:0.22,
+          getName:0.33
+        ) it23-0.33:0.65
+      ) it54-0.98:0.01,
+      (
+        (
+          includeConstructors:0.83,
+          includeLoggers:0.83
+        ) it47-0.83:0.01,
+        includeStatics:0.83
+      ) it48-0.83:0.16
+    ) it55-0.99:0.01
+  ) it56-0.99:0.01,
+  (
+    primaryScore:0.31,
+    (
+      getPrimaryScore:0.18,
+      setPrimaryScore:0.18
+    ) it12-0.18:0.14
+  ) it19-0.31:0.68
+) it57-0.99:0.01;

@@ -1,0 +1,76 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  firstName:0.60,
+                  lastName:0.60
+                ) it8-0.60:0.10,
+                id:0.70
+              ) it14-0.70:0.01,
+              (
+                getId:0.50,
+                setId:0.50
+              ) it4-0.50:0.21
+            ) it16-0.71:0.04,
+            (
+              getFirstName:0.50,
+              setFirstName:0.50
+            ) it2-0.50:0.25
+          ) it18-0.75:0.01,
+          (
+            getLastName:0.50,
+            setLastName:0.50
+          ) it3-0.50:0.25
+        ) it20-0.75:0.01,
+        (
+          (
+            (
+              equals:0.25,
+              hashCode:0.25
+            ) it1-0.25:0.38,
+            (
+              getPersonInfo:0.60,
+              getPersonName:0.60
+            ) it10-0.60:0.03
+          ) it12-0.63:0.01,
+          (
+            getCarDescription:0.60,
+            getCarInfo:0.60
+          ) it11-0.60:0.03
+        ) it13-0.63:0.13
+      ) it22-0.75:0.01,
+      (
+        (
+          (
+            (
+              (
+                make:0.60,
+                model:0.60
+              ) it9-0.60:0.10,
+              vin:0.70
+            ) it15-0.70:0.01,
+            (
+              getVin:0.50,
+              setVin:0.50
+            ) it7-0.50:0.21
+          ) it17-0.71:0.04,
+          (
+            getMake:0.50,
+            setMake:0.50
+          ) it5-0.50:0.25
+        ) it19-0.75:0.01,
+        (
+          getModel:0.50,
+          setModel:0.50
+        ) it6-0.50:0.25
+      ) it21-0.75:0.01
+    ) it23-0.75:0.08,
+    toString:0.83
+  ) it24-0.83:0.02,
+  logger:0.86
+) it25-0.86:0.14;

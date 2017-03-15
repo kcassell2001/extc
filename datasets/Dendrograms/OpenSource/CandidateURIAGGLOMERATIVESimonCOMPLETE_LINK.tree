@@ -1,0 +1,202 @@
+(
+  (
+    (
+      (
+        (
+          DONT_SCHEDULE:1.00,
+          NORMAL:1.00
+        ) it43-1.00:0.01,
+        (
+          fromString:1.00,
+          readUuri:1.00
+        ) it44-1.00:0.01
+      ) it56-1.00:0.01,
+      (
+        (
+          HIGHEST:1.00,
+          serialVersionUID:1.00
+        ) it42-1.00:0.01,
+        (
+          createCandidateURI:0.83,
+          (
+            createSeedCandidateURI:0.75,
+            setIsSeed:0.75
+          ) it34-0.75:0.08
+        ) it41-0.83:0.17
+      ) it55-1.00:0.01
+    ) it62-1.00:0.01,
+    (
+      (
+        (
+          (
+            uuri:0.50,
+            getUURI:0.50
+          ) it10-0.50:0.33,
+          (
+            readObject:0.50,
+            writeObject:0.50
+          ) it11-0.50:0.33
+        ) it40-0.83:0.17,
+        (
+          (
+            (
+              (
+                (
+                  containsKey:0.67,
+                  remove:0.67
+                ) it21-0.67:0.01,
+                (
+                  keys:0.67,
+                  (
+                    putObject:0.67,
+                    putString:0.67
+                  ) it18-0.67:0.01
+                ) it29-0.67:0.01
+              ) it32-0.67:0.01,
+              (
+                (
+                  getInt:0.67,
+                  putInt:0.67
+                ) it20-0.67:0.01,
+                (
+                  getLong:0.67,
+                  putLong:0.67
+                ) it19-0.67:0.01
+              ) it30-0.67:0.01
+            ) it33-0.67:0.08,
+            (
+              getObject:0.33,
+              inheritFrom:0.33
+            ) it8-0.33:0.42
+          ) it35-0.75:0.05,
+          (
+            getAList:0.33,
+            getString:0.33
+          ) it9-0.33:0.47
+        ) it39-0.80:0.20
+      ) it54-1.00:0.01,
+      (
+        (
+          (
+            getURIString:0.67,
+            sameDomainAs:0.67
+          ) it17-0.67:0.13,
+          singleLineReportTo:0.80
+        ) it38-0.80:0.20,
+        (
+          makeHeritable:0.80,
+          makeNonHeritable:0.80
+        ) it37-0.80:0.20
+      ) it53-1.00:0.01
+    ) it61-1.00:0.01
+  ) it65-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            HIGH:0.33,
+            needsImmediateScheduling:0.33
+          ) it5-0.33:0.67,
+          (
+            MEDIUM:0.33,
+            needsSoonScheduling:0.33
+          ) it6-0.33:0.67
+        ) it48-1.00:0.01,
+        (
+          (
+            cachedCandidateURIString:0.01,
+            getCandidateURIString:0.01
+          ) it2-0.00:1.00,
+          (
+            isSeed:0.33,
+            isSeed:0.33
+          ) it3-0.33:0.67
+        ) it47-1.00:0.01
+      ) it58-1.00:0.01,
+      (
+        (
+          (
+            viaContext:0.01,
+            getViaContext:0.01
+          ) it1-0.00:1.00,
+          getReports:1.00
+        ) it46-1.00:0.01,
+        (
+          singleLineLegend:1.00,
+          singleLineReport:1.00
+        ) it45-1.00:0.01
+      ) it57-1.00:0.01
+    ) it63-1.00:0.01,
+    (
+      (
+        (
+          (
+            (
+              alist:0.67,
+              setAList:0.67
+            ) it15-0.67:0.01,
+            clearAList:0.67
+          ) it27-0.67:0.33,
+          (
+            (
+              via:0.67,
+              getVia:0.67
+            ) it14-0.67:0.01,
+            (
+              flattenVia:0.67,
+              setVia:0.67
+            ) it16-0.67:0.01
+          ) it28-0.67:0.33
+        ) it51-1.00:0.01,
+        (
+          (
+            (
+              pathFromSeed:0.67,
+              getPathFromSeed:0.67
+            ) it13-0.67:0.01,
+            (
+              isLocation:0.67,
+              setPathFromSeed:0.67
+            ) it22-0.67:0.01
+          ) it31-0.67:0.33,
+          (
+            createCandidateURI:0.80,
+            getTransHops:0.80
+          ) it36-0.80:0.20
+        ) it52-1.00:0.01
+      ) it60-1.00:0.01,
+      (
+        (
+          (
+            (
+              classKey:0.33,
+              getClassKey:0.33
+            ) it7-0.33:0.33,
+            setClassKey:0.67
+          ) it25-0.67:0.33,
+          (
+            (
+              schedulingDirective:0.60,
+              getSchedulingDirective:0.60
+            ) it12-0.60:0.07,
+            setSchedulingDirective:0.67
+          ) it26-0.67:0.33
+        ) it50-1.00:0.01,
+        (
+          (
+            (
+              forceRevisit:0.33,
+              forceFetch:0.33
+            ) it4-0.33:0.33,
+            setForceFetch:0.67
+          ) it24-0.67:0.33,
+          (
+            reportTo:0.67,
+            reportTo:0.67
+          ) it23-0.67:0.33
+        ) it49-1.00:0.01
+      ) it59-1.00:0.01
+    ) it64-1.00:0.01
+  ) it66-1.00:0.01
+) it67-1.00:0.01;

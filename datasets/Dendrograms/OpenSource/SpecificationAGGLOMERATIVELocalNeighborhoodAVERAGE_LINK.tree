@@ -1,0 +1,394 @@
+(
+  (
+    (
+      AMBUSH_BONUS_SOURCE:1.00,
+      COLONY_GOODS_PARTY:1.00
+    ) it126-1.00:0.01,
+    (
+      BASE_DEFENCE_SOURCE:1.00,
+      CARGO_PENALTY_SOURCE:1.00
+    ) it125-1.00:0.01
+  ) it129-1.00:0.01,
+  (
+    (
+      (
+        ARTILLERY_PENALTY_SOURCE:1.00,
+        MOVEMENT_PENALTY_SOURCE:1.00
+      ) it122-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              REFNationTypes:0.50,
+                              getREFNationTypes:0.50
+                            ) it27-0.50:0.42,
+                            (
+                              europeanNationTypes:0.50,
+                              getEuropeanNationTypes:0.50
+                            ) it26-0.50:0.42
+                          ) it87-0.92:0.01,
+                          (
+                            (
+                              indianNationTypes:0.50,
+                              getIndianNationTypes:0.50
+                            ) it28-0.50:0.42,
+                            (
+                              nations:0.50,
+                              getNations:0.50
+                            ) it29-0.50:0.42
+                          ) it88-0.92:0.01
+                        ) it89-0.92:0.02,
+                        (
+                          (
+                            (
+                              equipmentTypes:0.33,
+                              getEquipmentTypeList:0.33
+                            ) it15-0.33:0.57,
+                            (
+                              (
+                                (
+                                  specialModifiers:0.67,
+                                  writeSection:0.67
+                                ) it60-0.67:0.01,
+                                getXMLElementTagName:0.67
+                              ) it66-0.67:0.21,
+                              (
+                                tileImprovementTypeList:0.33,
+                                getTileImprovementTypeList:0.33
+                              ) it7-0.33:0.54
+                            ) it84-0.88:0.03
+                          ) it86-0.91:0.01,
+                          (
+                            events:0.33,
+                            getEvents:0.33
+                          ) it16-0.33:0.58
+                        ) it90-0.92:0.02
+                      ) it93-0.94:0.02,
+                      (
+                        (
+                          (
+                            goodsTypeList:0.60,
+                            getGoodsTypeList:0.60
+                          ) it43-0.60:0.03,
+                          numberOfGoodsTypes:0.63
+                        ) it47-0.63:0.31,
+                        (
+                          clean:0.83,
+                          toXMLImpl:0.83
+                        ) it80-0.83:0.12
+                      ) it96-0.95:0.01
+                    ) it106-0.96:0.01,
+                    (
+                      (
+                        unitTypeList:0.60,
+                        getUnitTypeList:0.60
+                      ) it44-0.60:0.03,
+                      numberOfUnitTypes:0.63
+                    ) it48-0.63:0.33
+                  ) it107-0.96:0.01,
+                  (
+                    (
+                      resourceTypeList:0.50,
+                      getResourceTypeList:0.50
+                    ) it22-0.50:0.08,
+                    numberOfResourceTypes:0.58
+                  ) it35-0.58:0.39
+                ) it109-0.97:0.01,
+                (
+                  (
+                    tileTypeList:0.50,
+                    getTileTypeList:0.50
+                  ) it23-0.50:0.08,
+                  numberOfTileTypes:0.58
+                ) it36-0.58:0.39
+              ) it111-0.97:0.01,
+              (
+                (
+                  foundingFathers:0.50,
+                  getFoundingFathers:0.50
+                ) it24-0.50:0.08,
+                numberOfFoundingFathers:0.58
+              ) it37-0.58:0.39
+            ) it113-0.97:0.01,
+            (
+              (
+                (
+                  buildingTypeList:0.60,
+                  getBuildingTypeList:0.60
+                ) it42-0.60:0.03,
+                numberOfBuildingTypes:0.63
+              ) it46-0.63:0.01,
+              getBuildingType:0.64
+            ) it49-0.64:0.34
+          ) it117-0.98:0.01,
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            REFNations:0.33,
+                            getREFNations:0.33
+                          ) it14-0.33:0.62,
+                          (
+                            indianNations:0.33,
+                            getIndianNations:0.33
+                          ) it13-0.33:0.62
+                        ) it101-0.95:0.01,
+                        (
+                          (
+                            (
+                              immigrationGoodsTypeList:0.33,
+                              getImmigrationGoodsTypeList:0.33
+                            ) it6-0.33:0.62,
+                            (
+                              libertyGoodsTypeList:0.33,
+                              getLibertyGoodsTypeList:0.33
+                            ) it5-0.33:0.62
+                          ) it98-0.95:0.01,
+                          (
+                            (
+                              newWorldGoodsTypeList:0.33,
+                              getNewWorldGoodsTypeList:0.33
+                            ) it4-0.33:0.62,
+                            (
+                              storableTypes:0.33,
+                              numberOfStoredGoodsTypes:0.33
+                            ) it3-0.33:0.62
+                          ) it97-0.95:0.01
+                        ) it102-0.95:0.01
+                      ) it104-0.95:0.01,
+                      (
+                        (
+                          (
+                            europeanNations:0.33,
+                            getEuropeanNations:0.33
+                          ) it12-0.33:0.62,
+                          (
+                            unitTypesPurchasedInEurope:0.33,
+                            getUnitTypesPurchasedInEurope:0.33
+                          ) it11-0.33:0.62
+                        ) it100-0.95:0.01,
+                        (
+                          (
+                            experts:0.33,
+                            getExpertForProducing:0.33
+                          ) it8-0.33:0.62,
+                          (
+                            unitTypesTrainedInEurope:0.33,
+                            getUnitTypesTrainedInEurope:0.33
+                          ) it10-0.33:0.62
+                        ) it99-0.95:0.01
+                      ) it103-0.95:0.01
+                    ) it105-0.95:0.02,
+                    (
+                      (
+                        allModifiers:0.50,
+                        addModifier:0.50
+                      ) it19-0.50:0.08,
+                      getModifiers:0.58
+                    ) it32-0.58:0.39
+                  ) it110-0.97:0.01,
+                  (
+                    (
+                      farmedGoodsTypeList:0.50,
+                      getFarmedGoodsTypeList:0.50
+                    ) it20-0.50:0.08,
+                    numberOfFarmedGoodsTypes:0.58
+                  ) it33-0.58:0.39
+                ) it112-0.97:0.01,
+                (
+                  (
+                    foodGoodsTypeList:0.50,
+                    getFoodGoodsTypeList:0.50
+                  ) it21-0.50:0.08,
+                  getGoodsFood:0.58
+                ) it34-0.58:0.39
+              ) it114-0.97:0.01,
+              (
+                (
+                  nationTypes:0.50,
+                  getNationTypes:0.50
+                ) it25-0.50:0.08,
+                numberOfNationTypes:0.58
+              ) it38-0.58:0.39
+            ) it115-0.98:0.01,
+            (
+              (
+                allAbilities:0.40,
+                (
+                  addAbility:0.01,
+                  addAbility:0.01
+                ) it1-0.00:0.40
+              ) it17-0.40:0.45,
+              (
+                getAbilities:0.33,
+                getTypesProviding:0.33
+              ) it2-0.33:0.52
+            ) it82-0.85:0.14
+          ) it118-0.99:0.01
+        ) it119-0.99:0.01,
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      allOptionGroups:0.75,
+                      getOptionGroup:0.75
+                    ) it72-0.75:0.03,
+                    getDifficultyLevel:0.78
+                  ) it76-0.78:0.01,
+                  getDifficultyLevel:0.78
+                ) it77-0.78:0.14,
+                (
+                  applyDifficultyLevel:0.65,
+                  (
+                    getDifficultyLevels:0.50,
+                    getDifficultyLevel:0.50
+                  ) it30-0.50:0.15
+                ) it50-0.65:0.27
+              ) it91-0.92:0.05,
+              (
+                (
+                  (
+                    (
+                      difficultyLevel:0.63,
+                      applyDifficultyLevel:0.63
+                    ) it45-0.63:0.20,
+                    applyDifficultyLevel:0.83
+                  ) it79-0.83:0.04,
+                  (
+                    (
+                      (
+                        initialized:0.60,
+                        loadFragment:0.60
+                      ) it39-0.60:0.14,
+                      (
+                        (
+                          logger:0.57,
+                          load:0.57
+                        ) it31-0.57:0.13,
+                        readFromXMLImpl:0.70
+                      ) it70-0.70:0.05
+                    ) it71-0.74:0.10,
+                    readerMap:0.84
+                  ) it81-0.84:0.03
+                ) it83-0.87:0.05,
+                (
+                  id:0.50,
+                  getId:0.50
+                ) it18-0.50:0.42
+              ) it92-0.92:0.05
+            ) it108-0.97:0.01,
+            (
+              (
+                allTypes:0.75,
+                (
+                  getTypesWithAbility:0.33,
+                  getUnitTypesWithAbility:0.33
+                ) it9-0.33:0.42
+              ) it73-0.75:0.19,
+              (
+                (
+                  (
+                    (
+                      (
+                        getBuildingType:0.67,
+                        getGoodsType:0.67
+                      ) it54-0.67:0.01,
+                      (
+                        getType:0.67,
+                        mangle:0.67
+                      ) it51-0.67:0.01
+                    ) it63-0.67:0.01,
+                    (
+                      getEvent:0.67,
+                      getType:0.67
+                    ) it59-0.67:0.01
+                  ) it67-0.67:0.01,
+                  (
+                    (
+                      (
+                        getEquipmentType:0.67,
+                        getNation:0.67
+                      ) it58-0.67:0.01,
+                      (
+                        getFoundingFather:0.67,
+                        getNationType:0.67
+                      ) it57-0.67:0.01
+                    ) it65-0.67:0.01,
+                    (
+                      (
+                        getResourceType:0.67,
+                        getTileType:0.67
+                      ) it55-0.67:0.01,
+                      (
+                        getTileImprovementType:0.67,
+                        getUnitType:0.67
+                      ) it56-0.67:0.01
+                    ) it64-0.67:0.01
+                  ) it68-0.67:0.01
+                ) it69-0.67:0.22,
+                getType:0.89
+              ) it85-0.89:0.06
+            ) it94-0.94:0.03
+          ) it116-0.98:0.01,
+          (
+            (
+              (
+                allOptions:0.60,
+                hasOption:0.60
+              ) it40-0.60:0.22,
+              (
+                addAbstractOption:0.60,
+                addOptionGroup:0.60
+              ) it41-0.60:0.22
+            ) it78-0.82:0.12,
+            (
+              (
+                (
+                  (
+                    (
+                      getBooleanOption:0.67,
+                      getRangeOption:0.67
+                    ) it52-0.67:0.01,
+                    getBoolean:0.67
+                  ) it61-0.67:0.01,
+                  (
+                    getInteger:0.67,
+                    getStringOption:0.67
+                  ) it53-0.67:0.01
+                ) it62-0.67:0.08,
+                getOption:0.75
+              ) it74-0.75:0.01,
+              getIntegerOption:0.75
+            ) it75-0.75:0.19
+          ) it95-0.95:0.05
+        ) it120-0.99:0.01
+      ) it121-0.99:0.01
+    ) it127-1.00:0.01,
+    (
+      (
+        ATTACK_BONUS_SOURCE:1.00,
+        FORTIFICATION_BONUS_SOURCE:1.00
+      ) it123-1.00:0.01,
+      (
+        BASE_OFFENCE_SOURCE:1.00,
+        INDIAN_RAID_BONUS_SOURCE:1.00
+      ) it124-1.00:0.01
+    ) it128-1.00:0.01
+  ) it130-1.00:0.01
+) it131-1.00:0.01;

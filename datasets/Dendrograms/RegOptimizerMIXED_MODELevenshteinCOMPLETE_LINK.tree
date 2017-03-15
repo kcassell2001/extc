@@ -1,0 +1,63 @@
+(
+  (
+    buildClassifier:0.18,
+    (
+      (
+        m_C:0.01,
+        m_SVM:0.01,
+        m_alpha:0.01,
+        m_alphaStar:0.01,
+        m_b:0.01,
+        m_bModelBuilt:0.01,
+        m_classIndex:0.01,
+        m_data:0.01,
+        m_kernel:0.01,
+        m_nCacheHits:0.01,
+        m_nEvals:0.01,
+        m_nInstances:0.01,
+        m_random:0.01,
+        m_supportVectors:0.01,
+        m_target:0.01,
+        m_weights:0.01,
+        SVMOutput:0.01,
+        SVMOutput:0.01,
+        getCacheHits:0.01,
+        getKernelEvaluations:0.01,
+        getScore:0.01,
+        init:0.01,
+        modelBuilt:0.01,
+        setSMOReg:0.01,
+        wrapUp:0.01
+      ) m_alpha+:0.10,
+      (
+        m_sparseIndices:0.05,
+        m_sparseWeights:0.05
+      ) it1-0.05:0.05
+    ) it5-0.10:0.08
+  ) it8-0.18:0.01,
+  (
+    epsilonParameterTipText:0.14,
+    (
+      serialVersionUID:0.12,
+      (
+        (
+          getRevision:0.08,
+          (
+            listOptions:0.08,
+            seedTipText:0.08
+          ) it2-0.08:0.01
+        ) it3-0.08:0.01,
+        (
+          m_epsilon:0.01,
+          m_nSeed:0.01,
+          getEpsilonParameter:0.01,
+          getOptions:0.01,
+          getSeed:0.01,
+          setEpsilonParameter:0.01,
+          setOptions:0.01,
+          setSeed:0.01
+        ) setOptions+:0.09
+      ) it4-0.09:0.03
+    ) it6-0.12:0.02
+  ) it7-0.14:0.01
+) final2:1.00;

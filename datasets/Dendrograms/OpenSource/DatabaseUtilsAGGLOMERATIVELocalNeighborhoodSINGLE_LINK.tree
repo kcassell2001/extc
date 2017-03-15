@@ -1,0 +1,244 @@
+(
+  (
+    (
+      (
+        (
+          BOOL:1.00,
+          BYTE:1.00
+        ) it66-1.00:0.01,
+        (
+          DRIVERS_ERRORS:1.00,
+          serialVersionUID:1.00
+        ) it65-1.00:0.01
+      ) it74-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          DOUBLE:0.67,
+                          STRING:0.67
+                        ) it31-0.67:0.01,
+                        (
+                          FLOAT:0.67,
+                          typeName:0.67
+                        ) it33-0.67:0.01
+                      ) it40-0.67:0.11,
+                      (
+                        (
+                          (
+                            (
+                              EXP_INDEX_TABLE:0.67,
+                              experimentIndexExists:0.67
+                            ) it38-0.67:0.05,
+                            (
+                              EXP_RESULT_COL:0.40,
+                              (
+                                EXP_SETUP_COL:0.40,
+                                EXP_TYPE_COL:0.40
+                              ) it4-0.40:0.01
+                            ) it5-0.40:0.31
+                          ) it47-0.71:0.04,
+                          (
+                            (
+                              (
+                                m_checkForLowerCaseNames:0.50,
+                                m_checkForUpperCaseNames:0.50
+                              ) it7-0.50:0.21,
+                              attributeCaseFix:0.71
+                            ) it44-0.71:0.04,
+                            tableExists:0.75
+                          ) it52-0.75:0.01
+                        ) it55-0.75:0.01,
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                m_Connection:0.27,
+                                                isConnected:0.27
+                                              ) it1-0.27:0.06,
+                                              (
+                                                getSupportedCursorScrollType:0.29,
+                                                isCursorScrollable:0.29
+                                              ) it2-0.29:0.05
+                                            ) it3-0.33:0.11,
+                                            execute:0.44
+                                          ) it6-0.44:0.10,
+                                          update:0.55
+                                        ) it19-0.55:0.01,
+                                        select:0.55
+                                      ) it20-0.55:0.08,
+                                      isCursorScrollSensitive:0.63
+                                    ) it27-0.63:0.01,
+                                    (
+                                      (
+                                        m_PreparedStatement:0.60,
+                                        getResultSet:0.60
+                                      ) it23-0.60:0.03,
+                                      close:0.63
+                                    ) it28-0.63:0.01
+                                  ) it29-0.63:0.01,
+                                  close:0.64
+                                ) it30-0.64:0.08,
+                                m_Debug:0.71
+                              ) it45-0.71:0.02,
+                              (
+                                (
+                                  m_createIndex:0.67,
+                                  m_doubleType:0.67
+                                ) it32-0.67:0.05,
+                                (
+                                  (
+                                    (
+                                      createExperimentIndex:0.67,
+                                      (
+                                        createExperimentIndexEntry:0.57,
+                                        getResultsTableName:0.57
+                                      ) it21-0.57:0.10
+                                    ) it39-0.67:0.03,
+                                    createResultsTable:0.69
+                                  ) it41-0.69:0.01,
+                                  (
+                                    putResultInTable:0.67,
+                                    safeDoubleToString:0.67
+                                  ) it37-0.67:0.03
+                                ) it43-0.70:0.01
+                              ) it48-0.71:0.02
+                            ) it49-0.73:0.02,
+                            (
+                              getResultFromTable:0.70,
+                              (
+                                isKeyInTable:0.67,
+                                processKeyString:0.67
+                              ) it36-0.67:0.03
+                            ) it42-0.70:0.05
+                          ) it53-0.75:0.01,
+                          (
+                            m_intType:0.75,
+                            m_stringType:0.75
+                          ) it50-0.75:0.01
+                        ) it56-0.75:0.01
+                      ) it57-0.75:0.03
+                    ) it58-0.78:0.01,
+                    (
+                      (
+                        DRIVERS:0.75,
+                        m_setAutoCommit:0.75
+                      ) it51-0.75:0.01,
+                      (
+                        (
+                          (
+                            m_DatabaseURL:0.60,
+                            getDatabaseURL:0.60
+                          ) it22-0.60:0.01,
+                          setDatabaseURL:0.60
+                        ) it25-0.60:0.11,
+                        (
+                          connectToDatabase:0.67,
+                          disconnectFromDatabase:0.67
+                        ) it35-0.67:0.05
+                      ) it46-0.71:0.04
+                    ) it54-0.75:0.03
+                  ) it59-0.78:0.02,
+                  EXP_RESULT_PREFIX:0.80
+                ) it60-0.80:0.01,
+                (
+                  PROPERTIES:0.50,
+                  (
+                    PROPERTY_FILE:0.50,
+                    translateDBColumnType:0.50
+                  ) it8-0.50:0.01
+                ) it14-0.50:0.30
+              ) it61-0.80:0.01,
+              (
+                (
+                  m_userName:0.50,
+                  setUsername:0.50
+                ) it9-0.50:0.01,
+                getUsername:0.50
+              ) it15-0.50:0.30
+            ) it62-0.80:0.01,
+            (
+              (
+                m_password:0.50,
+                setPassword:0.50
+              ) it10-0.50:0.01,
+              getPassword:0.50
+            ) it16-0.50:0.30
+          ) it63-0.80:0.01,
+          (
+            getDebug:0.67,
+            setDebug:0.67
+          ) it34-0.67:0.13
+        ) it64-0.80:0.20,
+        (
+          (
+            (
+              (
+                m_Keywords:0.50,
+                setKeywords:0.50
+              ) it11-0.50:0.01,
+              getKeywords:0.50
+            ) it17-0.50:0.10,
+            (
+              isKeyword:0.50,
+              maskKeyword:0.50
+            ) it13-0.50:0.10
+          ) it24-0.60:0.01,
+          (
+            (
+              m_KeywordsMaskChar:0.50,
+              setKeywordsMaskChar:0.50
+            ) it12-0.50:0.01,
+            getKeywordsMaskChar:0.50
+          ) it18-0.50:0.10
+        ) it26-0.60:0.40
+      ) it73-1.00:0.01
+    ) it78-1.00:0.01,
+    (
+      (
+        debugTipText:1.00,
+        usernameTipText:1.00
+      ) it71-1.00:0.01,
+      (
+        getRevision:1.00,
+        passwordTipText:1.00
+      ) it72-1.00:0.01
+    ) it77-1.00:0.01
+  ) it80-1.00:0.01,
+  (
+    (
+      (
+        DATE:1.00,
+        LONG:1.00
+      ) it68-1.00:0.01,
+      (
+        INTEGER:1.00,
+        SHORT:1.00
+      ) it67-1.00:0.01
+    ) it75-1.00:0.01,
+    (
+      (
+        TEXT:1.00,
+        TIME:1.00
+      ) it69-1.00:0.01,
+      (
+        arrayToString:1.00,
+        databaseURLTipText:1.00
+      ) it70-1.00:0.01
+    ) it76-1.00:0.01
+  ) it79-1.00:0.01
+) it81-1.00:0.01;

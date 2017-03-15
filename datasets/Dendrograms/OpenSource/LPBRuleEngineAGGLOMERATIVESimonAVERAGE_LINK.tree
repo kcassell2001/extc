@@ -1,0 +1,100 @@
+(
+  (
+    (
+      (
+        (
+          (
+            CYCLES_BETWEEN_COMPLETION_CHECK:0.33,
+            pump:0.33
+          ) it4-0.33:0.45,
+          (
+            agenda:0.50,
+            schedule:0.50
+          ) it8-0.50:0.29
+        ) it25-0.79:0.17,
+        (
+          (
+            activeInterpreters:0.75,
+            (
+              (
+                checkForCompletions:0.67,
+                (
+                  find:0.67,
+                  halt:0.67
+                ) it16-0.67:0.01
+              ) it19-0.67:0.01,
+              (
+                checkSafeToUpdate:0.67,
+                detach:0.67
+              ) it17-0.67:0.01
+            ) it20-0.67:0.08
+          ) it22-0.75:0.13,
+          (
+            (
+              tabledGoals:0.67,
+              reset:0.67
+            ) it15-0.67:0.10,
+            (
+              generatorFor:0.40,
+              generatorFor:0.40
+            ) it5-0.40:0.36
+          ) it24-0.76:0.12
+        ) it26-0.88:0.08
+      ) it27-0.96:0.02,
+      (
+        (
+          ruleStore:0.71,
+          (
+            getRuleStore:0.67,
+            tablePredicate:0.67
+          ) it18-0.67:0.05
+        ) it21-0.71:0.04,
+        (
+          (
+            addRule:0.50,
+            deleteRule:0.50
+          ) it6-0.50:0.01,
+          (
+            deleteAllRules:0.50,
+            getAllRules:0.50
+          ) it7-0.50:0.01
+        ) it12-0.50:0.25
+      ) it23-0.75:0.23
+    ) it28-0.98:0.02,
+    (
+      (
+        (
+          profile:0.50,
+          incrementProfile:0.50
+        ) it9-0.50:0.08,
+        resetProfile:0.58
+      ) it13-0.58:0.03,
+      printProfile:0.61
+    ) it14-0.61:0.39
+  ) it31-1.00:0.01,
+  (
+    (
+      (
+        infGraph:0.01,
+        getInfGraph:0.01
+      ) it1-0.00:1.00,
+      logger:1.00
+    ) it29-1.00:0.01,
+    (
+      (
+        (
+          recordDerivations:0.33,
+          setDerivationLogging:0.33
+        ) it3-0.33:0.17,
+        getDerivationLogging:0.50
+      ) it11-0.50:0.50,
+      (
+        (
+          traceOn:0.33,
+          setTraceOn:0.33
+        ) it2-0.33:0.17,
+        isTraceOn:0.50
+      ) it10-0.50:0.50
+    ) it30-1.00:0.01
+  ) it32-1.00:0.01
+) it33-1.00:0.01;

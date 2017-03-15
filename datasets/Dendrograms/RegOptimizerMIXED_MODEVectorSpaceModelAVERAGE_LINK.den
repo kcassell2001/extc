@@ -1,0 +1,120 @@
+#DENDROSCOPE
+{TREE 'Tree1'
+(((((m_epsilon:0.01,m_nSeed:0.01,getEpsilonParameter:0.01,getOptions:0.01,getSeed:0.01,setEpsilonParameter:0.01,setOptions:0.01,setSeed:0.01)getOptions+:0.81,(epsilonParameterTipText:0.69,listOptions:0.69)it1-0.69:0.12)it3-0.81:0.09,seedTipText:0.9)it5-0.90:0.1,getRevision:1.0)it7-1.00:0.01,((buildClassifier:0.98,((m_sparseIndices:0.71,m_sparseWeights:0.71)it2-0.71:0.1,(m_C:0.01,m_SVM:0.01,m_alpha:0.01,m_alphaStar:0.01,m_b:0.01,m_bModelBuilt:0.01,m_classIndex:0.01,m_data:0.01,m_kernel:0.01,m_nCacheHits:0.01,m_nEvals:0.01,m_nInstances:0.01,m_random:0.01,m_supportVectors:0.01,m_target:0.01,m_weights:0.01,SVMOutput.1:0.01,SVMOutput.2:0.01,getCacheHits:0.01,getKernelEvaluations:0.01,getScore:0.01,init:0.01,modelBuilt:0.01,setSMOReg:0.01,wrapUp:0.01)modelBuilt+:0.81)it4-0.81:0.17)it6-0.98:0.02,serialVersionUID:1.0)it8-1.00:0.01)final2;
+}
+{GRAPHVIEW
+nnodes=52 nedges=51
+nodes
+1: nh=2 nw=2 fg=0 0 0 bg=0 0 0 w=1 sh=0 x=-5.0 y=9.40625 fx=1 lc=0 0 0 lk=null lx=0 ly=0 ll=7 lv=1 lb='final2';
+2: fg=255 0 51 x=-4.0 y=3.25 ll=3 lb='it7-1.00';
+3: x=-3.0 y=5.5 lb='it5-0.90';
+4: x=-2.0 y=9.0 lb='it3-0.81';
+5: x=-1.0 y=6.5 lb='getOptions+';
+6: x=0.0 y=3.0 lb='m_epsilon';
+7: x=0.0 y=4.0 lb='m_nSeed';
+8: x=0.0 y=5.0 lb='getEpsilonParameter';
+9: x=0.0 y=6.0 lb='getOptions';
+10: x=0.0 y=7.0 lb='getSeed';
+11: x=0.0 y=8.0 lb='setEpsilonParameter';
+12: x=0.0 y=9.0 lb='setOptions';
+13: x=0.0 y=10.0 lb='setSeed';
+14: x=-1.0 y=11.5 lb='it1-0.69';
+15: x=0.0 y=11.0 lb='epsilonParameterTipText';
+16: x=0.0 y=12.0 lb='listOptions';
+17: x=0.0 y=2.0 lb='seedTipText';
+18: x=0.0 y=1.0 lb='getRevision';
+19: fg=0 0 204 x=-4.0 y=15.5625 lb='it8-1.00';
+20: x=-3.0 y=18.125 lb='it6-0.98';
+21: x=0.0 y=14.0 lb='buildClassifier';
+22: x=-2.0 y=22.25 lb='it4-0.81';
+23: x=-1.0 y=15.5 lb='it2-0.71';
+24: x=0.0 y=15.0 lb='m_sparseIndices';
+25: x=0.0 y=16.0 lb='m_sparseWeights';
+26: x=-1.0 y=29.0 lb='modelBuilt+';
+27: x=0.0 y=17.0 lb='m_C';
+28: x=0.0 y=18.0 lb='m_SVM';
+29: x=0.0 y=19.0 lb='m_alpha';
+30: x=0.0 y=20.0 lb='m_alphaStar';
+31: x=0.0 y=21.0 lb='m_b';
+32: x=0.0 y=22.0 lb='m_bModelBuilt';
+33: x=0.0 y=23.0 lb='m_classIndex';
+34: x=0.0 y=24.0 lb='m_data';
+35: x=0.0 y=25.0 lb='m_kernel';
+36: x=0.0 y=26.0 lb='m_nCacheHits';
+37: x=0.0 y=27.0 lb='m_nEvals';
+38: x=0.0 y=28.0 lb='m_nInstances';
+39: x=0.0 y=29.0 lb='m_random';
+40: x=0.0 y=30.0 lb='m_supportVectors';
+41: x=0.0 y=31.0 lb='m_target';
+42: x=0.0 y=32.0 lb='m_weights';
+43: x=0.0 y=33.0 lb='SVMOutput.1';
+44: x=0.0 y=34.0 lb='SVMOutput.2';
+45: x=0.0 y=35.0 lb='getCacheHits';
+46: x=0.0 y=36.0 lb='getKernelEvaluations';
+47: x=0.0 y=37.0 lb='getScore';
+48: x=0.0 y=38.0 lb='init';
+49: x=0.0 y=39.0 lb='modelBuilt';
+50: x=0.0 y=40.0 lb='setSMOReg';
+51: x=0.0 y=41.0 lb='wrapUp';
+52: x=0.0 y=13.0 lb='serialVersionUID';
+edges
+5: fg=255 0 51 w=2 sh=1 ip= < -1.0 3.0> dr=1 lc=0 0 0 lk=null lx=0 ly=0 ll=11 lv=1;
+6: ip= < -1.0 4.0>;
+7: ip= < -1.0 5.0>;
+8: ip= < -1.0 6.0>;
+9: ip= < -1.0 7.0>;
+10: ip= < -1.0 8.0>;
+11: ip= < -1.0 9.0>;
+12: ip= < -1.0 10.0>;
+4: ip= < -2.0 6.5>;
+14: ip= < -1.0 11.0>;
+15: ip= < -1.0 12.0>;
+13: ip= < -2.0 11.5>;
+3: ip= < -3.0 9.0>;
+16: ip= < -3.0 2.0>;
+2: ip= < -4.0 5.5>;
+17: ip= < -4.0 1.0>;
+1: ip= < -5.0 3.25>;
+20: fg=0 0 204 ip= < -3.0 14.0>;
+23: ip= < -1.0 15.0>;
+24: ip= < -1.0 16.0>;
+22: ip= < -2.0 15.5>;
+26: ip= < -1.0 17.0>;
+27: ip= < -1.0 18.0>;
+28: ip= < -1.0 19.0>;
+29: ip= < -1.0 20.0>;
+30: ip= < -1.0 21.0>;
+31: ip= < -1.0 22.0>;
+32: ip= < -1.0 23.0>;
+33: ip= < -1.0 24.0>;
+34: ip= < -1.0 25.0>;
+35: ip= < -1.0 26.0>;
+36: ip= < -1.0 27.0>;
+37: ip= < -1.0 28.0>;
+38: ip= < -1.0 29.0>;
+39: ip= < -1.0 30.0>;
+40: ip= < -1.0 31.0>;
+41: ip= < -1.0 32.0>;
+42: ip= < -1.0 33.0>;
+43: ip= < -1.0 34.0>;
+44: ip= < -1.0 35.0>;
+45: ip= < -1.0 36.0>;
+46: ip= < -1.0 37.0>;
+47: ip= < -1.0 38.0>;
+48: ip= < -1.0 39.0>;
+49: ip= < -1.0 40.0>;
+50: ip= < -1.0 41.0>;
+25: ip= < -2.0 29.0>;
+21: ip= < -3.0 22.25>;
+19: ip= < -4.0 18.125>;
+51: ip= < -4.0 13.0>;
+18: ip= < -5.0 15.5625>;
+}
+{DENDRO
+root=1
+drawer=RectangularCladogram
+toscale=false
+radiallabels=false
+collapsed=0
+trans=angle:3.1415927 scaleX:140.8 scaleY:11.425 flipH:0 flipV:0 leftMargin:486 rightMargin:486 topMargin:301 bottomMargin:301;
+}

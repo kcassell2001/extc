@@ -1,0 +1,109 @@
+(
+  (
+    (
+      (
+        (
+          BACKUP_EXTENSION:0.67,
+          getDefaultExtension:0.67
+        ) it18-0.67:0.08,
+        (
+          (
+            (
+              (
+                (
+                  m_Document:0.67,
+                  getContent:0.67
+                ) it19-0.67:0.01,
+                setContent:0.67
+              ) it23-0.67:0.06,
+              (
+                (
+                  (
+                    (
+                      m_Filename:0.45,
+                      m_Modified:0.45
+                    ) it4-0.45:0.21,
+                    (
+                      (
+                        (
+                          empty:0.50,
+                          open:0.50
+                        ) it6-0.50:0.06,
+                        saveAs:0.56
+                      ) it10-0.56:0.07,
+                      save:0.63
+                    ) it16-0.63:0.04
+                  ) it22-0.67:0.05,
+                  (
+                    checkExtension:0.50,
+                    getFilters:0.50
+                  ) it5-0.50:0.21
+                ) it25-0.71:0.01,
+                (
+                  (
+                    (
+                      (
+                        m_NewLine:0.33,
+                        getNewLine:0.33
+                      ) it2-0.33:0.38,
+                      (
+                        initialize:0.63,
+                        (
+                          preCheck:0.57,
+                          run:0.57
+                        ) it11-0.57:0.05
+                      ) it17-0.63:0.09
+                    ) it24-0.71:0.01,
+                    (
+                      (
+                        listOptions:0.33,
+                        makeOptionString:0.33
+                      ) it3-0.33:0.27,
+                      (
+                        runScript:0.50,
+                        setOptions:0.50
+                      ) it8-0.50:0.10
+                    ) it13-0.60:0.11
+                  ) it26-0.71:0.01,
+                  (
+                    (
+                      execute:0.50,
+                      newThread:0.50
+                    ) it7-0.50:0.17,
+                    start:0.67
+                  ) it20-0.67:0.05
+                ) it27-0.71:0.01
+              ) it28-0.71:0.01
+            ) it29-0.73:0.02,
+            getFilename:0.75
+          ) it30-0.75:0.01,
+          isModified:0.75
+        ) it31-0.75:0.01
+      ) it32-0.75:0.01,
+      (
+        (
+          (
+            m_FinishedListeners:0.60,
+            addScriptFinishedListener:0.60
+          ) it12-0.60:0.01,
+          removeScriptFinishedListener:0.60
+        ) it15-0.60:0.07,
+        (
+          (
+            m_ScriptThread:0.50,
+            (
+              isRunning:0.25,
+              stop:0.25
+            ) it1-0.25:0.25
+          ) it9-0.50:0.10,
+          notifyScriptFinishedListeners:0.60
+        ) it14-0.60:0.07
+      ) it21-0.67:0.08
+    ) it33-0.75:0.25,
+    canExecuteScripts:1.00
+  ) it35-1.00:0.01,
+  (
+    serialVersionUID:1.00,
+    getOptions:1.00
+  ) it34-1.00:0.01
+) it36-1.00:0.01;

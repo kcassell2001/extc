@@ -1,0 +1,19 @@
+(
+  condenseRequiredMethods:0.51,
+  (
+    (
+      convertClustersToNodes:0.23,
+      createNodeForCluster:0.23
+    ) it4-0.23:0.02,
+    (
+      createDAGLinks:0.22,
+      (
+        createLinks:0.19,
+        (
+          toCondensedGraph:0.06,
+          toDAG:0.06
+        ) it1-0.06:0.13
+      ) it2-0.19:0.04
+    ) it3-0.22:0.02
+  ) it5-0.25:0.27
+) it6-0.51:0.49;

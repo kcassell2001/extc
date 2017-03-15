@@ -1,0 +1,175 @@
+(
+  (
+    (
+      (
+        (
+          (
+            active:0.50,
+            setActive:0.50
+          ) it10-0.50:0.50,
+          (
+            enqueueCount:0.60,
+            enqueue:0.60
+          ) it11-0.60:0.40
+        ) it39-1.00:0.01,
+        (
+          (
+            substats:0.01,
+            getSubstats:0.01
+          ) it1-0.00:1.00,
+          singleLineReport:1.00
+        ) it38-1.00:0.01
+      ) it49-1.00:0.01,
+      (
+        (
+          getReports:1.00,
+          singleLineLegend:1.00
+        ) it37-1.00:0.01,
+        (
+          resume:1.00,
+          suspend:1.00
+        ) it36-1.00:0.01
+      ) it48-1.00:0.01
+    ) it54-1.00:0.01,
+    (
+      (
+        (
+          (
+            (
+              classKey:0.50,
+              compareTo:0.50
+            ) it9-0.50:0.10,
+            getClassKey:0.60
+          ) it16-0.60:0.40,
+          (
+            logger:0.67,
+            peek:0.67
+          ) it18-0.67:0.33
+        ) it41-1.00:0.01,
+        (
+          (
+            errorCount:0.60,
+            noteError:0.60
+          ) it13-0.60:0.40,
+          (
+            totalBudget:0.60,
+            setTotalBudget:0.60
+          ) it12-0.60:0.40
+        ) it40-1.00:0.01
+      ) it50-1.00:0.01,
+      (
+        (
+          (
+            (
+              peekItem:0.50,
+              unpeek:0.50
+            ) it8-0.50:0.17,
+            dequeue:0.67
+          ) it23-0.67:0.33,
+          (
+            (
+              wakeTime:0.60,
+              setWakeTime:0.60
+            ) it14-0.60:0.07,
+            getWakeTime:0.67
+          ) it24-0.67:0.33
+        ) it43-1.00:0.01,
+        (
+          (
+            (
+              retired:0.33,
+              setRetired:0.33
+            ) it3-0.33:0.33,
+            isRetired:0.67
+          ) it22-0.67:0.33,
+          (
+            deleteMatchingFromQueue:0.67,
+            deleteMatching:0.67
+          ) it21-0.67:0.33
+        ) it42-1.00:0.01
+      ) it51-1.00:0.01
+    ) it55-1.00:0.01
+  ) it57-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            (
+              costCount:0.50,
+              lastCost:0.50
+            ) it4-0.50:0.23,
+            (
+              sessionBalance:0.50,
+              totalExpenditure:0.50
+            ) it5-0.50:0.23
+          ) it28-0.73:0.18,
+          reportTo:0.91
+        ) it32-0.91:0.09,
+        (
+          (
+            (
+              (
+                expend:0.50,
+                refund:0.50
+              ) it6-0.50:0.21,
+              isOverBudget:0.71
+            ) it27-0.71:0.09,
+            (
+              reportTo:0.33,
+              singleLineReportTo:0.33
+            ) it2-0.33:0.47
+          ) it30-0.80:0.13,
+          getTotalExpenditure:0.93
+        ) it33-0.93:0.07
+      ) it46-1.00:0.01,
+      (
+        (
+          deleteItem:1.00,
+          peekItem:1.00
+        ) it35-1.00:0.01,
+        (
+          getCount:1.00,
+          insertItem:1.00
+        ) it34-1.00:0.01
+      ) it47-1.00:0.01
+    ) it53-1.00:0.01,
+    (
+      (
+        (
+          (
+            count:0.67,
+            lastPeeked:0.67
+          ) it17-0.67:0.17,
+          lastDequeueTime:0.83
+        ) it31-0.83:0.17,
+        (
+          (
+            lastQueued:0.60,
+            insert:0.60
+          ) it15-0.60:0.20,
+          update:0.80
+        ) it29-0.80:0.20
+      ) it45-1.00:0.01,
+      (
+        (
+          (
+            isHeld:0.50,
+            clearHeld:0.50
+          ) it7-0.50:0.17,
+          (
+            isHeld:0.67,
+            setHeld:0.67
+          ) it20-0.67:0.01
+        ) it26-0.67:0.33,
+        (
+          (
+            getSessionBalance:0.67,
+            setSessionBalance:0.67
+          ) it19-0.67:0.01,
+          incrementSessionBalance:0.67
+        ) it25-0.67:0.33
+      ) it44-1.00:0.01
+    ) it52-1.00:0.01
+  ) it56-1.00:0.01
+) it58-1.00:0.01;

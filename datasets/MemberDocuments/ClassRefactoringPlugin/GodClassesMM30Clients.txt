@@ -1,0 +1,3 @@
+=ClassRefactoringPlugin/src<nz.ac.vuw.ecs.kcassell.utils{GodClassesMM30.java[GodClassesMM30~getAllClasses =ClassRefactoringPlugin/src<nz.ac.vuw.ecs.kcassell.callgraph.gui{BatchOutputView.java[BatchOutputView
+=ClassRefactoringPlugin/src<nz.ac.vuw.ecs.kcassell.utils{GodClassesMM30.java[GodClassesMM30~getAllClassesBetw =ClassRefactoringPlugin/src<nz.ac.vuw.ecs.kcassell.callgraph.gui{BatchOutputView.java[BatchOutputView
+=ClassRefactoringPlugin/src<nz.ac.vuw.ecs.kcassell.utils{GodClassesMM30.java[GodClassesMM30~getAllClassesRBetw

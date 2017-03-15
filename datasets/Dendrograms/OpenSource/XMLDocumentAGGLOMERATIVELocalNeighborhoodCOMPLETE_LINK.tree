@@ -1,0 +1,169 @@
+(
+  (
+    (
+      (
+        (
+          ATT_NAME:1.00,
+          VAL_YES:1.00
+        ) it33-1.00:0.01,
+        (
+          ATT_VERSION:1.00,
+          DTD_REQUIRED:1.00
+        ) it32-1.00:0.01
+      ) it45-1.00:0.01,
+      (
+        (
+          DTD_ANY:1.00,
+          DTD_CDATA:1.00
+        ) it30-1.00:0.01,
+        (
+          DTD_IMPLIED:1.00,
+          DTD_PCDATA:1.00
+        ) it31-1.00:0.01
+      ) it44-1.00:0.01
+    ) it51-1.00:0.01,
+    (
+      (
+        (
+          DTD_ATTLIST:1.00,
+          DTD_ELEMENT:1.00
+        ) it27-1.00:0.01,
+        (
+          DTD_DOCTYPE:1.00,
+          PI:1.00
+        ) it26-1.00:0.01
+      ) it42-1.00:0.01,
+      (
+        (
+          DTD_AT_LEAST_ONE:1.00,
+          DTD_OPTIONAL:1.00
+        ) it28-1.00:0.01,
+        (
+          DTD_SEPARATOR:1.00,
+          DTD_ZERO_OR_MORE:1.00
+        ) it29-1.00:0.01
+      ) it43-1.00:0.01
+    ) it50-1.00:0.01
+  ) it54-1.00:0.01,
+  (
+    (
+      (
+        (
+          VAL_NO:1.00,
+          setDocument:1.00
+        ) it34-1.00:0.01,
+        (
+          getContent:1.00,
+          write:1.00
+        ) it35-1.00:0.01
+      ) it46-1.00:0.01,
+      (
+        (
+          (
+            m_Factory:0.33,
+            getFactory:0.33
+          ) it3-0.33:0.67,
+          (
+            getChildTags:0.01,
+            getChildTags:0.01
+          ) it1-0.00:1.00
+        ) it37-1.00:0.01,
+        (
+          getRevision:1.00,
+          toString:1.00
+        ) it36-1.00:0.01
+      ) it47-1.00:0.01
+    ) it52-1.00:0.01,
+    (
+      (
+        (
+          (
+            m_Builder:0.67,
+            setValidating:0.67
+          ) it14-0.67:0.33,
+          (
+            (
+              write:0.33,
+              write:0.33
+            ) it6-0.33:0.42,
+            write:0.75
+          ) it21-0.75:0.25
+        ) it39-1.00:0.01,
+        (
+          (
+            (
+              m_RootNode:0.50,
+              setRootNode:0.50
+            ) it8-0.50:0.01,
+            getRootNode:0.50
+          ) it11-0.50:0.50,
+          (
+            m_Validating:0.33,
+            getValidating:0.33
+          ) it4-0.33:0.67
+        ) it38-1.00:0.01
+      ) it48-1.00:0.01,
+      (
+        (
+          (
+            (
+              m_DocType:0.50,
+              getDocType:0.50
+            ) it7-0.50:0.38,
+            (
+              clear:0.70,
+              (
+                newDocument:0.57,
+                setDocType:0.57
+              ) it12-0.57:0.13
+            ) it20-0.70:0.18
+          ) it25-0.88:0.13,
+          (
+            (
+              main:0.50,
+              print:0.50
+            ) it9-0.50:0.30,
+            read:0.80
+          ) it24-0.80:0.20
+        ) it41-1.00:0.01,
+        (
+          (
+            (
+              (
+                m_Document:0.25,
+                getDocument:0.25
+              ) it2-0.25:0.35,
+              getBuilder:0.60
+            ) it13-0.60:0.18,
+            (
+              (
+                read:0.33,
+                read:0.33
+              ) it5-0.33:0.17,
+              read:0.50
+            ) it10-0.50:0.28
+          ) it23-0.78:0.22,
+          (
+            (
+              (
+                (
+                  m_XPath:0.67,
+                  findNodes:0.67
+                ) it15-0.67:0.01,
+                (
+                  evalBoolean:0.67,
+                  getNode:0.67
+                ) it16-0.67:0.01
+              ) it18-0.67:0.01,
+              (
+                evalDouble:0.67,
+                evalString:0.67
+              ) it17-0.67:0.01
+            ) it19-0.67:0.08,
+            eval:0.75
+          ) it22-0.75:0.25
+        ) it40-1.00:0.01
+      ) it49-1.00:0.01
+    ) it53-1.00:0.01
+  ) it55-1.00:0.01
+) it56-1.00:0.01;

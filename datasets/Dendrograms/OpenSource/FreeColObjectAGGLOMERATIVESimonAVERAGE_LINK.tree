@@ -1,0 +1,187 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              ARRAY_SIZE:0.50,
+              readFromArrayElement:0.50
+            ) it3-0.50:0.08,
+            readFromListElement:0.58
+          ) it9-0.58:0.03,
+          readFromArrayElement:0.61
+        ) it11-0.61:0.39,
+        (
+          pcs:0.87,
+          (
+            (
+              (
+                (
+                  addPropertyChangeListener:0.67,
+                  addPropertyChangeListener:0.67
+                ) it17-0.67:0.01,
+                (
+                  fireIndexedPropertyChange:0.67,
+                  fireIndexedPropertyChange:0.67
+                ) it18-0.67:0.01
+              ) it24-0.67:0.01,
+              (
+                removePropertyChangeListener:0.67,
+                removePropertyChangeListener:0.67
+              ) it23-0.67:0.01
+            ) it27-0.67:0.01,
+            (
+              (
+                (
+                  fireIndexedPropertyChange:0.67,
+                  firePropertyChange:0.67
+                ) it19-0.67:0.01,
+                (
+                  firePropertyChange:0.67,
+                  firePropertyChange:0.67
+                ) it20-0.67:0.01
+              ) it25-0.67:0.01,
+              (
+                (
+                  firePropertyChange:0.67,
+                  getPropertyChangeListeners:0.67
+                ) it21-0.67:0.01,
+                (
+                  getPropertyChangeListeners:0.67,
+                  hasListeners:0.67
+                ) it22-0.67:0.01
+              ) it26-0.67:0.01
+            ) it28-0.67:0.01
+          ) it29-0.67:0.20
+        ) it37-0.87:0.13
+      ) it55-1.00:0.01,
+      (
+        getXMLElementTagName:1.00,
+        writeFreeColGameObject:1.00
+      ) it54-1.00:0.01
+    ) it59-1.00:0.01,
+    (
+      (
+        getAttribute:1.00,
+        getAttribute:1.00
+      ) it52-1.00:0.01,
+      (
+        getAttribute:1.00,
+        getAttribute:1.00
+      ) it53-1.00:0.01
+    ) it58-1.00:0.01
+  ) it61-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    ID_ATTRIBUTE:0.50,
+                    readAttributes:0.50
+                  ) it4-0.50:0.23,
+                  readAttributes:0.73
+                ) it31-0.73:0.09,
+                (
+                  ID_ATTRIBUTE_TAG:0.50,
+                  writeAttributes:0.50
+                ) it7-0.50:0.32
+              ) it34-0.82:0.12,
+              (
+                (
+                  (
+                    readChildren:0.50,
+                    readChildren:0.50
+                  ) it5-0.50:0.21,
+                  readFromXMLImpl:0.71
+                ) it30-0.71:0.21,
+                readFromXMLImpl:0.92
+              ) it40-0.92:0.03
+            ) it42-0.94:0.03,
+            (
+              (
+                (
+                  id:0.33,
+                  getId:0.33
+                ) it1-0.33:0.17,
+                setId:0.50
+              ) it8-0.50:0.31,
+              writeAttribute:0.81
+            ) it33-0.81:0.16
+          ) it43-0.97:0.01,
+          (
+            toXML:0.67,
+            writeChildren:0.67
+          ) it16-0.67:0.32
+        ) it46-0.98:0.01,
+        (
+          (
+            (
+              PARTIAL_ATTRIBUTE:0.50,
+              readFromXML:0.50
+            ) it2-0.50:0.38,
+            readFromXMLPartialImpl:0.88
+          ) it38-0.88:0.12,
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        logger:0.60,
+                        save:0.60
+                      ) it10-0.60:0.03,
+                      toXMLElement:0.63
+                    ) it12-0.63:0.11,
+                    readFromXMLElement:0.74
+                  ) it32-0.74:0.14,
+                  dumpObject:0.89
+                ) it39-0.89:0.04,
+                (
+                  (
+                    toXMLImpl:0.50,
+                    toXML:0.50
+                  ) it6-0.50:0.33,
+                  (
+                    toXML:0.67,
+                    toXML:0.67
+                  ) it15-0.67:0.17
+                ) it36-0.83:0.10
+              ) it41-0.93:0.04,
+              toXMLPartialImpl:0.97
+            ) it44-0.97:0.01,
+            (
+              (
+                toXMLElementPartial:0.67,
+                toXMLElement:0.67
+              ) it14-0.67:0.17,
+              (
+                toXMLElement:0.67,
+                toXMLElement:0.67
+              ) it13-0.67:0.17
+            ) it35-0.83:0.15
+          ) it45-0.98:0.01
+        ) it47-0.99:0.01
+      ) it48-1.00:0.01,
+      (
+        INFINITY:1.00,
+        UNDEFINED:1.00
+      ) it49-1.00:0.01
+    ) it56-1.00:0.01,
+    (
+      (
+        VALUE_TAG:1.00,
+        getSpecification:1.00
+      ) it50-1.00:0.01,
+      (
+        hasAbility:1.00,
+        hasAttribute:1.00
+      ) it51-1.00:0.01
+    ) it57-1.00:0.01
+  ) it60-1.00:0.01
+) it62-1.00:0.01;

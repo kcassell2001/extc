@@ -1,0 +1,17 @@
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setMake~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setVin~I
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setId~I
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getMake
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setFirstName~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setModel~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getLastName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getPersonInfo
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getFirstName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getModel
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getCarInfo2
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getCarDescription
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getPersonName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getVin
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~setLastName~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getId
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarAsym.java[PersonCarAsym~getCarInfo

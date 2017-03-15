@@ -1,0 +1,223 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              HEX_DIGITS:0.33,
+              getRandomState:0.33
+            ) it11-0.33:0.33,
+            restoreRandomState:0.67
+          ) it31-0.67:0.33,
+          (
+            (
+              mapGenerator:0.33,
+              getMapGenerator:0.33
+            ) it8-0.33:0.33,
+            setMapGenerator:0.67
+          ) it30-0.67:0.33
+        ) it56-1.00:0.01,
+        (
+          (
+            (
+              aiMain:0.60,
+              setAIMain:0.60
+            ) it19-0.60:0.07,
+            getAIMain:0.67
+          ) it34-0.67:0.33,
+          (
+            (
+              name:0.50,
+              getName:0.50
+            ) it14-0.50:0.17,
+            setName:0.67
+          ) it33-0.67:0.33
+        ) it57-1.00:0.01
+      ) it66-1.00:0.01,
+      (
+        (
+          (
+            (
+              gameState:0.60,
+              getGameState:0.60
+            ) it20-0.60:0.07,
+            setGameState:0.67
+          ) it35-0.67:0.33,
+          (
+            (
+              singleplayer:0.67,
+              setSingleplayer:0.67
+            ) it27-0.67:0.01,
+            isSingleplayer:0.67
+          ) it37-0.67:0.33
+        ) it58-1.00:0.01,
+        (
+          (
+            (
+              inGameInputHandler:0.01,
+              getInGameInputHandler:0.01
+            ) it5-0.00:0.83,
+            addAIPlayer:0.83
+          ) it43-0.83:0.17,
+          (
+            getPlayer:0.75,
+            revealMapForAllPlayers:0.75
+          ) it39-0.75:0.25
+        ) it59-1.00:0.01
+      ) it67-1.00:0.01
+    ) it71-1.00:0.01,
+    (
+      (
+        (
+          (
+            META_SERVER_UPDATE_INTERVAL:0.33,
+            startMetaServerUpdateThread:0.33
+          ) it7-0.33:0.67,
+          (
+            inGameController:0.33,
+            getInGameController:0.33
+          ) it9-0.33:0.67
+        ) it52-1.00:0.01,
+        (
+          (
+            integrity:0.33,
+            getIntegrity:0.33
+          ) it10-0.33:0.67,
+          (
+            createXMLStreamReader:0.50,
+            v11FixServerObjects:0.50
+          ) it15-0.50:0.50
+        ) it53-1.00:0.01
+      ) it64-1.00:0.01,
+      (
+        (
+          (
+            NUMBER_OF_HIGH_SCORES:0.67,
+            newHighScore:0.67
+          ) it29-0.67:0.33,
+          (
+            SAVEGAME_VERSION:0.67,
+            saveGame:0.67
+          ) it25-0.67:0.33
+        ) it55-1.00:0.01,
+        (
+          (
+            preGameController:0.50,
+            getController:0.50
+          ) it16-0.50:0.50,
+          (
+            getAdjacentIndianSettlementSafely:0.50,
+            getAdjacentSettlementSafely:0.50
+          ) it17-0.50:0.50
+        ) it54-1.00:0.01
+      ) it65-1.00:0.01
+    ) it70-1.00:0.01
+  ) it73-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            HIGH_SCORE_FILE:0.67,
+            (
+              highScoreComparator:0.50,
+              highScores:0.50
+            ) it13-0.50:0.17
+          ) it32-0.67:0.19,
+          (
+            getHighScores:0.75,
+            (
+              loadHighScores:0.43,
+              saveHighScores:0.43
+            ) it12-0.43:0.32
+          ) it40-0.75:0.11
+        ) it44-0.86:0.14,
+        (
+          (
+            game:0.67,
+            enterRevengeMode:0.67
+          ) it23-0.67:0.21,
+          (
+            (
+              (
+                addIntegerOption:0.67,
+                getNumberOfLivingHumanPlayers:0.67
+              ) it26-0.67:0.01,
+              (
+                getSlotsAvailable:0.67,
+                getSpecification:0.67
+              ) it24-0.67:0.01
+            ) it36-0.67:0.01,
+            (
+              addStringOption:0.67,
+              getGame:0.67
+            ) it28-0.67:0.01
+          ) it38-0.67:0.21
+        ) it45-0.88:0.13
+      ) it60-1.00:0.01,
+      (
+        (
+          (
+            logger:0.67,
+            publicServer:0.67
+          ) it22-0.67:0.22,
+          (
+            (
+              port:0.60,
+              removeFromMetaServer:0.60
+            ) it18-0.60:0.20,
+            updateMetaServer:0.80
+          ) it42-0.80:0.08
+        ) it46-0.88:0.12,
+        (
+          (
+            random:0.60,
+            getServerRandom:0.60
+          ) it21-0.60:0.34,
+          (
+            loadGame:0.76,
+            saveGame:0.76
+          ) it41-0.76:0.18
+        ) it47-0.94:0.06
+      ) it61-1.00:0.01
+    ) it68-1.00:0.01,
+    (
+      (
+        (
+          (
+            MINIMUM_SAVEGAME_VERSION:0.01,
+            getSavegameVersion:0.01
+          ) it2-0.00:1.00,
+          (
+            userConnectionHandler:0.01,
+            getUserConnectionHandler:0.01
+          ) it3-0.00:1.00
+        ) it50-1.00:0.01,
+        (
+          (
+            preGameInputHandler:0.01,
+            getPreGameInputHandler:0.01
+          ) it4-0.00:1.00,
+          (
+            server:0.01,
+            getServer:0.01
+          ) it6-0.00:1.00
+        ) it51-1.00:0.01
+      ) it63-1.00:0.01,
+      (
+        (
+          (
+            owner:0.01,
+            getOwner:0.01
+          ) it1-0.00:1.00,
+          getUnitSafely:1.00
+        ) it49-1.00:0.01,
+        (
+          removeAutosaves:1.00,
+          updateMetaServer:1.00
+        ) it48-1.00:0.01
+      ) it62-1.00:0.01
+    ) it69-1.00:0.01
+  ) it72-1.00:0.01
+) it74-1.00:0.01;

@@ -1,0 +1,54 @@
+#DENDROSCOPE
+{TREE 'Tree1'
+(((getDatabaseValues:0.96,(((handleSQLException:0.5,releaseResources:0.5)it2-0.50:0.2,(readFromDB:0.57,saveToDB:0.57)it3-0.57:0.13)it5-0.70:0.2,loadDriver:0.9)it6-0.90:0.06)it7-0.96:0.01,saveDatabaseValues:0.97)it8-0.97:0.03,((handleSerializationException:0.5,saveSerializableToFile:0.5)it1-0.50:0.08,readSerializableFromFile:0.58)it4-0.58:0.42)it9-1.00;
+}
+{GRAPHVIEW
+nnodes=19 nedges=18
+nodes
+1: nh=2 nw=2 fg=0 0 0 bg=0 0 0 w=1 sh=0 x=-6.0 y=3.40625 fx=1 lc=0 0 0 lk=null lx=0 ly=0 ll=7 lv=1 lb='it9-1.00';
+2: fg=0 51 255 x=-5.0 y=5.0625 ft='Dialog-PLAIN-12' ll=3 lb='it8-0.97';
+3: x=-4.0 y=6.125 lb='it7-0.96';
+4: x=0.0 y=5.0 lb='getDatabaseValues';
+5: x=-3.0 y=7.25 lb='it6-0.90';
+6: x=-2.0 y=8.5 lb='it5-0.70';
+7: x=-1.0 y=7.5 lb='it2-0.50';
+8: x=0.0 y=7.0 lb='handleSQLException';
+9: x=0.0 y=8.0 lb='releaseResources';
+10: x=-1.0 y=9.5 lb='it3-0.57';
+11: x=0.0 y=9.0 lb='readFromDB';
+12: x=0.0 y=10.0 lb='saveToDB';
+13: x=0.0 y=6.0 lb='loadDriver';
+14: x=0.0 y=4.0 lb='saveDatabaseValues';
+15: fg=204 0 102 x=-2.0 y=1.75 lb='it4-0.58';
+16: x=-1.0 y=2.5 lb='it1-0.50';
+17: x=0.0 y=2.0 lb='handleSerializationException';
+18: x=0.0 y=3.0 lb='saveSerializableToFile';
+19: x=0.0 y=1.0 lb='readSerializableFromFile';
+edges
+3: fg=0 51 255 w=2 sh=1 ip= < -4.0 5.0> dr=1 lc=0 0 0 lk=null lx=0 ly=0 ll=11 lv=1;
+7: ip= < -1.0 7.0>;
+8: ip= < -1.0 8.0>;
+6: ip= < -2.0 7.5>;
+10: ip= < -1.0 9.0>;
+11: ip= < -1.0 10.0>;
+9: ip= < -2.0 9.5>;
+5: ip= < -3.0 8.5>;
+12: ip= < -3.0 6.0>;
+4: ip= < -4.0 7.25>;
+2: ip= < -5.0 6.125>;
+13: ip= < -5.0 4.0>;
+1: ip= < -6.0 5.0625>;
+16: fg=204 0 102 ip= < -1.0 2.0>;
+17: ip= < -1.0 3.0>;
+15: ip= < -2.0 2.5>;
+18: ip= < -2.0 1.0>;
+14: ip= < -6.0 1.75>;
+}
+{DENDRO
+root=1
+drawer=RectangularCladogram
+toscale=false
+radiallabels=false
+collapsed=0
+trans=angle:3.1415927 scaleX:31.92694 scaleY:23.48751 flipH:0 flipV:0 leftMargin:436 rightMargin:436 topMargin:363 bottomMargin:363;
+}

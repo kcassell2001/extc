@@ -1,0 +1,151 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              AGGLOMERATION_TAB_INDEX:0.50,
+              AGG_CLUSTERING_TAB_INDEX:0.50
+            ) it9-0.50:0.01,
+            SPANNING_FOREST_TAB_INDEX:0.50
+          ) it19-0.50:0.01,
+          (
+            BETWEENNESS_TAB_INDEX:0.50,
+            METRICS_TAB_INDEX:0.50
+          ) it10-0.50:0.01
+        ) it25-0.50:0.21,
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      GRAPH_TAB_INDEX:0.50,
+                      showGraph:0.50
+                    ) it18-0.50:0.07,
+                    (
+                      mainPane:0.50,
+                      createGUI:0.50
+                    ) it17-0.50:0.07
+                  ) it26-0.57:0.03,
+                  (
+                    (
+                      getFrame:0.50,
+                      getGraph:0.50
+                    ) it16-0.50:0.01,
+                    printDistances:0.50
+                  ) it24-0.50:0.10
+                ) it27-0.60:0.03,
+                frame:0.63
+              ) it28-0.63:0.01,
+              (
+                graphView:0.50,
+                getGraphView:0.50
+              ) it11-0.50:0.13
+            ) it29-0.63:0.04,
+            (
+              (
+                (
+                  aggClusteringView:0.50,
+                  getAggClusteringView:0.50
+                ) it13-0.50:0.01,
+                createAggClusteringView:0.50
+              ) it21-0.50:0.17,
+              (
+                (
+                  betweennessView:0.50,
+                  getBetweennessView:0.50
+                ) it12-0.50:0.01,
+                createBetweennessView:0.50
+              ) it20-0.50:0.17
+            ) it35-0.67:0.01
+          ) it39-0.67:0.01,
+          (
+            (
+              (
+                agglomerationView:0.50,
+                getAgglomerationView:0.50
+              ) it14-0.50:0.01,
+              createAgglomerationView:0.50
+            ) it22-0.50:0.17,
+            (
+              (
+                spanningForestView:0.50,
+                getSpanningForestView:0.50
+              ) it15-0.50:0.01,
+              createSpanningForestView:0.50
+            ) it23-0.50:0.17
+          ) it36-0.67:0.01
+        ) it41-0.67:0.05
+      ) it43-0.71:0.01,
+      (
+        (
+          batchOutputView:0.25,
+          getBatchOutputView:0.25
+        ) it4-0.25:0.46,
+        (
+          (
+            metricsView:0.40,
+            getMetricsView:0.40
+          ) it7-0.40:0.01,
+          createFileMenu:0.40
+        ) it8-0.40:0.31
+      ) it42-0.71:0.01
+    ) it44-0.71:0.01,
+    (
+      createMainPane:0.65,
+      stateChanged:0.65
+    ) it30-0.65:0.08
+  ) it45-0.73:0.02,
+  (
+    (
+      (
+        (
+          applicationParameters:0.00,
+          getApplicationParameters:0.00
+        ) it2-0.00:0.75,
+        (
+          (
+            (
+              (
+                includeConstructors:0.67,
+                getConnectedComponents:0.67
+              ) it31-0.67:0.01,
+              (
+                clear:0.67,
+                readGraphMLGraph:0.67
+              ) it32-0.67:0.01
+            ) it37-0.67:0.01,
+            (
+              (
+                createMenuBar:0.67,
+                getPajekNetGraph:0.67
+              ) it33-0.67:0.01,
+              (
+                main:0.67,
+                showFrequentItems:0.67
+              ) it34-0.67:0.01
+            ) it38-0.67:0.01
+          ) it40-0.67:0.08,
+          (
+            singleton:0.00,
+            getSingleton:0.00
+          ) it1-0.00:0.75
+        ) it46-0.75:0.01
+      ) it47-0.75:0.01,
+      (
+        logger:0.00,
+        readInitialGraph:0.00
+      ) it3-0.00:0.75
+    ) it48-0.75:0.01,
+    (
+      (
+        lastDirAccessed:0.25,
+        getLastDirAccessed:0.25
+      ) it5-0.25:0.01,
+      setLastDirAccessed:0.25
+    ) it6-0.25:0.50
+  ) it49-0.75:0.01
+) it50-0.75:0.25;

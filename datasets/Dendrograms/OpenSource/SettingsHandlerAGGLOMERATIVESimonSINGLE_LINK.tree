@@ -1,0 +1,148 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                BOOLEAN:0.67,
+                STRING:0.67
+              ) it17-0.67:0.01,
+              (
+                TEXT:0.67,
+                TIMESTAMP:0.67
+              ) it18-0.67:0.01
+            ) it22-0.67:0.01,
+            (
+              (
+                DOUBLE:0.67,
+                FLOAT:0.67
+              ) it16-0.67:0.01,
+              (
+                INTEGER:0.67,
+                LONG:0.67
+              ) it15-0.67:0.01
+            ) it21-0.67:0.01
+          ) it25-0.67:0.11,
+          StringToType:0.78
+        ) it31-0.78:0.22,
+        (
+          (
+            (
+              (
+                (
+                  order:0.33,
+                  getOrder:0.33
+                ) it5-0.33:0.17,
+                cleanup:0.50
+              ) it10-0.50:0.25,
+              (
+                deleteSettingsObject:0.67,
+                (
+                  getComplexTypeByAbsoluteName:0.67,
+                  getModule:0.67
+                ) it19-0.67:0.01
+              ) it23-0.67:0.08
+            ) it27-0.75:0.01,
+            (
+              (
+                (
+                  settingsCache:0.67,
+                  (
+                    getOrCreateSettingsObject:0.50,
+                    (
+                      getSettingsObject:0.50,
+                      initialize:0.50
+                    ) it9-0.50:0.01
+                  ) it13-0.50:0.17
+                ) it20-0.67:0.01,
+                readSettingsObject:0.67
+              ) it24-0.67:0.08,
+              getRefinementsForSettings:0.75
+            ) it28-0.75:0.01
+          ) it30-0.75:0.05,
+          (
+            (
+              (
+                (
+                  getOrCreateSettingsObject:0.40,
+                  getSettingsObject:0.40
+                ) it7-0.40:0.10,
+                (
+                  getSettings:0.33,
+                  getSettings:0.33
+                ) it4-0.33:0.17
+              ) it12-0.50:0.21,
+              getSettingsForHost:0.71
+            ) it26-0.71:0.04,
+            getParentScope:0.75
+          ) it29-0.75:0.05
+        ) it32-0.80:0.20
+      ) it41-1.00:0.01,
+      (
+        (
+          INTEGER_LIST:1.00,
+          LONG_LIST:1.00
+        ) it34-1.00:0.01,
+        (
+          MAP:1.00,
+          OBJECT:1.00
+        ) it33-1.00:0.01
+      ) it42-1.00:0.01
+    ) it46-1.00:0.01,
+    (
+      (
+        (
+          class2name:0.01,
+          getTypeName:0.01
+        ) it1-0.00:1.00,
+        getListOfAllFiles:1.00
+      ) it39-1.00:0.01,
+      (
+        (
+          (
+            (
+              errorReportingLevel:0.33,
+              setErrorReportingLevel:0.33
+            ) it6-0.33:0.17,
+            fireValueErrorHandlers:0.50
+          ) it11-0.50:0.10,
+          (
+            valueErrorHandlers:0.40,
+            (
+              registerValueErrorHandler:0.01,
+              unregisterValueErrorHandler:0.01
+            ) it3-0.00:0.40
+          ) it8-0.40:0.20
+        ) it14-0.60:0.40,
+        (
+          name2class:0.01,
+          getClassName:0.01
+        ) it2-0.00:1.00
+      ) it40-1.00:0.01
+    ) it45-1.00:0.01
+  ) it48-1.00:0.01,
+  (
+    (
+      (
+        DOUBLE_LIST:1.00,
+        FLOAT_LIST:1.00
+      ) it35-1.00:0.01,
+      (
+        STRING_LIST:1.00,
+        names:1.00
+      ) it36-1.00:0.01
+    ) it43-1.00:0.01,
+    (
+      (
+        getDomainOverrides:1.00,
+        getPathRelativeToWorkingDirectory:1.00
+      ) it38-1.00:0.01,
+      (
+        instantiateModuleTypeFromClassName:1.00,
+        writeSettingsObject:1.00
+      ) it37-1.00:0.01
+    ) it44-1.00:0.01
+  ) it47-1.00:0.01
+) it49-1.00:0.01;

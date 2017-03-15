@@ -1,0 +1,139 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                m_ClassIndex:0.50,
+                getClassIndex:0.50
+              ) it12-0.50:0.08,
+              setClassIndex:0.58
+            ) it19-0.58:0.39,
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          m_Classifier:0.67,
+                          listOptions:0.67
+                        ) it22-0.67:0.01,
+                        (
+                          getClassifier:0.67,
+                          setClassifier:0.67
+                        ) it23-0.67:0.01
+                      ) it24-0.67:0.18,
+                      getOptions:0.85
+                    ) it25-0.85:0.06,
+                    main:0.91
+                  ) it27-0.91:0.06,
+                  (
+                    (
+                      (
+                        m_Debug:0.50,
+                        setDebug:0.50
+                      ) it8-0.50:0.08,
+                      getDebug:0.58
+                    ) it15-0.58:0.36,
+                    setOptions:0.94
+                  ) it28-0.94:0.03
+                ) it35-0.97:0.01,
+                (
+                  (
+                    (
+                      m_ClassifyIterations:0.50,
+                      setClassifyIterations:0.50
+                    ) it10-0.50:0.08,
+                    getClassifyIterations:0.58
+                  ) it17-0.58:0.39,
+                  (
+                    (
+                      (
+                        (
+                          (
+                            m_Error:0.33,
+                            getError:0.33
+                          ) it6-0.33:0.62,
+                          (
+                            m_KWSigma:0.33,
+                            getKWSigma:0.33
+                          ) it5-0.33:0.62
+                        ) it31-0.95:0.01,
+                        (
+                          (
+                            (
+                              m_KWBias:0.33,
+                              getKWBias:0.33
+                            ) it1-0.33:0.62,
+                            (
+                              m_WBias:0.33,
+                              getWBias:0.33
+                            ) it2-0.33:0.62
+                          ) it29-0.95:0.01,
+                          (
+                            (
+                              m_KWVariance:0.33,
+                              getKWVariance:0.33
+                            ) it3-0.33:0.62,
+                            (
+                              m_WVariance:0.33,
+                              getWVariance:0.33
+                            ) it4-0.33:0.62
+                          ) it30-0.95:0.01
+                        ) it32-0.95:0.01
+                      ) it33-0.95:0.01,
+                      (
+                        (
+                          (
+                            m_TrainSize:0.50,
+                            setTrainSize:0.50
+                          ) it13-0.50:0.08,
+                          getTrainSize:0.58
+                        ) it20-0.58:0.31,
+                        decompose:0.89
+                      ) it26-0.89:0.07
+                    ) it34-0.96:0.01,
+                    (
+                      (
+                        m_Seed:0.50,
+                        setSeed:0.50
+                      ) it9-0.50:0.08,
+                      getSeed:0.58
+                    ) it16-0.58:0.39
+                  ) it36-0.97:0.01
+                ) it37-0.97:0.01
+              ) it38-0.97:0.01,
+              (
+                (
+                  m_DataFileName:0.50,
+                  setDataFileName:0.50
+                ) it11-0.50:0.08,
+                getDataFileName:0.58
+              ) it18-0.58:0.39
+            ) it39-0.98:0.01
+          ) it40-0.98:0.01,
+          (
+            (
+              m_P:0.50,
+              setP:0.50
+            ) it14-0.50:0.08,
+            getP:0.58
+          ) it21-0.58:0.39
+        ) it41-0.98:0.02,
+        findCentralTendencies:1.00
+      ) it42-1.00:0.01,
+      randomize:1.00
+    ) it43-1.00:0.01,
+    (
+      getTechnicalInformation:0.50,
+      globalInfo:0.50
+    ) it7-0.50:0.50
+  ) it45-1.00:0.01,
+  (
+    m_ClassifierOptions:1.00,
+    getRevision:1.00
+  ) it44-1.00:0.01
+) it46-1.00:0.01;

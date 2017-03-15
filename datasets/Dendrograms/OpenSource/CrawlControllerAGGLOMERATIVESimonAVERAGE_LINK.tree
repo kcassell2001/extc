@@ -1,0 +1,484 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            CHECKPOINTING:0.67,
+                            isCheckpointing:0.67
+                          ) it56-0.67:0.25,
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    PAUSED:0.63,
+                                    completePause:0.63
+                                  ) it38-0.63:0.16,
+                                  (
+                                    PAUSING:0.75,
+                                    (
+                                      requestCrawlPause:0.64,
+                                      toePaused:0.64
+                                    ) it40-0.64:0.12
+                                  ) it87-0.75:0.03
+                                ) it94-0.79:0.02,
+                                (
+                                  requestCrawlResume:0.60,
+                                  (
+                                    sendCheckpointEvent:0.54,
+                                    sendCrawlStateChangeEvent:0.54
+                                  ) it27-0.54:0.07
+                                ) it36-0.60:0.21
+                              ) it99-0.81:0.08,
+                              (
+                                (
+                                  (
+                                    (
+                                      RUNNING:0.65,
+                                      state:0.65
+                                    ) it43-0.65:0.12,
+                                    (
+                                      atFinish:0.60,
+                                      isRunning:0.60
+                                    ) it32-0.60:0.17
+                                  ) it90-0.77:0.04,
+                                  (
+                                    requestCrawlStart:0.62,
+                                    shouldContinueCrawling:0.62
+                                  ) it37-0.62:0.20
+                                ) it100-0.82:0.06,
+                                (
+                                  getState:0.75,
+                                  isPaused:0.75
+                                ) it83-0.75:0.13
+                              ) it111-0.88:0.01
+                            ) it112-0.89:0.01,
+                            STARTED:0.90
+                          ) it115-0.90:0.01
+                        ) it122-0.91:0.03,
+                        (
+                          (
+                            (
+                              (
+                                FINISHED:0.78,
+                                (
+                                  (
+                                    STOPPING:0.63,
+                                    requestCrawlStop:0.63
+                                  ) it39-0.63:0.02,
+                                  beginCrawlStop:0.65
+                                ) it42-0.65:0.14
+                              ) it93-0.78:0.08,
+                              (
+                                LOGGER:0.83,
+                                (
+                                  frontier:0.64,
+                                  sExit:0.64
+                                ) it41-0.64:0.18
+                              ) it103-0.83:0.04
+                            ) it109-0.86:0.05,
+                            checkFinish:0.91
+                          ) it121-0.91:0.01,
+                          requestCrawlStop:0.92
+                        ) it126-0.92:0.02
+                      ) it131-0.94:0.03,
+                      getFrontier:0.97
+                    ) it143-0.97:0.01,
+                    (
+                      (
+                        toePool:0.79,
+                        toeEnded:0.79
+                      ) it95-0.79:0.05,
+                      (
+                        (
+                          (
+                            getActiveToeCount:0.67,
+                            getToeCount:0.67
+                          ) it60-0.67:0.01,
+                          killThread:0.67
+                        ) it70-0.67:0.01,
+                        (
+                          getToePool:0.67,
+                          oneLineReportThreads:0.67
+                        ) it61-0.67:0.01
+                      ) it71-0.67:0.17
+                    ) it105-0.83:0.14
+                  ) it144-0.98:0.01,
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              checkpointRecover:0.40,
+                              isCheckpointRecover:0.40
+                            ) it7-0.40:0.09,
+                            getCheckpointRecover:0.49
+                          ) it8-0.49:0.27,
+                          getBigMap:0.76
+                        ) it88-0.76:0.19,
+                        (
+                          (
+                            order:0.73,
+                            initialize:0.73
+                          ) it78-0.73:0.18,
+                          (
+                            (
+                              (
+                                getCheckpointCopyBdbjeLogs:0.67,
+                                getOrder:0.67
+                              ) it58-0.67:0.01,
+                              setOrder:0.67
+                            ) it67-0.67:0.16,
+                            (
+                              (
+                                kickUpdate:0.71,
+                                setupToePool:0.71
+                              ) it75-0.71:0.09,
+                              (
+                                runFrontierRecover:0.67,
+                                setupCrawlModules:0.67
+                              ) it50-0.67:0.14
+                            ) it98-0.80:0.02
+                          ) it102-0.82:0.08
+                        ) it118-0.91:0.04
+                      ) it132-0.94:0.02,
+                      (
+                        (
+                          (
+                            maxBytes:0.50,
+                            maxDocument:0.50
+                          ) it10-0.50:0.01,
+                          maxTime:0.50
+                        ) it22-0.50:0.17,
+                        setThresholds:0.67
+                      ) it44-0.67:0.29
+                    ) it138-0.96:0.01,
+                    (
+                      (
+                        (
+                          statistics:0.67,
+                          setupStatTracking:0.67
+                        ) it52-0.67:0.11,
+                        getStatistics:0.77
+                      ) it91-0.77:0.09,
+                      (
+                        convertToFatalConfigurationException:0.67,
+                        restoreStatisticsTracker:0.67
+                      ) it53-0.67:0.19
+                    ) it108-0.86:0.11
+                  ) it142-0.97:0.01
+                ) it147-0.99:0.01,
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            CURRENT_LOG_SUFFIX:0.70,
+                            checkpoint:0.70
+                          ) it72-0.70:0.21,
+                          (
+                            checkpointer:0.67,
+                            requestCrawlCheckpoint:0.67
+                          ) it55-0.67:0.24
+                        ) it120-0.91:0.04,
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      LOGNAME_CRAWL:0.67,
+                                      (
+                                        LOGNAME_PROGRESS_STATISTICS:0.67,
+                                        LOGNAME_URI_ERRORS:0.67
+                                      ) it45-0.67:0.01
+                                    ) it64-0.67:0.01,
+                                    (
+                                      LOGNAME_LOCAL_ERRORS:0.67,
+                                      LOGNAME_RUNTIME_ERRORS:0.67
+                                    ) it46-0.67:0.01
+                                  ) it65-0.67:0.08,
+                                  logsDisk:0.75
+                                ) it85-0.75:0.01,
+                                (
+                                  localErrors:0.50,
+                                  (
+                                    runtimeErrors:0.50,
+                                    uriProcessing:0.50
+                                  ) it11-0.50:0.01
+                                ) it23-0.50:0.26
+                              ) it89-0.76:0.11,
+                              (
+                                uriErrors:0.50,
+                                logUriError:0.50
+                              ) it20-0.50:0.37
+                            ) it110-0.87:0.03,
+                            (
+                              progressStats:0.60,
+                              logProgressStatistics:0.60
+                            ) it35-0.60:0.30
+                          ) it114-0.90:0.02,
+                          (
+                            (
+                              fileHandlers:0.67,
+                              closeLogFiles:0.67
+                            ) it54-0.67:0.24,
+                            (
+                              completeStop:0.85,
+                              setupLogs:0.85
+                            ) it106-0.85:0.05
+                          ) it116-0.90:0.02
+                        ) it125-0.92:0.03
+                      ) it135-0.95:0.01,
+                      (
+                        (
+                          (
+                            (
+                              classCatalogDB:0.75,
+                              reports:0.75
+                            ) it82-0.75:0.16,
+                            (
+                              serverCache:0.50,
+                              getServerCache:0.50
+                            ) it15-0.50:0.41
+                          ) it119-0.91:0.02,
+                          (
+                            scope:0.60,
+                            getScope:0.60
+                          ) it29-0.60:0.33
+                        ) it128-0.93:0.02,
+                        (
+                          scratchDisk:0.50,
+                          getScratchDisk:0.50
+                        ) it16-0.50:0.45
+                      ) it134-0.95:0.02
+                    ) it140-0.96:0.02,
+                    (
+                      (
+                        (
+                          (
+                            (
+                              PREPARING:0.75,
+                              (
+                                RESERVE_BLOCKS:0.67,
+                                RESERVE_BLOCK_SIZE:0.67
+                              ) it47-0.67:0.08
+                            ) it84-0.75:0.16,
+                            (
+                              reserveMemory:0.50,
+                              freeReserveMemory:0.50
+                            ) it19-0.50:0.41
+                          ) it117-0.91:0.02,
+                          (
+                            bigmaps:0.60,
+                            checkpointBigMaps:0.60
+                          ) it34-0.60:0.32
+                        ) it127-0.92:0.02,
+                        (
+                          checkpointsDisk:0.50,
+                          getCheckpointsDisk:0.50
+                        ) it21-0.50:0.44
+                      ) it130-0.94:0.02,
+                      (
+                        (
+                          (
+                            disk:0.71,
+                            getDisk:0.71
+                          ) it74-0.71:0.08,
+                          (
+                            getSettingsDir:0.67,
+                            setupDisk:0.67
+                          ) it51-0.67:0.13
+                        ) it97-0.79:0.10,
+                        (
+                          (
+                            settingsHandler:0.60,
+                            getSettingsHandler:0.60
+                          ) it30-0.60:0.11,
+                          copySettings:0.71
+                        ) it73-0.71:0.18
+                      ) it113-0.89:0.07
+                    ) it139-0.96:0.02
+                  ) it146-0.98:0.01,
+                  (
+                    (
+                      (
+                        (
+                          MANIFEST_CONFIG_FILE:0.25,
+                          addOrderToManifest:0.25
+                        ) it2-0.25:0.48,
+                        (
+                          MANIFEST_REPORT_FILE:0.60,
+                          addToManifest:0.60
+                        ) it31-0.60:0.13
+                      ) it81-0.73:0.09,
+                      (
+                        (
+                          MANIFEST_LOG_FILE:0.40,
+                          setupLogFile:0.40
+                        ) it6-0.40:0.27,
+                        rotateLogFiles:0.67
+                      ) it63-0.67:0.16
+                    ) it104-0.83:0.09,
+                    (
+                      manifest:0.60,
+                      reportManifestTo:0.60
+                    ) it33-0.60:0.32
+                  ) it123-0.92:0.07
+                ) it148-0.99:0.01
+              ) it149-0.99:0.01,
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          bdbEnvironment:0.60,
+                          getBdbEnvironment:0.60
+                        ) it28-0.60:0.22,
+                        checkpointBdb:0.82
+                      ) it101-0.82:0.13,
+                      getBdbLogFileName:0.94
+                    ) it133-0.94:0.01,
+                    setBdbjeBkgrdThreads:0.96
+                  ) it137-0.96:0.01,
+                  (
+                    (
+                      (
+                        stateDisk:0.33,
+                        getStateDisk:0.33
+                      ) it5-0.33:0.53,
+                      (
+                        (
+                          processBdbLogs:0.67,
+                          setupBdb:0.67
+                        ) it57-0.67:0.13,
+                        setupCheckpointRecover:0.79
+                      ) it96-0.79:0.07
+                    ) it107-0.86:0.06,
+                    getLogsDir:0.92
+                  ) it124-0.92:0.05
+                ) it141-0.97:0.01,
+                (
+                  classCatalog:0.33,
+                  getClassCatalog:0.33
+                ) it4-0.33:0.65
+              ) it145-0.98:0.01
+            ) it150-0.99:0.01,
+            (
+              (
+                (
+                  registeredCrawlStatusListeners:0.67,
+                  addCrawlStatusListener:0.67
+                ) it49-0.67:0.07,
+                readObject:0.73
+              ) it80-0.73:0.20,
+              (
+                (
+                  singleThreadLock:0.50,
+                  singleThreadMode:0.50
+                ) it9-0.50:0.21,
+                (
+                  (
+                    acquireContinuePermission:0.50,
+                    releaseContinuePermission:0.50
+                  ) it18-0.50:0.01,
+                  (
+                    multiThreadMode:0.50,
+                    singleThreadMode:0.50
+                  ) it17-0.50:0.01
+                ) it25-0.50:0.21
+              ) it76-0.71:0.22
+            ) it129-0.93:0.06
+          ) it151-0.99:0.01,
+          (
+            (
+              (
+                (
+                  (
+                    MANIFEST_REPORT:0.67,
+                    PROCESSORS_REPORT:0.67
+                  ) it48-0.67:0.01,
+                  reportTo:0.67
+                ) it66-0.67:0.06,
+                reportTo:0.73
+              ) it79-0.73:0.23,
+              singleLineReportTo:0.96
+            ) it136-0.96:0.04,
+            (
+              processorChains:0.78,
+              (
+                (
+                  (
+                    (
+                      getFirstProcessorChain:0.67,
+                      getProcessorChainList:0.67
+                    ) it59-0.67:0.01,
+                    runProcessorFinalTasks:0.67
+                  ) it68-0.67:0.01,
+                  (
+                    getPostprocessorChain:0.67,
+                    runProcessorInitialTasks:0.67
+                  ) it62-0.67:0.01
+                ) it69-0.67:0.08,
+                reportProcessorsTo:0.75
+              ) it86-0.75:0.03
+            ) it92-0.78:0.21
+          ) it152-0.99:0.01
+        ) it153-1.00:0.01,
+        (
+          getCheckpointRecover:0.50,
+          isCheckpointRecover:0.50
+        ) it14-0.50:0.50
+      ) it154-1.00:0.01,
+      (
+        (
+          registeredCrawlURIDispositionListener:0.29,
+          registeredCrawlURIDispositionListeners:0.29
+        ) it3-0.29:0.43,
+        (
+          (
+            (
+              addCrawlURIDispositionListener:0.50,
+              fireCrawledURISuccessfulEvent:0.50
+            ) it12-0.50:0.01,
+            fireCrawledURIFailureEvent:0.50
+          ) it24-0.50:0.01,
+          (
+            fireCrawledURIDisregardEvent:0.50,
+            fireCrawledURINeedRetryEvent:0.50
+          ) it13-0.50:0.01
+        ) it26-0.50:0.21
+      ) it77-0.71:0.29
+    ) it158-1.00:0.01,
+    (
+      (
+        REPORTS:0.01,
+        getReports:0.01
+      ) it1-0.00:1.00,
+      progressStatisticsEvent:1.00
+    ) it157-1.00:0.01
+  ) it160-1.00:0.01,
+  (
+    (
+      NASCENT:1.00,
+      serialVersionUID:1.00
+    ) it155-1.00:0.01,
+    (
+      singleLineLegend:1.00,
+      singleLineReport:1.00
+    ) it156-1.00:0.01
+  ) it159-1.00:0.01
+) it161-1.00:0.01;

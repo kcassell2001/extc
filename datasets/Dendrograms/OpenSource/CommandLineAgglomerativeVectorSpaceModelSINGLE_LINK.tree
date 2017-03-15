@@ -1,0 +1,127 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              allowItemIndirect:0.60,
+              allowItemIndirect:0.60
+            ) it6-0.60:0.07,
+            setAllowItemIndirect:0.67
+          ) it17-0.67:0.08,
+          getItem:0.75
+        ) it27-0.75:0.25,
+        (
+          (
+            argMap:0.33,
+            add:0.33
+          ) it3-0.33:0.42,
+          (
+            add:0.67,
+            add:0.67
+          ) it15-0.67:0.08
+        ) it26-0.75:0.25
+      ) it35-1.00:0.01,
+      (
+        (
+          args:0.71,
+          (
+            (
+              args:0.67,
+              hasArgs:0.67
+            ) it8-0.67:0.01,
+            (
+              getArg:0.67,
+              numArgs:0.67
+            ) it12-0.67:0.01
+          ) it21-0.67:0.05
+        ) it25-0.71:0.29,
+        (
+          items:0.71,
+          (
+            (
+              hasItems:0.67,
+              numItems:0.67
+            ) it9-0.67:0.01,
+            pushItem:0.67
+          ) it19-0.67:0.05
+        ) it24-0.71:0.29
+      ) it34-1.00:0.01
+    ) it39-1.00:0.01,
+    (
+      (
+        (
+          argHook:0.33,
+          setHook:0.33
+        ) it2-0.33:0.67,
+        (
+          (
+            ignoreIndirectionMarker:0.33,
+            isIgnoreIndirectionMarker:0.33
+          ) it4-0.33:0.33,
+          setIgnoreIndirectionMarker:0.67
+        ) it16-0.67:0.33
+      ) it32-1.00:0.01,
+      (
+        (
+          (
+            contains:0.67,
+            hasArg:0.67
+          ) it11-0.67:0.01,
+          (
+            getValues:0.67,
+            getValue:0.67
+          ) it14-0.67:0.01
+        ) it22-0.67:0.33,
+        (
+          (
+            (
+              contains:0.67,
+              hasArg:0.67
+            ) it10-0.67:0.01,
+            getValues:0.67
+          ) it20-0.67:0.01,
+          (
+            getArg:0.67,
+            getValue:0.67
+          ) it13-0.67:0.01
+        ) it23-0.67:0.33
+      ) it33-1.00:0.01
+    ) it38-1.00:0.01
+  ) it41-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            indirectionMarker:0.60,
+            getIndirectionMarker:0.60
+          ) it7-0.60:0.07,
+          setIndirectionMarker:0.67
+        ) it18-0.67:0.13,
+        (
+          getItem:0.60,
+          isIndirectItem:0.60
+        ) it5-0.60:0.20
+      ) it28-0.80:0.20,
+      (
+        ignoreArgument:0.88,
+        process:0.88
+      ) it29-0.88:0.13
+    ) it36-1.00:0.01,
+    (
+      (
+        (
+          usage:0.01,
+          setUsage:0.01
+        ) it1-0.00:1.00,
+        trace:1.00
+      ) it31-1.00:0.01,
+      (
+        endProcessing:1.00,
+        handleUnrecognizedArg:1.00
+      ) it30-1.00:0.01
+    ) it37-1.00:0.01
+  ) it40-1.00:0.01
+) it42-1.00:0.01;

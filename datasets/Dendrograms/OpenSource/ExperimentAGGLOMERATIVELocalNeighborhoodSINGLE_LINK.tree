@@ -1,0 +1,184 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                FILE_EXTENSION:0.67,
+                read:0.67
+              ) it30-0.67:0.01,
+              write:0.67
+            ) it32-0.67:0.08,
+            (
+              listOptions:0.50,
+              postProcess:0.50
+            ) it12-0.50:0.25
+          ) it47-0.75:0.05,
+          (
+            (
+              (
+                (
+                  m_Notes:0.50,
+                  getNotes:0.50
+                ) it11-0.50:0.01,
+                setNotes:0.50
+              ) it15-0.50:0.30,
+              setResultProducer:0.80
+            ) it52-0.80:0.01,
+            (
+              (
+                m_ResultListener:0.60,
+                getResultListener:0.60
+              ) it20-0.60:0.01,
+              setResultListener:0.60
+            ) it23-0.60:0.20
+          ) it54-0.80:0.01
+        ) it56-0.80:0.01,
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          m_AdditionalMeasures:0.50,
+                          determineAdditionalResultMeasures:0.50
+                        ) it6-0.50:0.15,
+                        (
+                          (
+                            advanceCounters:0.50,
+                            nextIteration:0.50
+                          ) it7-0.50:0.02,
+                          initialize:0.52
+                        ) it16-0.52:0.12
+                      ) it27-0.65:0.08,
+                      getOptions:0.73
+                    ) it43-0.73:0.01,
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  (
+                                                    m_CurrentInstances:0.50,
+                                                    m_RunNumber:0.50
+                                                  ) it3-0.50:0.01,
+                                                  m_DatasetNumber:0.50
+                                                ) it13-0.50:0.07,
+                                                m_PropertyNumber:0.57
+                                              ) it17-0.57:0.03,
+                                              m_CurrentProperty:0.60
+                                            ) it21-0.60:0.03,
+                                            setProperty:0.63
+                                          ) it24-0.63:0.04,
+                                          m_UsePropertyIterator:0.67
+                                        ) it31-0.67:0.01,
+                                        getCurrentRunNumber:0.67
+                                      ) it33-0.67:0.01,
+                                      getCurrentDatasetNumber:0.67
+                                    ) it34-0.67:0.01,
+                                    (
+                                      m_Finished:0.60,
+                                      hasMoreIterations:0.60
+                                    ) it19-0.60:0.07
+                                  ) it35-0.67:0.03,
+                                  (
+                                    (
+                                      getDatasets:0.64,
+                                      (
+                                        getRunLower:0.50,
+                                        getRunUpper:0.50
+                                      ) it9-0.50:0.14
+                                    ) it25-0.64:0.01,
+                                    main:0.64
+                                  ) it26-0.64:0.05
+                                ) it36-0.69:0.01,
+                                (
+                                  m_ResultProducer:0.67,
+                                  getResultProducer:0.67
+                                ) it29-0.67:0.03
+                              ) it37-0.69:0.01,
+                              runExperiment:0.71
+                            ) it38-0.71:0.01,
+                            m_PropertyArray:0.71
+                          ) it39-0.71:0.01,
+                          getCurrentPropertyNumber:0.71
+                        ) it40-0.71:0.01,
+                        (
+                          m_RunUpper:0.50,
+                          setRunUpper:0.50
+                        ) it8-0.50:0.21
+                      ) it41-0.71:0.01,
+                      (
+                        m_RunLower:0.50,
+                        setRunLower:0.50
+                      ) it10-0.50:0.21
+                    ) it42-0.71:0.01
+                  ) it44-0.73:0.02,
+                  (
+                    (
+                      m_PropertyPath:0.60,
+                      getPropertyPath:0.60
+                    ) it18-0.60:0.01,
+                    setPropertyPath:0.60
+                  ) it22-0.60:0.15
+                ) it48-0.75:0.01,
+                (
+                  getUsePropertyIterator:0.75,
+                  setUsePropertyIterator:0.75
+                ) it45-0.75:0.01
+              ) it50-0.75:0.01,
+              (
+                (
+                  (
+                    getPropertyArray:0.50,
+                    getPropertyArrayValue:0.50
+                  ) it5-0.50:0.25,
+                  runExperiment:0.75
+                ) it46-0.75:0.01,
+                (
+                  getPropertyArrayLength:0.67,
+                  setPropertyArray:0.67
+                ) it28-0.67:0.08
+              ) it49-0.75:0.01
+            ) it51-0.75:0.05,
+            (
+              m_ClassFirst:0.33,
+              classFirst:0.33
+            ) it1-0.33:0.47
+          ) it53-0.80:0.01,
+          (
+            m_Datasets:0.33,
+            setDatasets:0.33
+          ) it2-0.33:0.47
+        ) it55-0.80:0.01
+      ) it57-0.80:0.01,
+      setOptions:0.81
+    ) it58-0.81:0.04,
+    (
+      (
+        m_AdvanceDataSetFirst:0.50,
+        getAdvanceDataSetFirst:0.50
+      ) it4-0.50:0.01,
+      setAdvanceDataSetFirst:0.50
+    ) it14-0.50:0.36
+  ) it59-0.86:0.14,
+  (
+    serialVersionUID:1.00,
+    getRevision:1.00
+  ) it60-1.00:0.01
+) it61-1.00:0.01;

@@ -1,0 +1,82 @@
+(
+  (
+    (
+      (
+        (
+          (
+            agenda:0.67,
+            nextAgendaItem:0.67
+          ) it12-0.67:0.05,
+          (
+            halt:0.50,
+            reset:0.50
+          ) it3-0.50:0.21
+        ) it19-0.71:0.01,
+        (
+          (
+            goalTable:0.67,
+            findGoal:0.67
+          ) it10-0.67:0.01,
+          dump:0.67
+        ) it15-0.67:0.05
+      ) it21-0.71:0.01,
+      (
+        (
+          (
+            (
+              traceOn:0.67,
+              setTraceOn:0.67
+            ) it11-0.67:0.01,
+            isTraceOn:0.67
+          ) it16-0.67:0.03,
+          next:0.69
+        ) it18-0.69:0.02,
+        (
+          appendToAgenda:0.50,
+          prependToAgenda:0.50
+        ) it4-0.50:0.21
+      ) it20-0.71:0.01
+    ) it22-0.71:0.10,
+    (
+      (
+        (
+          (
+            batchSize:0.67,
+            logger:0.67
+          ) it7-0.67:0.08,
+          (
+            nRulesFired:0.33,
+            getNRulesFired:0.33
+          ) it1-0.33:0.42
+        ) it23-0.75:0.01,
+        (
+          recordDerivations:0.33,
+          setDerivationLogging:0.33
+        ) it2-0.33:0.42
+      ) it24-0.75:0.05,
+      (
+        (
+          infGraph:0.50,
+          getInfGraph:0.50
+        ) it5-0.50:0.01,
+        processBuiltin:0.50
+      ) it6-0.50:0.30
+    ) it25-0.80:0.02
+  ) it26-0.82:0.18,
+  (
+    (
+      (
+        ruleStore:0.67,
+        addRule:0.67
+      ) it8-0.67:0.01,
+      (
+        deleteRule:0.67,
+        getAllRules:0.67
+      ) it9-0.67:0.01
+    ) it14-0.67:0.01,
+    (
+      deleteAllRules:0.67,
+      rulesFor:0.67
+    ) it13-0.67:0.01
+  ) it17-0.67:0.33
+) it27-1.00:0.01;

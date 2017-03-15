@@ -1,0 +1,205 @@
+(
+  (
+    (
+      (
+        NS_W3_log:1.00,
+        minGapStr:1.00
+      ) it58-1.00:0.01,
+      (
+        WS:1.00,
+        allowDecimals:1.00
+      ) it59-1.00:0.01
+    ) it64-1.00:0.01,
+    (
+      (
+        countProperties:1.00,
+        countProperties:1.00
+      ) it60-1.00:0.01,
+      (
+        isOpaque:1.00,
+        rdfListIterator:1.00
+      ) it61-1.00:0.01
+    ) it65-1.00:0.01
+  ) it67-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  (
+                                    allowDoubles:0.60,
+                                    (
+                                      allowTripleQuotedStrings:0.60,
+                                      formatLiteral:0.60
+                                    ) it14-0.60:0.01
+                                  ) it17-0.60:0.15,
+                                  formatNode:0.75
+                                ) it34-0.75:0.01,
+                                (
+                                  (
+                                    (
+                                      alwaysAllocateBNodeLabel:0.60,
+                                      formatResource:0.60
+                                    ) it13-0.60:0.01,
+                                    bNodeCounter:0.60
+                                  ) it16-0.60:0.07,
+                                  bNodesMap:0.67
+                                ) it25-0.67:0.08
+                              ) it40-0.75:0.01,
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          prefixMap:0.60,
+                                          getPrefixes:0.60
+                                        ) it11-0.60:0.07,
+                                        formatURI:0.67
+                                      ) it24-0.67:0.05,
+                                      writePrefixes:0.71
+                                    ) it28-0.71:0.01,
+                                    processModel:0.73
+                                  ) it30-0.73:0.02,
+                                  pad:0.75
+                                ) it38-0.75:0.01,
+                                (
+                                  (
+                                    (
+                                      shortSubject:0.67,
+                                      subjectColumn:0.67
+                                    ) it20-0.67:0.01,
+                                    writeSubject:0.67
+                                  ) it26-0.67:0.08,
+                                  (
+                                    (
+                                      writeLiteral:0.60,
+                                      writeObject:0.60
+                                    ) it12-0.60:0.15,
+                                    writeModel:0.75
+                                  ) it33-0.75:0.01
+                                ) it39-0.75:0.01
+                              ) it43-0.75:0.01
+                            ) it45-0.75:0.01,
+                            (
+                              (
+                                (
+                                  indentObject:0.67,
+                                  widePropertyLen:0.67
+                                ) it19-0.67:0.08,
+                                (
+                                  (
+                                    minGap:0.50,
+                                    (
+                                      propertyCol:0.33,
+                                      calcPropertyPadding:0.33
+                                    ) it3-0.33:0.17
+                                  ) it8-0.50:0.17,
+                                  writeObjectList:0.67
+                                ) it23-0.67:0.08
+                              ) it36-0.75:0.01,
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        indentProperty:0.67,
+                                        writeOneGraphNode:0.67
+                                      ) it21-0.67:0.05,
+                                      out:0.71
+                                    ) it27-0.71:0.01,
+                                    writePropertiesForSubject:0.71
+                                  ) it29-0.71:0.04,
+                                  getOutput:0.75
+                                ) it37-0.75:0.01,
+                                (
+                                  write:0.75,
+                                  write:0.75
+                                ) it31-0.75:0.01
+                              ) it42-0.75:0.01
+                            ) it44-0.75:0.01
+                          ) it46-0.75:0.05,
+                          string:0.80
+                        ) it48-0.80:0.01,
+                        (
+                          (
+                            checkQNameLocalname:0.50,
+                            (
+                              checkQNameNamespace:0.50,
+                              checkQNamePart:0.50
+                            ) it5-0.50:0.01
+                          ) it10-0.50:0.25,
+                          checkQName:0.75
+                        ) it32-0.75:0.05
+                      ) it49-0.80:0.03,
+                      listSubjects:0.83
+                    ) it50-0.83:0.01,
+                    skipThisSubject:0.83
+                  ) it51-0.83:0.01,
+                  preparePropertiesForSubject:0.83
+                ) it52-0.83:0.01,
+                (
+                  useWellKnownPropertySymbols:0.50,
+                  (
+                    wellKnownPropsMap:0.50,
+                    formatProperty:0.50
+                  ) it4-0.50:0.01
+                ) it9-0.50:0.33
+              ) it53-0.83:0.07,
+              startWriting:0.90
+            ) it54-0.90:0.01,
+            finishWriting:0.90
+          ) it55-0.90:0.01,
+          prepare:0.90
+        ) it56-0.90:0.01,
+        writeHeader:0.90
+      ) it57-0.90:0.10,
+      (
+        (
+          (
+            (
+              (
+                (
+                  logger:0.25,
+                  getIntValue:0.25
+                ) it2-0.25:0.35,
+                writerPropertyMap:0.60
+              ) it15-0.60:0.01,
+              (
+                getPropValue:0.50,
+                setProperty:0.50
+              ) it7-0.50:0.10
+            ) it18-0.60:0.15,
+            absolutePropName:0.75
+          ) it35-0.75:0.01,
+          (
+            getBooleanValue:0.67,
+            getStringValue:0.67
+          ) it22-0.67:0.08
+        ) it41-0.75:0.05,
+        localPropName:0.80
+      ) it47-0.80:0.20
+    ) it63-1.00:0.01,
+    (
+      (
+        errorHandler:0.01,
+        setErrorHandler:0.01
+      ) it1-0.00:1.00,
+      (
+        countArcsTo:0.50,
+        countArcsTo:0.50
+      ) it6-0.50:0.50
+    ) it62-1.00:0.01
+  ) it66-1.00:0.01
+) it68-1.00:0.01;

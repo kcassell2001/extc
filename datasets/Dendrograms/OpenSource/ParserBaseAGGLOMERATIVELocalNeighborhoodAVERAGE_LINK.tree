@@ -1,0 +1,166 @@
+(
+  (
+    (
+      (
+        (
+          SWAP_LOG_NS:1.00,
+          nLogImplies:1.00
+        ) it36-1.00:0.01,
+        (
+          SWAP_NS:1.00,
+          nRDFobject:1.00
+        ) it35-1.00:0.01
+      ) it46-1.00:0.01,
+      (
+        (
+          nRDFfirst:1.00,
+          nRDFrest:1.00
+        ) it33-1.00:0.01,
+        (
+          nRDFpredicate:1.00,
+          nRDFsubject:1.00
+        ) it34-1.00:0.01
+      ) it45-1.00:0.01
+    ) it51-1.00:0.01,
+    (
+      (
+        (
+          strictTurtle:1.00,
+          makePositiveInteger:1.00
+        ) it37-1.00:0.01,
+        (
+          createLiteralDouble:1.00,
+          createLiteralInteger:1.00
+        ) it38-1.00:0.01
+      ) it47-1.00:0.01,
+      (
+        (
+          createLiteralDecimal:1.00,
+          integerValue:1.00
+        ) it39-1.00:0.01,
+        (
+          doubleValue:1.00,
+          stripQuotes3:1.00
+        ) it40-1.00:0.01
+      ) it48-1.00:0.01
+    ) it52-1.00:0.01
+  ) it54-1.00:0.01,
+  (
+    (
+      (
+        (
+          XSD_FALSE:1.00,
+          XSD_TRUE:1.00
+        ) it31-1.00:0.01,
+        (
+          nRDFnil:1.00,
+          nRDFtype:1.00
+        ) it32-1.00:0.01
+      ) it44-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                (
+                  bNodeLabelStart:0.01,
+                  createNode:0.01
+                ) it2-0.00:0.40,
+                isBNodeIRI:0.40
+              ) it8-0.40:0.30,
+              skolomizedBNodes:0.70
+            ) it20-0.70:0.27,
+            (
+              (
+                (
+                  (
+                    (
+                      resolver:0.50,
+                      _resolveIRI:0.50
+                    ) it11-0.50:0.04,
+                    resolveIRI:0.54
+                  ) it12-0.54:0.21,
+                  getBaseURI:0.74
+                ) it22-0.74:0.12,
+                (
+                  setBaseURI:0.33,
+                  setBase:0.33
+                ) it4-0.33:0.53
+              ) it25-0.87:0.06,
+              (
+                resolveQuotedIRI:0.33,
+                stripQuotes:0.33
+              ) it5-0.33:0.60
+            ) it26-0.93:0.03
+          ) it28-0.97:0.03,
+          (
+            (
+              (
+                (
+                  (
+                    handler:0.67,
+                    setEventHandler:0.67
+                  ) it14-0.67:0.01,
+                  endFormula:0.67
+                ) it17-0.67:0.01,
+                (
+                  emitTriple:0.67,
+                  startFormula:0.67
+                ) it15-0.67:0.01
+              ) it18-0.67:0.28,
+              (
+                (
+                  (
+                    prefixMapping:0.50,
+                    getPrefixMapping:0.50
+                  ) it10-0.50:0.18,
+                  setPrefix:0.68
+                ) it19-0.68:0.16,
+                (
+                  resolvePName:0.60,
+                  throwParseException:0.60
+                ) it13-0.60:0.23
+              ) it24-0.83:0.11
+            ) it27-0.94:0.04,
+            (
+              (
+                (
+                  exMsg:0.25,
+                  hex:0.25
+                ) it3-0.25:0.20,
+                unescape:0.45
+              ) it9-0.45:0.27,
+              (
+                unescapeStr:0.67,
+                unescapeStr:0.67
+              ) it16-0.67:0.05
+            ) it21-0.72:0.27
+          ) it29-0.98:0.01
+        ) it30-1.00:0.01,
+        (
+          (
+            bNodeLabels:0.33,
+            createBNode:0.33
+          ) it7-0.33:0.42,
+          (
+            createBNode:0.33,
+            createListNode:0.33
+          ) it6-0.33:0.42
+        ) it23-0.75:0.25
+      ) it43-1.00:0.01
+    ) it50-1.00:0.01,
+    (
+      (
+        (
+          createLiteral:0.01,
+          createLiteral:0.01
+        ) it1-0.00:1.00,
+        fixupPrefix:1.00
+      ) it42-1.00:0.01,
+      (
+        createVariable:1.00,
+        stripChars:1.00
+      ) it41-1.00:0.01
+    ) it49-1.00:0.01
+  ) it53-1.00:0.01
+) it55-1.00:0.01;

@@ -1,0 +1,208 @@
+(
+  (
+    (
+      (
+        (
+          (
+            DARKNESS:1.00,
+            LOST_CITY_RUMOUR:1.00
+          ) it35-1.00:0.01,
+          (
+            getImage:1.00,
+            getScaledImageLibrary:1.00
+          ) it36-1.00:0.01
+        ) it53-1.00:0.01,
+        (
+          (
+            getCoatOfArmsImageIcon:1.00,
+            getMonarchImageIcon:1.00
+          ) it38-1.00:0.01,
+          (
+            getFoundingFatherImage:1.00,
+            getMonarchImage:1.00
+          ) it37-1.00:0.01
+        ) it54-1.00:0.01
+      ) it62-1.00:0.01,
+      (
+        (
+          (
+            DELETE:1.00,
+            PLOWED:1.00
+          ) it33-1.00:0.01,
+          (
+            TILE_OWNED_BY_INDIANS:1.00,
+            TILE_TAKEN:1.00
+          ) it34-1.00:0.01
+        ) it52-1.00:0.01,
+        (
+          (
+            UNIT_SELECT:1.00,
+            logger:1.00
+          ) it32-1.00:0.01,
+          (
+            scalingFactor:0.90,
+            (
+              (
+                getBeachCornerImage:0.67,
+                getBeachEdgeImage:0.67
+              ) it14-0.67:0.01,
+              (
+                (
+                  getBorderImage:0.67,
+                  getRiverMouthImage:0.67
+                ) it12-0.67:0.01,
+                (
+                  getImage:0.67,
+                  getScalingFactor:0.67
+                ) it7-0.67:0.01
+              ) it23-0.67:0.01
+            ) it24-0.67:0.24
+          ) it31-0.90:0.10
+        ) it51-1.00:0.01
+      ) it61-1.00:0.01
+    ) it66-1.00:0.01,
+    (
+      (
+        (
+          (
+            (
+              stockadeKey:0.01,
+              getSettlementImage:0.01
+            ) it1-0.00:0.75,
+            getSettlementImage:0.75
+          ) it25-0.75:0.25,
+          (
+            getBonusImage:0.75,
+            (
+              getBonusImage:0.50,
+              getScaledBonusImageIcon:0.50
+            ) it2-0.50:0.25
+          ) it26-0.75:0.25
+        ) it48-1.00:0.01,
+        (
+          (
+            (
+              getPathImage:0.50,
+              getPathType:0.50
+            ) it6-0.50:0.17,
+            getPathNextTurnImage:0.67
+          ) it22-0.67:0.33,
+          (
+            getUnitImageIcon:0.67,
+            getUnitImageIcon:0.67
+          ) it19-0.67:0.33
+        ) it47-1.00:0.01
+      ) it59-1.00:0.01,
+      (
+        (
+          (
+            getCompoundTerrainImage:0.83,
+            (
+              getOverlayImage:0.67,
+              getOverlayImage:0.67
+            ) it10-0.67:0.17
+          ) it30-0.83:0.17,
+          (
+            (
+              getUnitImageIcon:0.50,
+              getUnitImageIcon:0.50
+            ) it4-0.50:0.25,
+            (
+              (
+                getUnitImageIcon:0.50,
+                getUnitImageIcon:0.50
+              ) it5-0.50:0.17,
+              getUnitImageIcon:0.67
+            ) it21-0.67:0.08
+          ) it29-0.75:0.25
+        ) it50-1.00:0.01,
+        (
+          (
+            getGoodsImage:0.75,
+            (
+              getGoodsImage:0.50,
+              getScaledGoodsImageIcon:0.50
+            ) it3-0.50:0.25
+          ) it27-0.75:0.25,
+          (
+            (
+              getUnitImageIcon:0.67,
+              getUnitImageIcon:0.67
+            ) it20-0.67:0.08,
+            getUnitImageIcon:0.75
+          ) it28-0.75:0.25
+        ) it49-1.00:0.01
+      ) it60-1.00:0.01
+    ) it65-1.00:0.01
+  ) it68-1.00:0.01,
+  (
+    (
+      (
+        (
+          drawTiledImage:1.00,
+          getCompoundTerrainImageHeight:1.00
+        ) it42-1.00:0.01,
+        (
+          getAlarmChip:1.00,
+          getMissionChip:1.00
+        ) it41-1.00:0.01
+      ) it56-1.00:0.01,
+      (
+        (
+          getColorChip:1.00,
+          getColor:1.00
+        ) it40-1.00:0.01,
+        (
+          getGoodsImageIcon:1.00,
+          getMiscImageIcon:1.00
+        ) it39-1.00:0.01
+      ) it55-1.00:0.01
+    ) it63-1.00:0.01,
+    (
+      (
+        (
+          (
+            getBonusImageIcon:0.67,
+            getBonusImage:0.67
+          ) it9-0.67:0.33,
+          (
+            getCoatOfArmsImage:0.67,
+            getCoatOfArmsImage:0.67
+          ) it8-0.67:0.33
+        ) it43-1.00:0.01,
+        (
+          (
+            getRiverImage:0.67,
+            getRiverImage:0.67
+          ) it13-0.67:0.33,
+          (
+            getTerrainImage:0.67,
+            getTerrainImage:0.67
+          ) it11-0.67:0.33
+        ) it44-1.00:0.01
+      ) it57-1.00:0.01,
+      (
+        (
+          (
+            getForestImage:0.67,
+            getForestImage:0.67
+          ) it15-0.67:0.33,
+          (
+            getMiscImage:0.67,
+            getMiscImage:0.67
+          ) it16-0.67:0.33
+        ) it45-1.00:0.01,
+        (
+          (
+            getSettlementImage:0.67,
+            getSettlementImage:0.67
+          ) it18-0.67:0.33,
+          (
+            getTerrainImageHeight:0.67,
+            getTerrainImageWidth:0.67
+          ) it17-0.67:0.33
+        ) it46-1.00:0.01
+      ) it58-1.00:0.01
+    ) it64-1.00:0.01
+  ) it67-1.00:0.01
+) it69-1.00:0.01;

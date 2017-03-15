@@ -1,0 +1,91 @@
+(
+  (
+    (
+      (
+        (
+          CALCULATOR_COMBO:1.00,
+          CLUSTERER_COMBO:1.00
+        ) it1-1.00:0.01,
+        setUpMixedModeClustering:1.00
+      ) it16-1.00:0.01,
+      (
+        (
+          LINK_COMBO:1.00,
+          app:1.00
+        ) it2-1.00:0.01,
+        (
+          graphId:1.00,
+          mainPanel:1.00
+        ) it3-1.00:0.01
+      ) it17-1.00:0.01
+    ) it24-1.00:0.01,
+    (
+      (
+        (
+          calculatorBox:1.00,
+          clustererBox:1.00
+        ) it5-1.00:0.01,
+        (
+          controlPanel:1.00,
+          splitPane:1.00
+        ) it4-1.00:0.01
+      ) it18-1.00:0.01,
+      (
+        (
+          dendrogramComponent:1.00,
+          groupLinkageBox:1.00
+        ) it6-1.00:0.01,
+        (
+          getGraphId:1.00,
+          getMainPanel:1.00
+        ) it7-1.00:0.01
+      ) it19-1.00:0.01
+    ) it25-1.00:0.01
+  ) it28-1.00:0.01,
+  (
+    (
+      (
+        (
+          actionPerformed:1.00,
+          showDendrogram:1.00
+        ) it11-1.00:0.01,
+        (
+          createClustererCombo:1.00,
+          setUpDendrogramApplet:1.00
+        ) it10-1.00:0.01
+      ) it21-1.00:0.01,
+      (
+        (
+          createCalculatorCombo:1.00,
+          createLinkageCombo:1.00
+        ) it9-1.00:0.01,
+        (
+          setUpControlPanel:1.00,
+          setUpView:1.00
+        ) it8-1.00:0.01
+      ) it20-1.00:0.01
+    ) it26-1.00:0.01,
+    (
+      (
+        (
+          displayCluster:1.00,
+          saveResultsToFile:1.00
+        ) it15-1.00:0.01,
+        (
+          handleGroupLinkageRequest:1.00,
+          performAgglomerativeClustering:1.00
+        ) it14-1.00:0.01
+      ) it23-1.00:0.01,
+      (
+        (
+          handleCalculatorRequest:1.00,
+          handleClustererRequest:1.00
+        ) it12-1.00:0.01,
+        (
+          performClustering:1.00,
+          performMixedModeClustering:1.00
+        ) it13-1.00:0.01
+      ) it22-1.00:0.01
+    ) it27-1.00:0.01
+  ) it29-1.00:0.01
+) it30-1.00:0.01;

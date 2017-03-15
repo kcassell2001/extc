@@ -1,0 +1,418 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                ADD_CRAWL_JOB_BASEDON_OPER:0.50,
+                                PENDING_JOBS_OPER:0.50
+                              ) it14-0.50:0.01,
+                              (
+                                ALERT_OPER:0.50,
+                                DELETE_CRAWL_JOB_OPER:0.50
+                              ) it13-0.50:0.01
+                            ) it28-0.50:0.01,
+                            (
+                              (
+                                COMPLETED_JOBS_OPER:0.50,
+                                CRAWLEND_REPORT_OPER:0.50
+                              ) it15-0.50:0.01,
+                              (
+                                LOG_OPER:0.50,
+                                SHUTDOWN_OPER:0.50
+                              ) it16-0.50:0.01
+                            ) it29-0.50:0.01
+                          ) it33-0.50:0.01,
+                          (
+                            (
+                              (
+                                ADD_CRAWL_JOB_OPER:0.50,
+                                TERMINATE_CRAWL_JOB_OPER:0.50
+                              ) it12-0.50:0.01,
+                              (
+                                START_CRAWLING_OPER:0.50,
+                                STOP_CRAWLING_OPER:0.50
+                              ) it11-0.50:0.01
+                            ) it27-0.50:0.01,
+                            (
+                              (
+                                DESTROY_OPER:0.50,
+                                INTERRUPT_OPER:0.50
+                              ) it10-0.50:0.01,
+                              (
+                                START_OPER:0.50,
+                                STOP_OPER:0.50
+                              ) it9-0.50:0.01
+                            ) it26-0.50:0.01
+                          ) it32-0.50:0.01
+                        ) it34-0.50:0.25,
+                        OPERATION_LIST:0.75
+                      ) it93-0.75:0.01,
+                      (
+                        (
+                          JOB_KEYS:0.50,
+                          (
+                            jobCompositeType:0.50,
+                            jobsTabularType:0.50
+                          ) it17-0.50:0.01
+                        ) it30-0.50:0.10,
+                        makeJobsTabularData:0.60
+                      ) it40-0.60:0.15
+                    ) it103-0.75:0.01,
+                    (
+                      (
+                        (
+                          ATTRIBUTE_LIST:0.50,
+                          (
+                            STATUS_ATTR:0.50,
+                            VERSION_ATTR:0.50
+                          ) it8-0.50:0.01
+                        ) it25-0.50:0.21,
+                        getAttribute:0.71
+                      ) it87-0.71:0.04,
+                      getAttributes:0.75
+                    ) it99-0.75:0.01
+                  ) it107-0.75:0.08,
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              ARCHIVE_PACKAGE:0.50,
+                              (
+                                HERITRIX_PROPERTIES_PREFIX:0.50,
+                                loadProperties:0.50
+                              ) it19-0.50:0.01
+                            ) it31-0.50:0.30,
+                            (
+                              (
+                                (
+                                  (
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  CRAWLER_PACKAGE:0.60,
+                                                  getJmxObjectName:0.60
+                                                ) it39-0.60:0.01,
+                                                getJndiContext:0.60
+                                              ) it43-0.60:0.07,
+                                              (
+                                                registerMBean:0.67,
+                                                registerMBean:0.67
+                                              ) it57-0.67:0.01
+                                            ) it76-0.67:0.01,
+                                            (
+                                              getJmxObjectName:0.67,
+                                              getJmxObjectName:0.67
+                                            ) it58-0.67:0.01
+                                          ) it82-0.67:0.01,
+                                          (
+                                            addVitals:0.67,
+                                            getJndiContainerName:0.67
+                                          ) it65-0.67:0.01
+                                        ) it85-0.67:0.08,
+                                        unregisterMBean:0.75
+                                      ) it98-0.75:0.01,
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                (
+                                                  (
+                                                    PROPERTIES:0.60,
+                                                    getPropertiesInputStream:0.60
+                                                  ) it36-0.60:0.01,
+                                                  PROPERTIES_KEY:0.60
+                                                ) it41-0.60:0.01,
+                                                getConfdir:0.60
+                                              ) it44-0.60:0.07,
+                                              patchLogging:0.67
+                                            ) it69-0.67:0.01,
+                                            (
+                                              (
+                                                getConfdir:0.67,
+                                                getSubDir:0.67
+                                              ) it54-0.67:0.01,
+                                              getWarsdir:0.67
+                                            ) it75-0.67:0.01
+                                          ) it81-0.67:0.08,
+                                          (
+                                            (
+                                              getHeritrixHome:0.50,
+                                              getJobsdir:0.50
+                                            ) it18-0.50:0.17,
+                                            (
+                                              getSubDir:0.67,
+                                              isDevelopment:0.67
+                                            ) it50-0.67:0.01
+                                          ) it72-0.67:0.08
+                                        ) it97-0.75:0.01,
+                                        (
+                                          configureTrustStore:0.75,
+                                          (
+                                            interrupt:0.67,
+                                            unregisterMBean:0.67
+                                          ) it64-0.67:0.08
+                                        ) it94-0.75:0.01
+                                      ) it104-0.75:0.01
+                                    ) it108-0.75:0.01,
+                                    (
+                                      (
+                                        (
+                                          (
+                                            (
+                                              (
+                                                mbeanName:0.63,
+                                                mbeanServer:0.63
+                                              ) it47-0.63:0.09,
+                                              getMBeanName:0.71
+                                            ) it88-0.71:0.01,
+                                            (
+                                              (
+                                                deregisterJndi:0.50,
+                                                registerJndi:0.50
+                                              ) it22-0.50:0.17,
+                                              (
+                                                (
+                                                  postDeregister:0.57,
+                                                  postRegister:0.57
+                                                ) it35-0.57:0.05,
+                                                preRegister:0.63
+                                              ) it48-0.63:0.04
+                                            ) it71-0.67:0.05
+                                          ) it90-0.71:0.04,
+                                          prepareHeritrixShutDown:0.75
+                                        ) it100-0.75:0.01,
+                                        preDeregister:0.75
+                                      ) it105-0.75:0.01,
+                                      (
+                                        registerHeritrix:0.67,
+                                        unregisterHeritrix:0.67
+                                      ) it55-0.67:0.08
+                                    ) it109-0.75:0.01
+                                  ) it111-0.75:0.02,
+                                  (
+                                    (
+                                      instances:0.67,
+                                      (
+                                        getSingleInstance:0.33,
+                                        isSingleInstance:0.33
+                                      ) it6-0.33:0.33
+                                    ) it67-0.67:0.01,
+                                    getInstances:0.67
+                                  ) it80-0.67:0.10
+                                ) it113-0.77:0.02,
+                                (
+                                  containerInitialized:0.78,
+                                  (
+                                    logger:0.76,
+                                    containerInitialization:0.76
+                                  ) it112-0.76:0.01
+                                ) it114-0.78:0.01
+                              ) it115-0.79:0.01,
+                              getNoJmxName:0.80
+                            ) it120-0.80:0.01
+                          ) it122-0.80:0.01,
+                          (
+                            getMBeanServer:0.67,
+                            registerMBean:0.67
+                          ) it56-0.67:0.13
+                        ) it124-0.80:0.01,
+                        (
+                          (
+                            (
+                              (
+                                ROOT_CONTEXT:0.67,
+                                startEmbeddedWebserver:0.67
+                              ) it51-0.67:0.01,
+                              (
+                                httpServer:0.60,
+                                getHttpServer:0.60
+                              ) it38-0.60:0.07
+                            ) it73-0.67:0.08,
+                            selftest:0.75
+                          ) it96-0.75:0.05,
+                          getVersion:0.80
+                        ) it117-0.80:0.01
+                      ) it125-0.80:0.01,
+                      (
+                        (
+                          (
+                            STARTLOG:0.75,
+                            (
+                              commandLine:0.33,
+                              isCommandLine:0.33
+                            ) it4-0.33:0.42
+                          ) it92-0.75:0.01,
+                          (
+                            out:0.67,
+                            main:0.67
+                          ) it49-0.67:0.08
+                        ) it102-0.75:0.05,
+                        (
+                          (
+                            gui:0.50,
+                            guiPort:0.50
+                          ) it7-0.50:0.01,
+                          addGuiPort:0.50
+                        ) it24-0.50:0.30
+                      ) it118-0.80:0.01
+                    ) it126-0.80:0.01,
+                    doCmdLineArgs:0.81
+                  ) it127-0.81:0.02
+                ) it129-0.83:0.01,
+                (
+                  (
+                    (
+                      (
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  JAR_SUFFIX:0.25,
+                                  addCrawlJob:0.25
+                                ) it2-0.25:0.25,
+                                addCrawlJob:0.50
+                              ) it23-0.50:0.10,
+                              (
+                                (
+                                  TMPDIR:0.60,
+                                  addCrawlJobBasedonJar:0.60
+                                ) it37-0.60:0.01,
+                                addCrawlJobBasedOn:0.60
+                              ) it42-0.60:0.01
+                            ) it45-0.60:0.07,
+                            addCrawlJob:0.67
+                          ) it70-0.67:0.08,
+                          (
+                            (
+                              jobHandler:0.73,
+                              (
+                                (
+                                  openMBeanInfo:0.33,
+                                  getMBeanInfo:0.33
+                                ) it5-0.33:0.38,
+                                (
+                                  (
+                                    (
+                                      addCrawlJob:0.67,
+                                      createCrawlJobBasedOn:0.67
+                                    ) it52-0.67:0.01,
+                                    getCrawlendReport:0.67
+                                  ) it74-0.67:0.01,
+                                  (
+                                    (
+                                      destroy:0.67,
+                                      stop:0.67
+                                    ) it63-0.67:0.01,
+                                    (
+                                      (
+                                        getJobHandler:0.67,
+                                        isStarted:0.67
+                                      ) it59-0.67:0.01,
+                                      (
+                                        startCrawling:0.67,
+                                        stopCrawling:0.67
+                                      ) it53-0.67:0.01
+                                    ) it77-0.67:0.01
+                                  ) it83-0.67:0.01
+                                ) it86-0.67:0.05
+                              ) it89-0.71:0.01
+                            ) it91-0.73:0.02,
+                            addCrawlJobBasedOn:0.75
+                          ) it101-0.75:0.01
+                        ) it106-0.75:0.01,
+                        (
+                          (
+                            (
+                              doOneCrawl:0.33,
+                              doOneCrawl:0.33
+                            ) it3-0.33:0.33,
+                            launch:0.67
+                          ) it66-0.67:0.08,
+                          launch:0.75
+                        ) it95-0.75:0.01
+                      ) it110-0.75:0.05,
+                      createCrawlJob:0.80
+                    ) it119-0.80:0.01,
+                    (
+                      (
+                        alertManager:0.80,
+                        (
+                          (
+                            (
+                              getAlerts:0.67,
+                              getNewAlerts:0.67
+                            ) it61-0.67:0.01,
+                            (
+                              getAlert:0.67,
+                              readAlert:0.67
+                            ) it62-0.67:0.01
+                          ) it79-0.67:0.01,
+                          (
+                            (
+                              getAlertsCount:0.67,
+                              getNewAlertsCount:0.67
+                            ) it60-0.67:0.01,
+                            removeAlert:0.67
+                          ) it78-0.67:0.01
+                        ) it84-0.67:0.13
+                      ) it116-0.80:0.01,
+                      getStatus:0.80
+                    ) it121-0.80:0.01
+                  ) it123-0.80:0.03,
+                  start:0.83
+                ) it128-0.83:0.01
+              ) it130-0.83:0.03,
+              (
+                buildMBeanInfo:0.61,
+                invoke:0.61
+              ) it46-0.61:0.25
+            ) it131-0.86:0.03,
+            (
+              (
+                getShutdownThread:0.50,
+                shutdown:0.50
+              ) it21-0.50:0.17,
+              shutdown:0.67
+            ) it68-0.67:0.22
+          ) it132-0.89:0.01,
+          isValidLoginPasswordString:0.90
+        ) it133-0.90:0.01,
+        (
+          DEFAULT_HERITRIX_OUT:0.01,
+          getHeritrixOut:0.01
+        ) it1-0.00:0.91
+      ) it134-0.91:0.06,
+      checkForEmptyPlaceHolder:0.97
+    ) it135-0.97:0.03,
+    (
+      DEFAULT_ENCODING:1.00,
+      setAttribute:1.00
+    ) it136-1.00:0.01
+  ) it138-1.00:0.01,
+  (
+    (
+      performHeritrixShutDown:0.50,
+      performHeritrixShutDown:0.50
+    ) it20-0.50:0.50,
+    setAttributes:1.00
+  ) it137-1.00:0.01
+) it139-1.00:0.01;

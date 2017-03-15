@@ -1,0 +1,16 @@
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getFirstName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getModel
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getPersonName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getMake
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setId~I
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getVin
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getPersonInfo
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getCarInfo
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setLastName~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getCarDescription
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setMake~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getId
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~getLastName
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setFirstName~QString;
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setVin~I
+=CohesionTests/src<nz.ac.vuw.ecs.kcassell.personcars{PersonCarDisjoint.java[PersonCarDisjoint~setModel~QString;

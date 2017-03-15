@@ -1,0 +1,223 @@
+(
+  (
+    (
+      (
+        DEFAULT_WINDOW_SPACE:1.00,
+        worker:1.00
+      ) it60-1.00:0.01,
+      (
+        (
+          actionManager:0.01,
+          getActionManager:0.01
+        ) it1-0.00:1.00,
+        removeSplash:1.00
+      ) it61-1.00:0.01
+    ) it68-1.00:0.01,
+    (
+      (
+        (
+          inGameController:0.01,
+          getInGameController:0.01
+        ) it9-0.00:1.00,
+        (
+          preGameInputHandler:0.01,
+          getPreGameInputHandler:0.01
+        ) it8-0.00:1.00
+      ) it63-1.00:0.01,
+      (
+        (
+          mapEditorController:0.01,
+          getMapEditorController:0.01
+        ) it3-0.00:1.00,
+        (
+          preGameController:0.01,
+          getPreGameController:0.01
+        ) it7-0.00:1.00
+      ) it62-1.00:0.01
+    ) it69-1.00:0.01
+  ) it72-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      (
+                        (
+                          canvas:0.50,
+                          getCanvas:0.50
+                        ) it22-0.50:0.39,
+                        (
+                          (
+                            (
+                              (
+                                (
+                                  gd:0.50,
+                                  windowed:0.50
+                                ) it20-0.50:0.23,
+                                quit:0.73
+                              ) it41-0.73:0.07,
+                              (
+                                changeWindowedMode:0.54,
+                                startGUI:0.54
+                              ) it30-0.54:0.26
+                            ) it44-0.80:0.05,
+                            isWindowed:0.85
+                          ) it46-0.85:0.03,
+                          windowBounds:0.88
+                        ) it49-0.88:0.02
+                      ) it51-0.89:0.01,
+                      (
+                        gui:0.50,
+                        getGUI:0.50
+                      ) it23-0.50:0.40
+                    ) it52-0.90:0.04,
+                    (
+                      (
+                        frame:0.60,
+                        getFrame:0.60
+                      ) it32-0.60:0.03,
+                      updateMenuBar:0.63
+                    ) it35-0.63:0.30
+                  ) it53-0.94:0.03,
+                  (
+                    imageLibrary:0.33,
+                    getImageLibrary:0.33
+                  ) it14-0.33:0.63
+                ) it55-0.96:0.01,
+                (
+                  (
+                    logger:0.50,
+                    displaySplash:0.50
+                  ) it21-0.50:0.36,
+                  (
+                    (
+                      soundPlayer:0.40,
+                      playSound:0.40
+                    ) it19-0.40:0.10,
+                    canPlaySound:0.50
+                  ) it29-0.50:0.36
+                ) it47-0.86:0.11
+              ) it56-0.97:0.02,
+              (
+                connectController:0.01,
+                getConnectController:0.01
+              ) it6-0.00:0.99
+            ) it57-0.99:0.01,
+            (
+              (
+                (
+                  clientOptions:0.01,
+                  getClientOptions:0.01
+                ) it2-0.00:0.83,
+                (
+                  saveClientOptions:0.67,
+                  saveClientOptions:0.67
+                ) it39-0.67:0.17
+              ) it45-0.83:0.04,
+              (
+                loadClientOptions:0.67,
+                loadClientOptions:0.67
+              ) it40-0.67:0.21
+            ) it48-0.88:0.12
+          ) it58-1.00:0.01,
+          (
+            (
+              (
+                isRetired:0.33,
+                isRetired:0.33
+              ) it16-0.33:0.29,
+              setIsRetired:0.63
+            ) it34-0.63:0.26,
+            (
+              (
+                singleplayer:0.50,
+                setSingleplayer:0.50
+              ) it24-0.50:0.08,
+              isSingleplayer:0.58
+            ) it31-0.58:0.30
+          ) it50-0.88:0.12
+        ) it59-1.00:0.01,
+        (
+          (
+            (
+              freeColServer:0.01,
+              setFreeColServer:0.01
+            ) it5-0.00:0.33,
+            getFreeColServer:0.33
+          ) it18-0.33:0.62,
+          (
+            (
+              (
+                player:0.01,
+                getMyPlayer:0.01
+              ) it4-0.00:0.01,
+              setMyPlayer:0.01
+            ) it11-0.00:0.78,
+            (
+              canSaveCurrentGame:0.75,
+              isAdmin:0.75
+            ) it42-0.75:0.03
+          ) it43-0.78:0.18
+        ) it54-0.96:0.04
+      ) it67-1.00:0.01,
+      (
+        (
+          (
+            (
+              (
+                client:0.60,
+                retire:0.60
+              ) it33-0.60:0.03,
+              continuePlaying:0.63
+            ) it36-0.63:0.01,
+            setClient:0.64
+          ) it37-0.64:0.01,
+          getClient:0.65
+        ) it38-0.65:0.35,
+        (
+          (
+            loggedIn:0.33,
+            isLoggedIn:0.33
+          ) it17-0.33:0.17,
+          setLoggedIn:0.50
+        ) it28-0.50:0.50
+      ) it66-1.00:0.01
+    ) it71-1.00:0.01,
+    (
+      (
+        (
+          (
+            game:0.33,
+            setGame:0.33
+          ) it15-0.33:0.17,
+          getGame:0.50
+        ) it27-0.50:0.50,
+        (
+          (
+            mapEditor:0.33,
+            setMapEditor:0.33
+          ) it13-0.33:0.17,
+          isMapEditor:0.50
+        ) it26-0.50:0.50
+      ) it65-1.00:0.01,
+      (
+        (
+          (
+            headless:0.33,
+            isHeadless:0.33
+          ) it12-0.33:0.17,
+          setHeadless:0.50
+        ) it25-0.50:0.50,
+        (
+          inGameInputHandler:0.01,
+          getInGameInputHandler:0.01
+        ) it10-0.00:1.00
+      ) it64-1.00:0.01
+    ) it70-1.00:0.01
+  ) it73-1.00:0.01
+) it74-1.00:0.01;

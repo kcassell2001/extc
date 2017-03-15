@@ -1,0 +1,154 @@
+(
+  (
+    (
+      (
+        (
+          ANY:1.00,
+          RDFprefix:1.00
+        ) it22-1.00:0.01,
+        (
+          (
+            (
+              (
+                (
+                  (
+                    (
+                      THRESHOLD:0.60,
+                      (
+                        present:0.50,
+                        cacheNewNode:0.50
+                      ) it7-0.50:0.10
+                    ) it13-0.60:0.01,
+                    (
+                      caching:0.50,
+                      cache:0.50
+                    ) it6-0.50:0.10
+                  ) it15-0.60:0.03,
+                  create:0.63
+                ) it16-0.63:0.13,
+                (
+                  makeURI:0.33,
+                  createURI:0.33
+                ) it2-0.33:0.42
+              ) it18-0.75:0.01,
+              (
+                makeVariable:0.33,
+                createVariable:0.33
+              ) it3-0.33:0.42
+            ) it19-0.75:0.03,
+            (
+              (
+                makeAnon:0.50,
+                createAnon:0.50
+              ) it5-0.50:0.01,
+              createAnon:0.50
+            ) it9-0.50:0.28
+          ) it20-0.78:0.02,
+          (
+            (
+              (
+                makeLiteral:0.60,
+                createLiteral:0.60
+              ) it12-0.60:0.01,
+              createLiteral:0.60
+            ) it14-0.60:0.07,
+            (
+              createLiteral:0.33,
+              createLiteral:0.33
+            ) it4-0.33:0.33
+          ) it17-0.67:0.13
+        ) it21-0.80:0.20
+      ) it37-1.00:0.01,
+      (
+        (
+          NULL:1.00,
+          create:1.00
+        ) it23-1.00:0.01,
+        (
+          create:1.00,
+          getType:1.00
+        ) it24-1.00:0.01
+      ) it38-1.00:0.01
+    ) it45-1.00:0.01,
+    (
+      (
+        (
+          createUncachedLiteral:1.00,
+          visitWith:1.00
+        ) it25-1.00:0.01,
+        (
+          isConcrete:1.00,
+          isLiteral:1.00
+        ) it26-1.00:0.01
+      ) it39-1.00:0.01,
+      (
+        (
+          getLiteral:1.00,
+          isVariable:1.00
+        ) it28-1.00:0.01,
+        (
+          isBlank:1.00,
+          isURI:1.00
+        ) it27-1.00:0.01
+      ) it40-1.00:0.01
+    ) it46-1.00:0.01
+  ) it49-1.00:0.01,
+  (
+    (
+      (
+        (
+          (
+            (
+              (
+                label:0.50,
+                toString:0.50
+              ) it8-0.50:0.01,
+              toString:0.50
+            ) it10-0.50:0.01,
+            toString:0.50
+          ) it11-0.50:0.50,
+          (
+            getBlankNodeId:0.01,
+            getBlankNodeLabel:0.01
+          ) it1-0.00:1.00
+        ) it36-1.00:0.01,
+        (
+          matches:1.00,
+          sameValueAs:1.00
+        ) it35-1.00:0.01
+      ) it44-1.00:0.01,
+      (
+        (
+          getLocalName:1.00,
+          getNameSpace:1.00
+        ) it33-1.00:0.01,
+        (
+          getName:1.00,
+          hasURI:1.00
+        ) it34-1.00:0.01
+      ) it43-1.00:0.01
+    ) it48-1.00:0.01,
+    (
+      (
+        (
+          getIndexingValue:1.00,
+          getURI:1.00
+        ) it32-1.00:0.01,
+        (
+          getLiteralDatatype:1.00,
+          getLiteralIsXML:1.00
+        ) it31-1.00:0.01
+      ) it42-1.00:0.01,
+      (
+        (
+          getLiteralDatatypeURI:1.00,
+          getLiteralLanguage:1.00
+        ) it30-1.00:0.01,
+        (
+          getLiteralLexicalForm:1.00,
+          getLiteralValue:1.00
+        ) it29-1.00:0.01
+      ) it41-1.00:0.01
+    ) it47-1.00:0.01
+  ) it50-1.00:0.01
+) it51-1.00:0.01;

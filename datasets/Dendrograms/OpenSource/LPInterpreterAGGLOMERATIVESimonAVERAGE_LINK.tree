@@ -1,0 +1,103 @@
+(
+  (
+    (
+      (
+        (
+          (
+            (
+              argVars:0.50,
+              getArgTrace:0.50
+            ) it5-0.50:0.36,
+            run:0.86
+          ) it25-0.86:0.03,
+          (
+            (
+              (
+                (
+                  context:0.50,
+                  pVars:0.50
+                ) it1-0.50:0.01,
+                logger:0.50
+              ) it7-0.50:0.17,
+              next:0.67
+            ) it16-0.67:0.12,
+            (
+              envFrame:0.67,
+              tVars:0.67
+            ) it17-0.67:0.12
+          ) it23-0.79:0.10
+        ) it28-0.89:0.06,
+        (
+          (
+            derefPossFunctor:0.61,
+            (
+              (
+                deref:0.50,
+                isGrounded:0.50
+              ) it6-0.50:0.08,
+              deref:0.58
+            ) it8-0.58:0.03
+          ) it12-0.61:0.01,
+          standardize:0.63
+        ) it13-0.63:0.33
+      ) it30-0.95:0.02,
+      (
+        (
+          (
+            cpFrame:0.75,
+            (
+              (
+                getChoiceFrame:0.67,
+                setupTripleMatchCall:0.67
+              ) it18-0.67:0.01,
+              (
+                setupClauseCall:0.67,
+                setupTabledCall:0.67
+              ) it19-0.67:0.01
+            ) it20-0.67:0.08
+          ) it22-0.75:0.19,
+          (
+            (
+              engine:0.60,
+              getEngine:0.60
+            ) it9-0.60:0.24,
+            (
+              isComplete:0.50,
+              close:0.50
+            ) it3-0.50:0.34
+          ) it24-0.84:0.10
+        ) it29-0.94:0.03,
+        (
+          (
+            (
+              (
+                iContext:0.50,
+                setState:0.50
+              ) it4-0.50:0.11,
+              restoreState:0.61
+            ) it11-0.61:0.12,
+            getContext:0.72
+          ) it21-0.72:0.15,
+          (
+            topTMFrame:0.50,
+            setTopInterpreter:0.50
+          ) it2-0.50:0.37
+        ) it26-0.87:0.10
+      ) it31-0.96:0.01
+    ) it32-0.97:0.01,
+    (
+      (
+        (
+          (
+            trail:0.60,
+            preserveState:0.60
+          ) it10-0.60:0.03,
+          bind:0.63
+        ) it14-0.63:0.01,
+        unwindTrail:0.64
+      ) it15-0.64:0.23,
+      unify:0.88
+    ) it27-0.88:0.11
+  ) it33-0.99:0.01,
+  goal:1.00
+) it34-1.00:0.01;
