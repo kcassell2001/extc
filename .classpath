@@ -19,10 +19,11 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="lib/epsdump.jar"/>
-	<classpathentry kind="lib" path="lib/json-extracts.jar"/>
-	<classpathentry kind="lib" path="lib/lsa-vsm-mod.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/epsdump.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/json-extracts.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lsa-vsm-mod.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/forester.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/forester.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
