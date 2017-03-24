@@ -1,5 +1,8 @@
 "# extc
 
+THIS PROJECT IS UNDERGOING SIGNIFICANT CHANGE TO ADAPT TO SEVERAL
+YEARS WORTH OF CHANGES TO ECLIPSE.  THIS FILE IS UNDER CONSTRUCTION.
+
 http://stackoverflow.com/questions/6177034/how-do-i-install-eclipse-pde
 
 Installing Eclipse for RCP and RAP Developers (Neon)
