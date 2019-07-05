@@ -40,7 +40,8 @@ Bundle-ClassPath: lib/collections-generic-4.01.jar,
  lib/lsa-vsm-mod.jar,
  lib/stax-api-1.0.1.jar,
  lib/wstx-asl-3.2.6.jar,
- .
+ .,
+ lib/forester.jar
 Import-Package: junit.framework;version="3.8.2",
  org.junit;version="4.12.0"
 Export-Package: EDU.oswego.cs.dl.util.concurrent,
